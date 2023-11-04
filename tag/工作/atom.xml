@@ -3,17 +3,19 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;工作&#34; tag</title>
     <link href="http://example.com" />
-    <updated>2023-11-04T17:59:25.305Z</updated>
+    <updated>2023-11-04T18:01:47.129Z</updated>
     <category term="工作" />
     <category term="後端" />
     <category term="AI生成繪圖" />
     <entry>
         <id>http://example.com/post/index%208.html</id>
-        <title>皮革工廠工作心得</title>
+        <title>皮革工廠化驗室助理之工作心得</title>
         <link rel="alternate" href="http://example.com/post/index%208.html"/>
-        <content type="html">&lt;h2 id=&#34;高中畢業的第一份工作工作環境-工作難度&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高中畢業的第一份工作工作環境-工作難度&#34;&gt;#&lt;/a&gt; 高中畢業的第一份工作&lt;br&gt;
-工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;/h2&gt;
+        <content type="html">&lt;p&gt;高中畢業的第一份工作&lt;/p&gt;
+&lt;p&gt;工作環境：☆ ☆ ☆ ☆ ☆&lt;/p&gt;
+&lt;p&gt;工作難度：★ ★ ★ ☆ ☆&lt;/p&gt;
+&lt;p&gt;工作速度：★ ★ ☆ ☆ ☆&lt;/p&gt;
+&lt;h2 id=&#34;工作量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作量&#34;&gt;#&lt;/a&gt; 工作量  ：★ ☆ ☆ ☆ ☆&lt;/h2&gt;
 &lt;h2 id=&#34;tags-黑馬ssm&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tags-黑馬ssm&#34;&gt;#&lt;/a&gt; tags: 黑馬 ssm&lt;/h2&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -570,7 +572,7 @@ end
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2023-11-04T17:59:25.305Z</updated>
+        <updated>2023-11-04T18:01:47.129Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%202.html</id>
