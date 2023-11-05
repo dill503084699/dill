@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;工作&#34; tag</title>
     <link href="http://example.com" />
-    <updated>2023-11-05T03:16:15.500Z</updated>
+    <updated>2023-11-05T03:19:50.132Z</updated>
     <category term="工作" />
     <category term="後端" />
     <category term="AI生成繪圖" />
@@ -11,19 +11,14 @@
         <id>http://example.com/post/index%209.html</id>
         <title>光學強化員之工作心得</title>
         <link rel="alternate" href="http://example.com/post/index%209.html"/>
-        <content type="html">&lt;h2 id=&#34;從事生產線的第一份工作深刻體會製造業的辛勞哪怕是再小間不過的家族企業&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#從事生產線的第一份工作深刻體會製造業的辛勞哪怕是再小間不過的家族企業&#34;&gt;#&lt;/a&gt; 從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;/h2&gt;
-&lt;h2 id=&#34;tags-黑馬ssm&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tags-黑馬ssm&#34;&gt;#&lt;/a&gt; tags: 黑馬 ssm&lt;/h2&gt;
+        <content type="html">&lt;p&gt;從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;/p&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&#34;思考向一個類中傳遞數據的方法有幾種&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#思考向一個類中傳遞數據的方法有幾種&#34;&gt;#&lt;/a&gt; 思考：向一個類中傳遞數據的方法有幾種？&lt;/h2&gt;
-&lt;h4 id=&#34;普通方法set方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#普通方法set方法&#34;&gt;#&lt;/a&gt; 普通方法 (set 方法)&lt;/h4&gt;
-&lt;h4 id=&#34;構造方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#構造方法&#34;&gt;#&lt;/a&gt; 構造方法&lt;/h4&gt;
-&lt;h2 id=&#34;思考依賴注入描述了在容器中建立bean與bean之間依賴關係的過程如果bean運行需要的是數字或字符串呢&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#思考依賴注入描述了在容器中建立bean與bean之間依賴關係的過程如果bean運行需要的是數字或字符串呢&#34;&gt;#&lt;/a&gt; 思考：依賴注入描述了在容器中建立 bean 與 bean 之間依賴關係的過程，如果 bean 運行需要的是數字或字符串呢？&lt;/h2&gt;
-&lt;p&gt;高中畢業的第一份工作&lt;/p&gt;
-&lt;p&gt;工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ☆ ☆ ☆&lt;br&gt;
-工作量  ：★ ☆ ☆ ☆ ☆&lt;/p&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
+工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;引用類型&lt;/p&gt;
@@ -573,7 +568,7 @@ end
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2023-11-05T03:16:15.500Z</updated>
+        <updated>2023-11-05T03:19:50.132Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%208.html</id>
