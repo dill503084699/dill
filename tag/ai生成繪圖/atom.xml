@@ -4,10 +4,10 @@
     <title>Hexo • Posts by &#34;ai生成繪圖&#34; tag</title>
     <link href="http://example.com" />
     <updated>2023-11-04T14:21:04.977Z</updated>
+    <category term="補丁" />
     <category term="工作" />
     <category term="後端" />
     <category term="AI生成繪圖" />
-    <category term="補丁" />
     <entry>
         <id>http://example.com/post/index%207%20.html</id>
         <title>Stable-diffusion  AI 生成繪圖</title>
@@ -437,16 +437,9 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/2yW1q3o.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h1 id=&#34;講解-register-與-verilog-程式結構&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#講解-register-與-verilog-程式結構&#34;&gt;#&lt;/a&gt; 講解 REGISTER 與 verilog 程式結構&lt;/h1&gt;
-&lt;blockquote&gt;&lt;span class=&#34;custom-blockquote-svg&#34;&gt;&lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; data-reactroot=&#34;&#34;&gt;
-&lt;path fill=&#34;&#34; d=&#34;M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path fill=&#34;&#34; d=&#34;M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path fill=&#34;&#34; d=&#34;M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z&#34;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-&lt;/span&gt;&lt;p&gt;[name=bill503084699]&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[name=bill503084699]&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
