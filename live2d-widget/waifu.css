@@ -36,10 +36,10 @@
 #waifu:hover {
 	transform: translateY(0);
 }
-///手機端
+//手機端
 @media (max-width: 768px) {
 	#waifu {
-		display: none;
+		display: true;
 	}
 }
 
