@@ -36,6 +36,12 @@
 #waifu:hover {
 	transform: translateY(0);
 }
+///手機端
+@media (max-width: 768px) {
+	#waifu {
+		display: none;
+	}
+}
 
 #waifu-tips {
 	animation: shake 50s ease-in-out 5s infinite;
@@ -71,6 +77,7 @@
 	height: 350px;
 	position: relative;
 	width: 350px;
+    
 }
 
 #live2d:active {
