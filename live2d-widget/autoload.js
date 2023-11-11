@@ -1,7 +1,8 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
-//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/"; 
-//const live2d_path = "/live2d-widget/";
+//const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
+//const live2d_path = "https://fastly.jsdelivr.net/gh/dill503084699/live-widget@latest/";
+//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
+const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
 function loadExternalResource(url, type) {
@@ -34,17 +35,11 @@ if (screen.width >= 768) {
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
-//            waifuPath: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.json" + "waifu-tips.json",
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-//            cdnPath: "https://npm.elemecdn.com/dill-live2dapi@latest/"
             cdnPath: "https://gcore.jsdelivr.net/npm/yzs-live2d_src@1.1.0/"
-//            cdnPath: "https: //npm.elemecdn.com/akilar-live2dapi@latest/"
+		//	cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
 //            cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
-//            cdnPath:  "https://fastly.jsdelivr.net/npm/dill-live2dapi@latest/"
-//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
-//            apiPath: "https ://live2d.fghrsh.net/api/", 
-//            cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 //			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
