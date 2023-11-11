@@ -39,7 +39,7 @@
 //手機端
 @media (max-width: 768px) {
 	#waifu {
-		display: true;
+		display: block;
 	}
 }
 
