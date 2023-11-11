@@ -44,7 +44,11 @@
 		color: greenyellow;
 	}
 }
-
+@media (max-width: 768px) {
+	#waifu {
+		display: block;
+	}
+}
 
 
 
