@@ -34,10 +34,17 @@ if (screen.width >= 768) {
 	]).then(() => {
 		// 配置选项的具体用法见 README.md
 		initWidget({
+//            waifuPath: https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/waifu-tips.json" + "waifu-tips.json",
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-            cdnPath: "https://npm.elemecdn.com/bill503084699/dill-live2dapi"
-//              cdnPath: "https: //npm.elemecdn.com/akilar-live2dapi@latest/"
+//            cdnPath: "https://npm.elemecdn.com/dill-live2dapi@latest/"
+            cdnPath: "https://gcore.jsdelivr.net/npm/yzs-live2d_src@1.1.0/"
+//            cdnPath: "https: //npm.elemecdn.com/akilar-live2dapi@latest/"
+//            cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
+//            cdnPath:  "https://fastly.jsdelivr.net/npm/dill-live2dapi@latest/"
+//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
+//            apiPath: "https ://live2d.fghrsh.net/api/", 
+//            cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 //			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
