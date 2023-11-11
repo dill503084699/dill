@@ -39,21 +39,10 @@
 
 
 
-@media only screen and (max-width: 600px){ 
-    h1{font-size: 7vw;}
-    #wait{left: 30%; top: 40%;}
-    #loader{left: 30%; top: 30%;}
-    #close{font-size: 10vw;}
-    #logo{width: 25vw; height: 25vw; margin-left: 7vw;}
-    .navbar{font-size: 5vw; width: 40vw;}
-    .navbar li{margin: 5vw 2vw;}
-    .left, .right{margin: 10vw 0 20vw -10vw;}
-    .left h3, .right h3{font-size: 7vw;}
-    .left h4, .right h4{font-size: 5vw;}
-    .left div, .right div{font-size: 5vw;}
-    .link{width: 3vw; height: 3vw;}
-    h5{display: block; left: 20%;}
-    .custom-sort, .theme-option{left: 20%;}
+@media (prefers-color-scheme: dark) {
+	#waifu-tips span {
+		color: greenyellow;
+	}
 }
 
 
