@@ -1,7 +1,24 @@
 // live2d_path 参数建议使用绝对路径
 //const live2d_path = "https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/";
 //const live2d_path = "https://fastly.jsdelivr.net/gh/dill503084699/live-widget@latest/";
-//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
+//const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";     https://github.com/dill503084699/live-widget
+
+//成功
+//const live2d_path = "https://cdn.jsdelivr.net/gh/dill503084699/live2d-widget/";
+//const live2d_path = "https://fastly.jsdelivr.net/gh/dill503084699/live2d-widget/";
+
+//不成功
+//const live2d_path = "https://fastly.jsdelivr.net/gh/Amayaliu/Live2D";
+
+
+
+//const live2d_path = "https://live2d.fghrsh.net/demo/1.4.2/waifu-tips.html";
+
+//https://github.com/Amayaliu/Live2D
+//
+//const live2d_path ="https://live2d.fghrsh.net/demo/1.4.2/";
+
+
 const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -42,6 +59,7 @@ if (screen.width >= 768) {
 //            cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
 //            cdnPath:  "https://fastly.jsdelivr.net/npm/dill-live2dapi@latest/"
             cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
+//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
 //			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
