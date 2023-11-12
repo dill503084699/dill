@@ -58,8 +58,8 @@ if (screen.width >= 768) {
 		//	cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/"
 //            cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
 //            cdnPath:  "https://fastly.jsdelivr.net/npm/dill-live2dapi@latest/"
-//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
-            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
+//            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
 //			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
