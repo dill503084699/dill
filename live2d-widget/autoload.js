@@ -59,7 +59,7 @@ if (screen.width >= 768) {
 //            cdnPath: "https://npm.elemecdn.com/akilar-live2dapi@latest/"
 //            cdnPath:  "https://fastly.jsdelivr.net/npm/dill-live2dapi@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
-            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.1.8/"
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.1.7/"
 //            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
 //			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
