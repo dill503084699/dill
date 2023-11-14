@@ -39,18 +39,22 @@
 
 
 
-@media (prefers-color-scheme: dark) {
-	#waifu-tips span {
-		color: greenyellow;
-	}
-}
-@media (max-width: 768px) {
+@media(max-width:860px) {
 	#waifu {
-		display: block;
-	}
+	transform:scale(.8) translate(-30px,37px)
 }
-
-
+#waifu:hover {
+transform:scale(.8) translate(-30px,37px)
+}
+}
+@media(max-width:560px) {
+#waifu {
+transform:scale(.5) translate(-150px,150px)
+}
+#waifu:hover {
+transform:scale(.5) translate(-150px,150px)
+}
+}
 
 #waifu-tips {
 	animation: shake 50s ease-in-out 5s infinite;
