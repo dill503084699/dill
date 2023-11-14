@@ -5,20 +5,21 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sun, 12 Nov 2023 16:19:45 +0500</pubDate>
-        <lastBuildDate>Sun, 12 Nov 2023 16:19:45 +0500</lastBuildDate>
+        <pubDate>Tue, 14 Nov 2023 21:42:13 +0500</pubDate>
+        <lastBuildDate>Tue, 14 Nov 2023 21:42:13 +0500</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
         <category>工作</category>
         <category>後端</category>
         <category>AI生成繪圖</category>
+        <category>藝術品製作</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2014.html</guid>
-            <title>讀書方法</title>
+            <title>公仔材料討論製作</title>
             <link>http://example.com/post/index%2014.html</link>
-            <category>讀書方法</category>
-            <pubDate>Sun, 12 Nov 2023 16:19:45 +0500</pubDate>
+            <category>藝術品製作</category>
+            <pubDate>Tue, 14 Nov 2023 21:42:13 +0500</pubDate>
             <description><![CDATA[ &lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;

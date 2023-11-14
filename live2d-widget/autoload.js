@@ -18,7 +18,6 @@
 //
 //const live2d_path ="https://live2d.fghrsh.net/demo/1.4.2/";
 
-
 const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -44,7 +43,8 @@ function loadExternalResource(url, type) {
 }
 
 // 加载 waifu.css live2d.min.js waifu-tips.js
-if (screen.width >= 768) {
+//if (screen.width >= 768) {
+if (screen.width >= 0) {
 	Promise.all([
 		loadExternalResource(live2d_path + "waifu.css", "css"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
@@ -61,12 +61,14 @@ if (screen.width >= 768) {
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.1.6/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.4/"
+//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/switch_textures/?id=1-18"    
             cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/"
 //成功
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456/"
 //            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
-//			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
+//			tools: [,"switch-texture"]
+//			tools: [,"hitokoto  ", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
 }
