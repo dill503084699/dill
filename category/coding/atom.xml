@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;coding&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-11-11T16:13:31.196Z</updated>
+    <updated>2023-11-10T14:56:32.412Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
@@ -11,67 +11,7 @@
     <category term="後端" />
     <category term="AI生成繪圖" />
     <category term="藝術品製作" />
-    <entry>
-        <id>http://example.com/post/index%2013.html</id>
-        <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
-        <link rel="alternate" href="http://example.com/post/index%2013.html"/>
-        <content type="html">&lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
-&lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
-工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;https://mx.paul.ren/model/neptune.html&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;謝祥辰 — 2022/07/28 我在網路上查到的資料是指個數&lt;br&gt;
-不是 bit 表示&lt;br&gt;
- willwho - 我記得當時做 ADL 的時候 bit 還可以 多個 bit 你還是要額外宣告它不然會出錯 但這邊都是 1bit 因此目前暫定不用&lt;/p&gt;
-&lt;p&gt;結論 - 但我們 enable 都是 1bit 而已因此我們目前暫定不用改&lt;br&gt;
-然後 == 代表說不關多少位元只要遇到 ==0 都會代表 0 的關係因此&lt;/p&gt;
-&lt;p&gt;當時 penquuin 提出來的問題，你先把 off  0 遞值 off0 指示全 0 , 因為沒試過說 == 能不能表 0&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
-`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
-`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;p&gt;clk  將 reset=1’b1 改成！reset 的式子&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-        
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
-&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最終呈現 register 電路圖&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/yYUHqF1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/457620455&#34;&gt;自己動手寫 RISC-V CPU -（4）增加分支預測功能&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="2dlive" />
-        <updated>2023-11-11T16:13:31.196Z</updated>
-    </entry>
+    <category term="coding" />
     <entry>
         <id>http://example.com/post/index%2011.html</id>
         <title>使用2dlive在blog與老婆們相遇 （折騰中</title>

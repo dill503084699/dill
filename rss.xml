@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Tue, 14 Nov 2023 21:42:13 +0500</pubDate>
-        <lastBuildDate>Tue, 14 Nov 2023 21:42:13 +0500</lastBuildDate>
+        <pubDate>Wed, 15 Nov 2023 18:43:28 +0500</pubDate>
+        <lastBuildDate>Wed, 15 Nov 2023 18:43:28 +0500</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
@@ -14,12 +14,13 @@
         <category>後端</category>
         <category>AI生成繪圖</category>
         <category>藝術品製作</category>
+        <category>coding</category>
         <item>
-            <guid isPermalink="true">http://example.com/post/index%2014.html</guid>
-            <title>公仔材料討論製作</title>
-            <link>http://example.com/post/index%2014.html</link>
-            <category>藝術品製作</category>
-            <pubDate>Tue, 14 Nov 2023 21:42:13 +0500</pubDate>
+            <guid isPermalink="true">http://example.com/post/index%2013.html</guid>
+            <title>leedcode 每日一題</title>
+            <link>http://example.com/post/index%2013.html</link>
+            <category>coding</category>
+            <pubDate>Wed, 15 Nov 2023 18:43:28 +0500</pubDate>
             <description><![CDATA[ &lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
@@ -28,6 +29,7 @@
 工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
 工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
 工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;https://mx.paul.ren/model/neptune.html&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
 &lt;p&gt;謝祥辰 — 2022/07/28 我在網路上查到的資料是指個數&lt;br&gt;
@@ -75,20 +77,20 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://example.com/post/index%2013.html</guid>
-            <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
-            <link>http://example.com/post/index%2013.html</link>
-            <category>2dlive</category>
-            <pubDate>Sat, 11 Nov 2023 21:13:31 +0500</pubDate>
+            <guid isPermalink="true">http://example.com/post/index%2014.html</guid>
+            <title>公仔材料討論製作</title>
+            <link>http://example.com/post/index%2014.html</link>
+            <category>藝術品製作</category>
+            <pubDate>Wed, 15 Nov 2023 18:14:56 +0500</pubDate>
             <description><![CDATA[ &lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;[TOC]&lt;br&gt;
+&lt;a href=&#34;https://hjweb.jp/article/195913/&#34;&gt;https://hjweb.jp/article/195913/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;## 評價&lt;/p&gt;
 &lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
 工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
 工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
 工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;https://mx.paul.ren/model/neptune.html&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
 &lt;p&gt;謝祥辰 — 2022/07/28 我在網路上查到的資料是指個數&lt;br&gt;
