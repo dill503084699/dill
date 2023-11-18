@@ -66,7 +66,7 @@ if (screen.width >= 0) {
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/"
 
 //諾瓦爾+ npetune
-            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.81234/"
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.812345/"
 //成功
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456/"
 //            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"
