@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Thu, 16 Nov 2023 18:42:47 +0500</pubDate>
-        <lastBuildDate>Thu, 16 Nov 2023 18:42:47 +0500</lastBuildDate>
+        <pubDate>Sat, 18 Nov 2023 07:03:02 +0500</pubDate>
+        <lastBuildDate>Sat, 18 Nov 2023 07:03:02 +0500</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>coding</category>
@@ -16,6 +16,48 @@
         <category>藝術品製作</category>
         <category>後端</category>
         <category>AI生成繪圖</category>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%203.html</guid>
+            <title>全聯生鮮人員の打工心得</title>
+            <link>http://example.com/post/index%203.html</link>
+            <category>工作</category>
+            <pubDate>Sat, 18 Nov 2023 07:03:02 +0500</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;做快一個月 (後來放棄，剩叫貨跟後台管理沒學，很吃速度跟細心（我的死穴）&lt;/p&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;工作素質：★ ★ ★ ★ ★&lt;br&gt;
+工作環境：★ ★ ★ ★ ★&lt;br&gt;
+工作難度：★ ★ ★ ★ ☆&lt;br&gt;
+工作速度：★ ★ ★ ★ ★&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★&lt;br&gt;
+工時長  ：★ ★ ★ ★ ☆&lt;/p&gt;
+&lt;h3 id=&#34;工作sop流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作sop流程&#34;&gt;#&lt;/a&gt; 工作 sop 流程&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;驗貨大概要 15 分鐘以內要驗完，早上第一件事情印價卡與折價卡貼折扣要 7:30 最慢要把蛋糕麵包貼完，補貨到驗單最慢要到 10:30（至少），每過一個星期要加速一次，上午下午都要各拍照 4 張整個都要拍照（蛋糕麵包調理魚肉加生鮮室清掃拍水溝 3 整體 1），一定要寫筆記（我的筆記本寫到爛掉），目前聽是干貨跟門市工作比較稍稍少一點點？（沒做過干貨不過要搬重物門市要推 pxpay…） （dcard 圖片為何這麼模糊啊……）4:30 有時候要叫賣試吃（這看每家店經理怎麼做，我家的全聯是放大聲公還是錄音擺在那客人要吃自己去拿，我待的店是要兩個人在那邊）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;檔案傳輸  機器：登入 (這個輸入一次機器就會記住了)  2. XXX &lt;a href=&#34;http://3.XXX&#34;&gt;3.XXX&lt;/a&gt;  &lt;a href=&#34;http://1.XXX&#34;&gt;1.XXX&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;商品折扣  機器 ：登入  1. XXX 5. XXX 4.  XXX &lt;a href=&#34;http://1.XXX&#34;&gt;1.XXX&lt;/a&gt;（不知道你看不看得懂……）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;冷凍櫃跟調理最上面一排每周一折價一次 6 折&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面這張是我記性不好夾在手機殼里可以直接拿出來看呼出碼，&lt;br&gt;
+蝦子早上 40 下午 41 晚上 42&lt;br&gt;
+ 透抽跟秋刀魚入庫冷凍要入庫表 3&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/tlJULup.png&#34;&gt;https://i.imgur.com/tlJULup.png&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://i.imgur.com/AgAmHWo.png&#34;&gt;https://i.imgur.com/AgAmHWo.png&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;工作心得&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作心得&#34;&gt;#&lt;/a&gt; 工作心得&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;可以學到 xsl 跟 後台貨物管理學，會比一般的服務業還要難，不單純是快手的工作，記性還要非常好，學一次就要會了，因為毛利迫使這個行業對待新人不能慢慢學慢慢教，可能休息了，你還是很緊繃，除非自己需求是一定要有冷氣＆又乾淨的工作環境，或是有興趣跟想後台商店管理，否則不是很推薦的工作，但如果缺錢偶爾打打工的話可以去見&lt;br&gt;
+見世面&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2011.html</guid>
             <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
@@ -2441,35 +2483,6 @@ S&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
 &lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/post/index%203.html</guid>
-            <title>全聯生鮮人員の打工心得</title>
-            <link>http://example.com/post/index%203.html</link>
-            <category>工作</category>
-            <pubDate>Sat, 04 Nov 2023 15:40:17 +0500</pubDate>
-            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
-&lt;a href=&#34;https://i.imgur.com/ZKHlKFO.jpg&#34;&gt;https://i.imgur.com/ZKHlKFO.jpg&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
-&lt;p&gt;做快一個月 (後來放棄，剩叫貨跟後台管理沒學，很吃速度跟細心（我的死穴）&lt;/p&gt;
-&lt;h3 id=&#34;工作sop流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作sop流程&#34;&gt;#&lt;/a&gt; 工作 sop 流程&lt;/h3&gt;
-&lt;p&gt;驗貨大概要 15 分鐘以內要驗完，早上第一件事情印價卡與折價卡貼折扣要 7:30 最慢要把蛋糕麵包貼完，補貨到驗單最慢要到 10:30（至少），每過一個星期要加速一次，上午下午都要各拍照 4 張整個都要拍照（蛋糕麵包調理魚肉加生鮮室清掃拍水溝 3 整體 1），一定要寫筆記（我的筆記本寫到爛掉），目前聽是干貨跟門市工作比較稍稍少一點點？（沒做過干貨不過要搬重物門市要推 pxpay…） （dcard 圖片為何這麼模糊啊……）4:30 有時候要叫賣試吃（這看每家店經理怎麼做，我家的全聯是放大聲公還是錄音擺在那客人要吃自己去拿，我待的店是要兩個人在那邊）&lt;/p&gt;
-&lt;p&gt;檔案傳輸  機器：登入 (這個輸入一次機器就會記住了)  2. XXX &lt;a href=&#34;http://3.XXX&#34;&gt;3.XXX&lt;/a&gt;  &lt;a href=&#34;http://1.XXX&#34;&gt;1.XXX&lt;/a&gt;&lt;br&gt;
- 商品折扣  機器 ：登入  1. XXX 5. XXX 4.  XXX &lt;a href=&#34;http://1.XXX&#34;&gt;1.XXX&lt;/a&gt;（不知道你看不看得懂……）&lt;/p&gt;
-&lt;p&gt;冷凍櫃跟調理最上面一排每周一折價一次 6 折&lt;/p&gt;
-&lt;p&gt;下面這張是我記性不好夾在手機殼里可以直接拿出來看呼出碼，&lt;br&gt;
-蝦子早上 40 下午 41 晚上 42&lt;br&gt;
- 透抽跟秋刀魚入庫冷凍要入庫表 3&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://i.imgur.com/tlJULup.png&#34;&gt;https://i.imgur.com/tlJULup.png&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://i.imgur.com/AgAmHWo.png&#34;&gt;https://i.imgur.com/AgAmHWo.png&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
  ]]></description>
