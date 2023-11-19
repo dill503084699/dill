@@ -61,12 +61,15 @@ if (screen.width >= 0) {
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@latest/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.1.6/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.4/"
-//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/switch_textures/?id=1-18"    
+//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/switch_textures/?id=1-18"   
+
+
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.8123456/" 
 //nepnep超次原海王星+ npetune
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/"
 
 //諾瓦爾+ npetune
-            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.812345/"
+//            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.8123/"
 //成功
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456/"
 //            cdnPath: "https://gcore.jsdelivr.net/gh/Akilarlxh/live2d_api@latest/"

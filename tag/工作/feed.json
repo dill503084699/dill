@@ -5,6 +5,26 @@
     "home_page_url": "http://example.com",
     "items": [
         {
+            "id": "http://example.com/post/index%204.html",
+            "url": "http://example.com/post/index%204.html",
+            "title": "景觀修復師の工作心得",
+            "date_published": "2023-11-19T03:05:57.052Z",
+            "content_html": "<h3 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h3>\n<p>算稱得上是一份好的工作</p>\n<p>## 評價</p>\n<p>工作素質：★ ★ ★ ☆ ☆<br>\n工作環境：★ ★ ★ ★ ☆<br>\n工作難度：★ ★ ★ ☆ ☆<br>\n工作速度：★ ★ ★ ★ ☆<br>\n工作量  ：★ ★ ★ ☆ ☆<br>\n工時長  ：★ ★ ☆ ☆ ☆</p>\n<h3 id=\"工作流程\"><a class=\"markdownIt-Anchor\" href=\"#工作流程\">#</a> 工作流程</h3>\n<ol>\n<li>開完會後先去用具區將太空包拿四個放在板車底下</li>\n<li>換印刷呂板</li>\n<li>將清潔劑塗在呂板上</li>\n</ol>\n<h3 id=\"其他狀況\"><a class=\"markdownIt-Anchor\" href=\"#其他狀況\">#</a> 其他狀況</h3>\n<ul>\n<li>除了差點累死外（要叫救護車的情況）否則沒有其他狀況</li>\n</ul>\n<p>### 心得</p>\n<pre><code> 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作\n</code></pre>\n<p>完全是外勞主場的工作，非常不行的工作，明明要淘汰的工廠狗眼纏喘，爛得要死的工作，又都完全沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去</p>\n",
+            "tags": [
+                "工作"
+            ]
+        },
+        {
+            "id": "http://example.com/post/index%205.html",
+            "url": "http://example.com/post/index%205.html",
+            "title": "印刷學徒の打工心得",
+            "date_published": "2023-11-19T02:59:39.160Z",
+            "content_html": "<h1 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>目前工作做過最辛苦的工作</p>\n<p>## 評價</p>\n<p>(惡夢級工作，跟工地粗工有得比)</p>\n<p>工作素質：★ ★ ☆ ☆ ☆<br>\n工作環境：★ ★ ★ ☆ ☆<br>\n工作難度：★ ★ ★ ★ ★ ★<br>\n工作速度：★ ★ ★ ★ ★ ★<br>\n工作量  ：★ ★ ★ ★ ★ ★ ★<br>\n工時長  ：★ ★ ★ ★ ★ ★</p>\n<h3 id=\"工作流程\"><a class=\"markdownIt-Anchor\" href=\"#工作流程\">#</a> 工作流程</h3>\n<p>打完卡 - 開始理上千張的紙</p>\n<ol>\n<li>不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷</li>\n<li>換印刷呂板</li>\n<li>將清潔劑塗在呂板上</li>\n</ol>\n<h3 id=\"其他狀況\"><a class=\"markdownIt-Anchor\" href=\"#其他狀況\">#</a> 其他狀況</h3>\n<ul>\n<li>除了差點累死外（要叫救護車的情況）否則沒有其他狀況</li>\n</ul>\n<p>### 心得</p>\n<pre><code> 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作\n</code></pre>\n<p>完全是外勞主場的工作，非常不行的工作，明明要淘汰的工廠狗眼纏喘，爛得要死的工作，又都完全沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去</p>\n",
+            "tags": [
+                "工作"
+            ]
+        },
+        {
             "id": "http://example.com/post/index%208.html",
             "url": "http://example.com/post/index%208.html",
             "title": "皮革工廠化驗室助理之工作心得",
@@ -50,26 +70,6 @@
             "title": "光學強化員之工作心得",
             "date_published": "2023-11-18T02:30:19.552Z",
             "content_html": "<p>從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業</p>\n<p>## 評價</p>\n<p>工作環境：★ ★ ★ ★ ☆<br>\n工作難度：★ ☆ ☆ ☆ ☆<br>\n工作速度：★ ★ ★ ☆ ☆<br>\n工作量  ：★ ★ ★ ★ ★ ★</p>\n<h3 id=\"工作流程\"><a class=\"markdownIt-Anchor\" href=\"#工作流程\">#</a> 工作流程</h3>\n<p>浴室部份 - 基於試做 2 天而已而做的紀錄</p>\n<ol>\n<li>打完卡先去檢查負責樓層的房間有沒有房客是有在門口放須清潔的卡牌與前日未清洗衣物，拿到辦公室去做填表檢查與登記，再把衣物清潔卡牌放在客人門旁</li>\n<li>先檢查負責的房間號數看燈是否裡面有客人，房務車必須從清潔室開出來並來到客人門前先敲 3 下說 house keepping 3 次，如沒人回應先開門放萬能房卡開燈</li>\n</ol>\n<ul>\n<li>第一步先去丟浴室與房間垃圾，並拿垃圾袋裝垃圾桶用垃圾袋轉一圈卡好垃圾桶的口徑，而後把卷型衛生紙第一張摺三角形</li>\n<li>收毛巾 3 小毛巾 2 中毛巾 2 大毛巾 （ 如果是人數是 3 人或是 4 人會不一樣 ）</li>\n<li>會用客人用過得毛巾看有沒有明顯的垃圾在浴室先收</li>\n<li>洗杯子跟清熱水壺底垢（用檸檬酸）</li>\n<li>用清潔劑在浴室各處噴一些（依照順序 - 鏡子 洗手台 浴缸 浴室 馬桶 地板噴一些) 快速噴一遍 沖一遍 再拿大毛巾 擦一遍 最後再用吸塵器把地板與抽屜吸頭髮吸乾淨（也可以用毛巾輕輕貼著地板慢慢拖地板拖到門外）</li>\n<li>補補品</li>\n<li>15 間房間清潔完去 3 樓補補品，最後回到辦公室等時間下班</li>\n<li></li>\n<li></li>\n</ul>\n<h3 id=\"其他狀況\"><a class=\"markdownIt-Anchor\" href=\"#其他狀況\">#</a> 其他狀況</h3>\n<ul>\n<li>工作有時候非常快，但當客人沒有清潔時，有時候工作不會太多</li>\n<li>8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時</li>\n</ul>\n<p>### 心得</p>\n<p>這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作<br>\n More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
-            "tags": [
-                "工作"
-            ]
-        },
-        {
-            "id": "http://example.com/post/index%205.html",
-            "url": "http://example.com/post/index%205.html",
-            "title": "印刷學徒の打工心得",
-            "date_published": "2023-11-18T02:29:26.200Z",
-            "content_html": "<h1 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>目前工作做過最差勁的工作，粗工不說，偏偏說很乾淨，還說裡面都大學畢業，結果通通是外勞，雖然試做只有 3 天但只給 800 沒勞健保，以後看到這篇文章的人都不要去應徵安平工業區的工作</p>\n<p>## 評價</p>\n<p>(惡夢級工作，跟工地粗工有得比)</p>\n<p>工作素質：★ ★ ☆ ☆ ☆<br>\n工作環境：★ ★ ★ ☆ ☆<br>\n工作難度：★ ★ ★ ★ ★ ★<br>\n工作速度：★ ★ ★ ★ ★ ★<br>\n工作量  ：★ ★ ★ ★ ★ ★ ★<br>\n工時長  ：★ ★ ★ ★ ★ ★</p>\n<h3 id=\"工作流程\"><a class=\"markdownIt-Anchor\" href=\"#工作流程\">#</a> 工作流程</h3>\n<p>打完卡 - 開始理上千張的紙</p>\n<ol>\n<li>不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷</li>\n<li>換印刷呂板</li>\n<li>將清潔劑塗在呂板上</li>\n</ol>\n<h3 id=\"其他狀況\"><a class=\"markdownIt-Anchor\" href=\"#其他狀況\">#</a> 其他狀況</h3>\n<ul>\n<li>除了差點累死外（要叫救護車的情況）否則沒有其他狀況</li>\n</ul>\n<p>### 心得</p>\n<p>完全是外勞主場的工作，非常不行的工作，明明要淘汰的工廠狗眼纏喘，爛得要死的工作，又都完全沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去</p>\n",
-            "tags": [
-                "工作"
-            ]
-        },
-        {
-            "id": "http://example.com/post/index%204.html",
-            "url": "http://example.com/post/index%204.html",
-            "title": "景觀修復師の工作心得",
-            "date_published": "2023-11-04T09:25:22.472Z",
-            "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.<br>\n<a href=\"https://i.imgur.com/ZKHlKFO.jpg\">https://i.imgur.com/ZKHlKFO.jpg</a></p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<p>date: 2023-10-11 10:52:36</p>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
             "tags": [
                 "工作"
             ]
