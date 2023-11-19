@@ -64,7 +64,7 @@ if (screen.width >= 0) {
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/switch_textures/?id=1-18"   
 
 
-            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.8123456789/" 
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.81234567890/" 
 //nepnep超次原海王星+ npetune
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/"
 
