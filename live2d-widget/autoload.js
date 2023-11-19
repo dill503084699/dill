@@ -63,12 +63,12 @@ if (screen.width >= 0) {
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.4/"
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/switch_textures/?id=1-18"   
 
-
-            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.81234567890/" 
+//諾瓦 已調差不多差sunswim 有消到
+            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.812345678901/" 
 //nepnep超次原海王星+ npetune
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456789/"
 
-//諾瓦爾+ npetune
+//諾瓦爾+ npetune 差一些跟neptune
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.8123/"
 //成功
 //            cdnPath:  "https://gcore.jsdelivr.net/npm/dill-live2dapi@1.2.7999123456/"
