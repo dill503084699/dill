@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sun, 26 Nov 2023 19:52:10 +0500</pubDate>
-        <lastBuildDate>Sun, 26 Nov 2023 19:52:10 +0500</lastBuildDate>
+        <pubDate>Tue, 28 Nov 2023 22:43:48 +0500</pubDate>
+        <lastBuildDate>Tue, 28 Nov 2023 22:43:48 +0500</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
@@ -16,6 +16,95 @@
         <category>工作</category>
         <category>後端</category>
         <category>AI生成繪圖</category>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2011.html</guid>
+            <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
+            <link>http://example.com/post/index%2011.html</link>
+            <category>2dlive</category>
+            <pubDate>Tue, 28 Nov 2023 22:43:48 +0500</pubDate>
+            <description><![CDATA[ &lt;p&gt;之前折騰兩個星期才將少女放在我的博客旁&lt;/p&gt;
+&lt;p&gt;依賴注入方式 20230929&lt;br&gt;
+[TOC]&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
+`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
+`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
+        
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
+&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;引用文獻&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引用文獻&#34;&gt;#&lt;/a&gt; 引用文獻&lt;/h3&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;[在网页中添加 Live2D 看板娘](&lt;a href=&#34;https://github.com/stevenjoezhang/live2d-widget%EF%BC%89&#34;&gt;https://github.com/stevenjoezhang/live2d-widget）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://akilar.top/posts/5b8f515f/&#34;&gt;akilar 的糖果屋 -Live2d Widget &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://amayaliu.cn/Diary/DiaryLive2D.html&#34;&gt;amaya 夜雨&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fghrsh.net/post/123.html&#34;&gt;fghrsh 的博客 - 网页添加 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/&#34;&gt;Eikanya’s Blog（看板娘動畫大佬）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/post/live2d%E9%85%8D%E7%BD%AE/&#34;&gt;Eikanya’s Blog - Live2d 配置 - Live2d 的 moc3 設定說明&lt;/a&gt;&lt;br&gt;
+ 7.5. &lt;a href=&#34;https://eikanya.github.io/post/%E5%8F%8C%E7%94%9F%E8%A7%86%E7%95%8C/#%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7&#34;&gt;Eikanya’s Blog - 雙生 live2d 提取&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1957513&#34;&gt;筱鋒 xiao_lfeng&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;保羅的小宇宙 - 給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blueheart0621.github.io/live2d_demo/demo3-waifu-tips.html&#34;&gt;お前はどこまで見えている &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[部落格通用版 Live2d 伊斯特瓦爾發布] (&lt;a href=&#34;https://www.wikimoe.com/?post=76&#34;&gt;https://www.wikimoe.com/?post=76&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/&#34;&gt;惡 e 魔 m 蘿 lo 莉 li 控 - 為部落格加入能動的看板娘 (Live2D)- 將其加入網頁上吧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[pio](&lt;a href=&#34;https://docs.paul.ren/pio/#/?id=%e5%bc%95%e7%94%a8-css-%e8%b5%84%e6%ba%90%EF%BC%89&#34;&gt;https://docs.paul.ren/pio/#/?id = 引用 - css - 资源）&lt;/a&gt;&lt;br&gt;
+(&lt;a href=&#34;https://github.com/Dreamer-Paul/Pio&#34;&gt;https://github.com/Dreamer-Paul/Pio&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yzs020220.github.io/posts/41158/&#34;&gt;Hexo 部落格新增 live2d 看板娘 - 可換裝，增刪模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.spriters-resource.com/mobile/mainichicompileheart/&#34;&gt;海量模型まいにちコンパイルハート neptune model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://awdr74100.github.io/2020-02-17-webpack-install/&#34;&gt;Roya’s Blog   Webpack 前端打包工具 - 環境安裝與基本配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;夢像&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.cn/s/live2dviewerex%E8%B5%84%E6%BA%90%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;live2dviewerex 资源包下载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/7287914031515582523&#34;&gt;前端制作 live2D 看板娘 (一&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV11z4y1F7XL/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=6abadf229df823dd10d2fed723fc091f&#34;&gt;【Live2D 免费模型】点击领取超可爱大姐姐&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844903689438625806&#34;&gt;純乾貨！live2d 動畫製作簡述以及踩坑&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Eikanya/Live2d-model&#34;&gt;海量模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://live2d.fghrsh.net/demo/1.4.2/&#34;&gt;demo fgrsh html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoski/live2d_models_collection&#34;&gt;2d model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.tangly1024.com/article/notion-next-plugin-live2d&#34;&gt;NotionNextNotionNext 文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhangshuqiao.org/2018-07/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%AD%E6%B7%BB%E5%8A%A0Live2D%E7%9C%8B%E6%9D%BF%E5%A8%98/&#34;&gt;米米&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cangshui.net/3518.html&#34;&gt;蒼水&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/&#34;&gt;二次元 live2d 看板娘效果中的 web 前端技术&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E4%BB%8B%E7%BB%8D&#34;&gt;Easy Hexo 👨‍💻&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/eeg1412/Live2dHistoire&#34;&gt;Live2d 的看板娘 —— 伊斯特瓦尔 (Histoire)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.maxstars.xyz/2023/09/24/bi-lan-hang-xian-chai-bao-ji-lu/&#34;&gt;碧藍航線拆包記錄&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2012.html</guid>
             <title>讀書方法</title>
@@ -54,96 +143,6 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/post/index%2011.html</guid>
-            <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
-            <link>http://example.com/post/index%2011.html</link>
-            <category>2dlive</category>
-            <pubDate>Thu, 23 Nov 2023 20:33:11 +0500</pubDate>
-            <description><![CDATA[ &lt;p&gt;之前折騰兩個星期才將少女放在我的博客旁&lt;/p&gt;
-&lt;p&gt;依賴注入方式 20230929&lt;br&gt;
-[TOC]&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;謝祥辰 — 2022/07/28     我在網路上查到的資料是指個數&lt;br&gt;
-不是 bit 表示&lt;br&gt;
- willwho - 我記得當時做 ADL 的時候 bit 還可以 多個 bit 你還是要額外宣告它不然會出錯 但這邊都是 1bit 因此目前暫定不用&lt;/p&gt;
-&lt;p&gt;結論 - 但我們 enable 都是 1bit 而已因此我們目前暫定不用改&lt;br&gt;
-然後 == 代表說不關多少位元只要遇到 ==0 都會代表 0 的關係因此&lt;/p&gt;
-&lt;p&gt;當時 penquuin 提出來的問題，你先把 off  0 遞值 off0 指示全 0 , 因為沒試過說 == 能不能表 0&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
-`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
-`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;p&gt;clk  將 reset=1’b1 改成！reset 的式子&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-        
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
-&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最終呈現 register 電路圖&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/yYUHqF1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/457620455&#34;&gt;自己動手寫 RISC-V CPU -（4）增加分支預測功能&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;引用文獻&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引用文獻&#34;&gt;#&lt;/a&gt; 引用文獻&lt;/h3&gt;
-&lt;div id=&#34;refer-anchor-1&#34;&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;[1] &lt;a href=&#34;http://xueshu.baidu.com/&#34;&gt;百度学术&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;refer-anchor-2&#34;&gt;&lt;/div&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;[在网页中添加 Live2D 看板娘]（&lt;a href=&#34;https://github.com/stevenjoezhang/live2d-widget%EF%BC%89&#34;&gt;https://github.com/stevenjoezhang/live2d-widget）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://akilar.top/posts/5b8f515f/&#34;&gt;akilar 的糖果屋 -Live2d Widget &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://amayaliu.cn/Diary/DiaryLive2D.html&#34;&gt;amaya 夜雨&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fghrsh.net/post/123.html&#34;&gt;fghrsh 的博客 - 网页添加 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/&#34;&gt;Eikanya’s Blog（看板娘動畫大佬）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/post/live2d%E9%85%8D%E7%BD%AE/&#34;&gt;Eikanya’s Blog - Live2d 配置 - Live2d 的 moc3 設定說明&lt;/a&gt;&lt;br&gt;
- 7.5. &lt;a href=&#34;https://eikanya.github.io/post/%E5%8F%8C%E7%94%9F%E8%A7%86%E7%95%8C/#%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7&#34;&gt;Eikanya’s Blog - 雙生 live2d 提取&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1957513&#34;&gt;筱鋒 xiao_lfeng&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;保羅的小宇宙 - 給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blueheart0621.github.io/live2d_demo/demo3-waifu-tips.html&#34;&gt;お前はどこまで見えている &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[部落格通用版 Live2d 伊斯特瓦爾發布] (&lt;a href=&#34;https://www.wikimoe.com/?post=76&#34;&gt;https://www.wikimoe.com/?post=76&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/&#34;&gt;惡 e 魔 m 蘿 lo 莉 li 控 - 為部落格加入能動的看板娘 (Live2D)- 將其加入網頁上吧&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[pio](&lt;a href=&#34;https://docs.paul.ren/pio/#/?id=%e5%bc%95%e7%94%a8-css-%e8%b5%84%e6%ba%90%EF%BC%89&#34;&gt;https://docs.paul.ren/pio/#/?id = 引用 - css - 资源）&lt;/a&gt;&lt;br&gt;
-(&lt;a href=&#34;https://github.com/Dreamer-Paul/Pio&#34;&gt;https://github.com/Dreamer-Paul/Pio&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://yzs020220.github.io/posts/41158/&#34;&gt;Hexo 部落格新增 live2d 看板娘 - 可換裝，增刪模型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.spriters-resource.com/mobile/mainichicompileheart/&#34;&gt;海量模型まいにちコンパイルハート neptune model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://awdr74100.github.io/2020-02-17-webpack-install/&#34;&gt;Roya’s Blog   Webpack 前端打包工具 - 環境安裝與基本配置&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;夢像&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/s/live2dviewerex%E8%B5%84%E6%BA%90%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;live2dviewerex 资源包下载&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/7287914031515582523&#34;&gt;前端制作 live2D 看板娘 (一&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV11z4y1F7XL/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=6abadf229df823dd10d2fed723fc091f&#34;&gt;【Live2D 免费模型】点击领取超可爱大姐姐&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844903689438625806&#34;&gt;純乾貨！live2d 動畫製作簡述以及踩坑&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Eikanya/Live2d-model&#34;&gt;海量模型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://live2d.fghrsh.net/demo/1.4.2/&#34;&gt;demo fgrsh html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoski/live2d_models_collection&#34;&gt;2d model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.tangly1024.com/article/notion-next-plugin-live2d&#34;&gt;NotionNextNotionNext 文档&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
  ]]></description>
         </item>
         <item>
