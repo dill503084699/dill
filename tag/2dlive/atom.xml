@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;2dlive&#34; tag</title>
     <link href="http://example.com" />
-    <updated>2023-11-28T17:43:48.248Z</updated>
+    <updated>2023-12-02T14:12:09.217Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
@@ -50,7 +50,7 @@
 &lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;引用文獻&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引用文獻&#34;&gt;#&lt;/a&gt; 引用文獻&lt;/h3&gt;
 &lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;[在网页中添加 Live2D 看板娘](&lt;a href=&#34;https://github.com/stevenjoezhang/live2d-widget%EF%BC%89&#34;&gt;https://github.com/stevenjoezhang/live2d-widget）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/stevenjoezhang/live2d-widget&#34;&gt;在网页中添加 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://akilar.top/posts/5b8f515f/&#34;&gt;akilar 的糖果屋 -Live2d Widget &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://amayaliu.cn/Diary/DiaryLive2D.html&#34;&gt;amaya 夜雨&lt;/a&gt;&lt;/li&gt;
@@ -85,6 +85,48 @@
 &lt;li&gt;&lt;a href=&#34;https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E4%BB%8B%E7%BB%8D&#34;&gt;Easy Hexo 👨‍💻&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/eeg1412/Live2dHistoire&#34;&gt;Live2d 的看板娘 —— 伊斯特瓦尔 (Histoire)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.maxstars.xyz/2023/09/24/bi-lan-hang-xian-chai-bao-ji-lu/&#34;&gt;碧藍航線拆包記錄&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ezshine/live2d-model-collections&#34;&gt;live2d-model-collections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv20612476/&#34;&gt;自訂 Live2D 插件配置並載入 CDN 數據&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1it411H7d9/?spm_id_from=333.337.search-card.all.click&#34;&gt;hexo 博客添加 live2d 看板娘 nepgear!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/huangwb8/article/details/124994848?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169934771116800226581947%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&amp;amp;request_id=169934771116800226581947&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-15-124994848-null-null.nonecase&amp;amp;utm_term=%E8%87%AA%E5%AE%9A%E4%B9%89Live2D%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%8A%A0%E8%BD%BDCDN%E6%95%B0%E6%8D%AE&amp;amp;spm=1018.2226.3001.4450&#34;&gt;Docker 系列 WordPress 系列國服最強部落格看板娘沒有之一&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/as480133937/article/details/100138838?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169934771116800226581947%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&amp;amp;request_id=169934771116800226581947&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-19-100138838-null-null.nonecase&amp;amp;utm_term=%E8%87%AA%E5%AE%9A%E4%B9%89Live2D%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%8A%A0%E8%BD%BDCDN%E6%95%B0%E6%8D%AE&amp;amp;spm=1018.2226.3001.4450&#34;&gt;Hexo-Next 主題部落格個人化配置超詳細，超全面 (兩萬字)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/u011027547/article/details/121551656?spm=1001.2101.3001.6650.4&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-121551656-blog-124994848.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-121551656-blog-124994848.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;utm_relevant_index=9&#34;&gt;為你的網頁加入看板娘（以給部落格園部落格加入看板娘為例）（保母級圖文）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_30543595/article/details/118016710?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-118016710-blog-98986741.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.1&amp;amp;utm_relevant_index=3&#34;&gt;emlog 微語支援 html,Emlog 插件能陪聊的 Live2d 版伊斯特瓦爾看板娘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/1cedcf183633&#34;&gt;小白教程之给网页添加 Live2D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/m0_69079573/article/details/132011737?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-132011737-blog-106315950.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.1&amp;amp;utm_relevant_index=3&#34;&gt;Hexo + Butterfly 建立個人網站（三）Live2d 配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35977139/article/details/121390738?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-9-121390738-blog-106315950.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.6&amp;amp;utm_relevant_index=12&#34;&gt;Hexo 部落格加入 3D 看板娘替換原廠的 Live2D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://augu1sto.gitee.io/ee36c104ddd2/&#34;&gt;Hexo 美化 | 站寵？看板娘？live2d 配置（附魔改插件和新模型）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/Kindnit/article/details/126634421?spm=1001.2101.3001.6650.8&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-126634421-blog-84318526.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-126634421-blog-84318526.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;utm_relevant_index=9&#34;&gt;重要重要 live2d 3 行程式碼為網站新增萌萌噠看板娘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nova1751/live2d-api&#34;&gt;Live2D_AP 少女前线 (Girls Frontline) 等 live2d 模型的文件路径错误以及文件名称错误，对模型的展示视口进行了相关的适配并修复了切换模型报错的问题。这环节究极折磨，打死不做第二遍。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/&#34;&gt;為部落格加入能動的看板娘 (Live2D)- 將其加入網頁上吧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cangmang.xyz/articles/1653560976760&#34;&gt;解決 jsdelivr 免費 cdn 無法存取的問題	&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoski/live2d_models_collection&#34;&gt;live2d_models_collection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ruyut.com/2022/05/github-cdn-jsdelivr.html&#34;&gt;替 GitHub 專案 自動增加 CDN (jsDelivr)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
@@ -100,6 +142,6 @@
 &lt;/ol&gt;
 </content>
         <category term="2dlive" />
-        <updated>2023-11-28T17:43:48.248Z</updated>
+        <updated>2023-12-02T14:12:09.217Z</updated>
     </entry>
 </feed>
