@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;工作&#34; tag</title>
     <link href="http://example.com" />
-    <updated>2023-11-19T03:05:57.052Z</updated>
+    <updated>2024-02-08T15:01:21.388Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
@@ -11,8 +11,115 @@
     <category term="藝術品製作" />
     <category term="hexo 框架簡單介紹" />
     <category term="工作" />
-    <category term="後端" />
     <category term="AI生成繪圖" />
+    <category term="後端" />
+    <entry>
+        <id>http://example.com/post/index%208.html</id>
+        <title>皮革工廠化驗室助理之工作心得</title>
+        <link rel="alternate" href="http://example.com/post/index%208.html"/>
+        <content type="html">&lt;h2 id=&#34;高中畢業的第一份工作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高中畢業的第一份工作&#34;&gt;#&lt;/a&gt; 高中畢業的第一份工作&lt;/h2&gt;
+&lt;p&gt;工時素質：★ ★ ★ ☆ ☆&lt;br&gt;
+工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ☆ ☆ ☆&lt;br&gt;
+工作量：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工時長：★ ☆ ☆ ☆ ☆&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rVLuR4C.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以上是染織皮革的工作環境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;p&gt;化驗室實驗助理&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;要去先看配方要用的材料依序調配，如果不夠要去現場做補料為主&lt;/li&gt;
+&lt;li&gt;等待時間時間到依序加材料到鼓染機裡頭或是要水洗再依序加，最後拿出來要鋪一個塑膠帶第一個皮革正面朝下底部朝上之後皮革依序都是正面朝上為主&lt;/li&gt;
+&lt;li&gt;筆記&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;有時候需要去幫藥廠客戶染皮革&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### 心得&lt;/p&gt;
+&lt;p&gt;這是份要非常不介意工作環境跟氣味的人才適合做的工作，不過這是工廠內部最好的職缺可以直升廠長的工作，而且可以邊工作邊讀書，&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2024-02-08T15:01:21.388Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/post/index%205.html</id>
+        <title>印刷學徒の打工心得</title>
+        <link rel="alternate" href="http://example.com/post/index%205.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;目前工作做過最辛苦的工作&lt;/p&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;(惡夢級工作，跟工地粗工有得比)&lt;/p&gt;
+&lt;p&gt;工作素質：★ ★ ☆ ☆ ☆&lt;br&gt;
+工作環境：★ ★ ★ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ★ ★ ★&lt;br&gt;
+工作速度：★ ★ ★ ★ ★ ★&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★ ★ ★&lt;br&gt;
+工時長  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;p&gt;打完卡 - 開始理上千張的紙&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷&lt;/li&gt;
+&lt;li&gt;換印刷呂板&lt;/li&gt;
+&lt;li&gt;將清潔劑塗在呂板上&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;除了差點累死外（要叫救護車的情況）否則沒有其他狀況&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### 心得&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;完全是外勞主場的工作，非常不行的工作，又都沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2024-02-08T14:48:17.200Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/post/index%209.html</id>
+        <title>光學強化員之工作心得</title>
+        <link rel="alternate" href="http://example.com/post/index%209.html"/>
+        <content type="html">&lt;p&gt;從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;/p&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
+工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ★ ★ ☆&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;p&gt;浴室部份 - 基於試做 2 天而已而做的紀錄&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先穿防塵衣&lt;/li&gt;
+&lt;li&gt;先檢查負責的房間號數看燈是否裡面有客人，房務車必須從清潔室開出來並來到客人門前先敲 3 下說 house keepping 3 次，如沒人回應先開門放萬能房卡開燈&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;第一步先去丟浴室與房間垃圾，並拿垃圾袋裝垃圾桶用垃圾袋轉一圈卡好垃圾桶的口徑，而後把卷型衛生紙第一張摺三角形&lt;/li&gt;
+&lt;li&gt;收毛巾 3 小毛巾 2 中毛巾 2 大毛巾 （ 如果是人數是 3 人或是 4 人會不一樣 ）&lt;/li&gt;
+&lt;li&gt;會用客人用過得毛巾看有沒有明顯的垃圾在浴室先收&lt;/li&gt;
+&lt;li&gt;洗杯子跟清熱水壺底垢（用檸檬酸）&lt;/li&gt;
+&lt;li&gt;用清潔劑在浴室各處噴一些（依照順序 - 鏡子 洗手台 浴缸 浴室 馬桶 地板噴一些) 快速噴一遍 沖一遍 再拿大毛巾 擦一遍 最後再用吸塵器把地板與抽屜吸頭髮吸乾淨（也可以用毛巾輕輕貼著地板慢慢拖地板拖到門外）&lt;/li&gt;
+&lt;li&gt;補補品&lt;/li&gt;
+&lt;li&gt;15 間房間清潔完去 3 樓補補品，最後回到辦公室等時間下班&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;工作有時候非常快，但當客人沒有清潔時，有時候工作不會太多&lt;/li&gt;
+&lt;li&gt;8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### 心得&lt;/p&gt;
+&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;br&gt;
+ More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2024-02-08T14:41:39.588Z</updated>
+    </entry>
     <entry>
         <id>http://example.com/post/index%204.html</id>
         <title>景觀修復師の工作心得</title>
@@ -43,73 +150,6 @@
 </content>
         <category term="工作" />
         <updated>2023-11-19T03:05:57.052Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index%205.html</id>
-        <title>印刷學徒の打工心得</title>
-        <link rel="alternate" href="http://example.com/post/index%205.html"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;目前工作做過最辛苦的工作&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;(惡夢級工作，跟工地粗工有得比)&lt;/p&gt;
-&lt;p&gt;工作素質：★ ★ ☆ ☆ ☆&lt;br&gt;
-工作環境：★ ★ ★ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ★ ★ ★&lt;br&gt;
-工作速度：★ ★ ★ ★ ★ ★&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★ ★&lt;br&gt;
-工時長  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;打完卡 - 開始理上千張的紙&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷&lt;/li&gt;
-&lt;li&gt;換印刷呂板&lt;/li&gt;
-&lt;li&gt;將清潔劑塗在呂板上&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;除了差點累死外（要叫救護車的情況）否則沒有其他狀況&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;完全是外勞主場的工作，非常不行的工作，明明要淘汰的工廠狗眼纏喘，爛得要死的工作，又都完全沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去&lt;/p&gt;
-</content>
-        <category term="工作" />
-        <updated>2023-11-19T02:59:39.160Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index%208.html</id>
-        <title>皮革工廠化驗室助理之工作心得</title>
-        <link rel="alternate" href="http://example.com/post/index%208.html"/>
-        <content type="html">&lt;h2 id=&#34;高中畢業的第一份工作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高中畢業的第一份工作&#34;&gt;#&lt;/a&gt; 高中畢業的第一份工作&lt;/h2&gt;
-&lt;p&gt;工時素質：★ ★ ★ ☆ ☆&lt;br&gt;
-工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ☆ ☆ ☆&lt;br&gt;
-工作量：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工時長：★ ☆ ☆ ☆ ☆&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rVLuR4C.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;以上是染織皮革的工作環境&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;化驗室實驗助理&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;要去先看配方要用的材料依序調配，如果不夠要去現場做補料為主&lt;/li&gt;
-&lt;li&gt;等待時間時間到依序加材料到鼓染機裡頭或是要水洗再依序加，最後拿出來要鋪一個塑膠帶第一個皮革正面朝下底部朝上之後皮革依序都是正面朝上為主&lt;/li&gt;
-&lt;li&gt;筆記&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;工作有時候非常快，但當客人沒有清潔時，有時候工作不會太多&lt;/li&gt;
-&lt;li&gt;8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;/p&gt;
-</content>
-        <category term="工作" />
-        <updated>2023-11-18T11:12:07.236Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%202.html</id>
@@ -476,44 +516,5 @@
 </content>
         <category term="工作" />
         <updated>2023-11-18T09:13:44.372Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index%209.html</id>
-        <title>光學強化員之工作心得</title>
-        <link rel="alternate" href="http://example.com/post/index%209.html"/>
-        <content type="html">&lt;p&gt;從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
-工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;浴室部份 - 基於試做 2 天而已而做的紀錄&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;打完卡先去檢查負責樓層的房間有沒有房客是有在門口放須清潔的卡牌與前日未清洗衣物，拿到辦公室去做填表檢查與登記，再把衣物清潔卡牌放在客人門旁&lt;/li&gt;
-&lt;li&gt;先檢查負責的房間號數看燈是否裡面有客人，房務車必須從清潔室開出來並來到客人門前先敲 3 下說 house keepping 3 次，如沒人回應先開門放萬能房卡開燈&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;第一步先去丟浴室與房間垃圾，並拿垃圾袋裝垃圾桶用垃圾袋轉一圈卡好垃圾桶的口徑，而後把卷型衛生紙第一張摺三角形&lt;/li&gt;
-&lt;li&gt;收毛巾 3 小毛巾 2 中毛巾 2 大毛巾 （ 如果是人數是 3 人或是 4 人會不一樣 ）&lt;/li&gt;
-&lt;li&gt;會用客人用過得毛巾看有沒有明顯的垃圾在浴室先收&lt;/li&gt;
-&lt;li&gt;洗杯子跟清熱水壺底垢（用檸檬酸）&lt;/li&gt;
-&lt;li&gt;用清潔劑在浴室各處噴一些（依照順序 - 鏡子 洗手台 浴缸 浴室 馬桶 地板噴一些) 快速噴一遍 沖一遍 再拿大毛巾 擦一遍 最後再用吸塵器把地板與抽屜吸頭髮吸乾淨（也可以用毛巾輕輕貼著地板慢慢拖地板拖到門外）&lt;/li&gt;
-&lt;li&gt;補補品&lt;/li&gt;
-&lt;li&gt;15 間房間清潔完去 3 樓補補品，最後回到辦公室等時間下班&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;工作有時候非常快，但當客人沒有清潔時，有時候工作不會太多&lt;/li&gt;
-&lt;li&gt;8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;br&gt;
- More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
-</content>
-        <category term="工作" />
-        <updated>2023-11-18T02:30:19.552Z</updated>
     </entry>
 </feed>

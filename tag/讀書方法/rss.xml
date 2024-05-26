@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sun, 26 Nov 2023 19:52:10 +0500</pubDate>
-        <lastBuildDate>Sun, 26 Nov 2023 19:52:10 +0500</lastBuildDate>
+        <pubDate>Sun, 26 Nov 2023 22:52:10 +0800</pubDate>
+        <lastBuildDate>Sun, 26 Nov 2023 22:52:10 +0800</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
@@ -14,14 +14,14 @@
         <category>藝術品製作</category>
         <category>hexo 框架簡單介紹</category>
         <category>工作</category>
-        <category>後端</category>
         <category>AI生成繪圖</category>
+        <category>後端</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2012.html</guid>
             <title>讀書方法</title>
             <link>http://example.com/post/index%2012.html</link>
             <category>讀書方法</category>
-            <pubDate>Sun, 26 Nov 2023 19:52:10 +0500</pubDate>
+            <pubDate>Sun, 26 Nov 2023 22:52:10 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;紀錄著從國中同儕們所使用的讀書技巧與我的學習經驗&lt;/p&gt;
 &lt;h1 id=&#34;20231126&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#20231126&#34;&gt;#&lt;/a&gt; 20231126&lt;/h1&gt;
 &lt;hr&gt;

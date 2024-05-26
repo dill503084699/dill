@@ -5,8 +5,8 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sun, 03 Dec 2023 07:55:53 +0500</pubDate>
-        <lastBuildDate>Sun, 03 Dec 2023 07:55:53 +0500</lastBuildDate>
+        <pubDate>Sun, 03 Dec 2023 10:55:53 +0800</pubDate>
+        <lastBuildDate>Sun, 03 Dec 2023 10:55:53 +0800</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
@@ -14,14 +14,14 @@
         <category>藝術品製作</category>
         <category>hexo 框架簡單介紹</category>
         <category>工作</category>
-        <category>後端</category>
         <category>AI生成繪圖</category>
+        <category>後端</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2015.html</guid>
             <title>hexo</title>
             <link>http://example.com/post/index%2015.html</link>
             <category>hexo 框架簡單介紹</category>
-            <pubDate>Sun, 03 Dec 2023 07:55:53 +0500</pubDate>
+            <pubDate>Sun, 03 Dec 2023 10:55:53 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
 &lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
 &lt;p&gt;## 評價&lt;/p&gt;

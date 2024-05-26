@@ -3,7 +3,7 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;coding&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-12-06T14:29:19.352Z</updated>
+    <updated>2023-12-06T14:46:18.052Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
@@ -11,8 +11,8 @@
     <category term="藝術品製作" />
     <category term="hexo 框架簡單介紹" />
     <category term="工作" />
-    <category term="後端" />
     <category term="AI生成繪圖" />
+    <category term="後端" />
     <entry>
         <id>http://example.com/post/index%2011.html</id>
         <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
@@ -31,13 +31,7 @@
 &lt;ul&gt;
 &lt;li&gt;註：若是要在 hexo 框架又是主題內做看板娘的話，記得把 live2d-widget 放在自己的主題 theme 資料夾裡面，並在主題 config.xml 裡面寫入&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-xml=&#34;&gt;injects:
-    css:
-        - &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/live2d-widget/waifu.css&amp;quot;&amp;gt;
-    scripts: 
-        - &amp;lt;script defer src=&amp;quot;/live2d-widget/autoload.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;injects:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    css:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        - &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&#34;token assign-left variable&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;stylesheet&#34;&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;/live2d-widget/waifu.css&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    scripts: &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        - &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;script defer &lt;span class=&#34;token assign-left variable&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;/live2d-widget/autoload.js&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/script&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;註：然後板主並沒有鑽研 demo 與放在 html 語法的那一套 2dlive, 詳情請見這&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -155,7 +149,7 @@
 &lt;/ol&gt;
 </content>
         <category term="2dlive" />
-        <updated>2023-12-06T14:29:19.352Z</updated>
+        <updated>2023-12-06T14:46:18.052Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%2010.html</id>
