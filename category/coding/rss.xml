@@ -5,26 +5,128 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Wed, 06 Dec 2023 22:46:18 +0800</pubDate>
-        <lastBuildDate>Wed, 06 Dec 2023 22:46:18 +0800</lastBuildDate>
+        <pubDate>Sat, 15 Mar 2025 23:23:37 +0800</pubDate>
+        <lastBuildDate>Sat, 15 Mar 2025 23:23:37 +0800</lastBuildDate>
         <category>補丁</category>
         <category>2dlive</category>
         <category>讀書方法</category>
         <category>coding</category>
-        <category>hexo 框架簡單介紹</category>
-        <category>工作</category>
         <category>藝術品製作</category>
+        <category>Hexo框架简单介绍</category>
+        <category>工作</category>
         <category>後端</category>
         <category>AI生成繪圖</category>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2010.html</guid>
+            <title>使用linux玩原神Genshin impact 之dawn補丁用法 （原神3.8之後即可不用!但會被米哈遊回報給後台）</title>
+            <link>http://example.com/post/index%2010.html</link>
+            <category>補丁</category>
+            <pubDate>Sat, 15 Mar 2025 23:23:37 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;之前折騰很久的linux玩原神的方法每次更新就要用一次&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#之前折騰很久的linux玩原神的方法每次更新就要用一次&#34;&gt;#&lt;/a&gt; 之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/h2&gt;
+&lt;h1 id=&#34;linux玩原神之dawn补丁使用指南&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#linux玩原神之dawn补丁使用指南&#34;&gt;#&lt;/a&gt; Linux 玩原神之 Dawn 补丁使用指南&lt;/h1&gt;
+&lt;p&gt;原神（Genshin Impact）是一款由 miHoYo（米哈游）开发的开放世界冒险游戏。虽然游戏本身并不原生支持 Linux 系统，但通过一些技术手段，Linux 用户仍然可以体验这款精彩的游戏。本文将详细介绍如何使用 Dawn 补丁在 Linux 系统上运行原神。&lt;/p&gt;
+&lt;h2 id=&#34;一-dawn补丁的作用及背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-dawn补丁的作用及背景&#34;&gt;#&lt;/a&gt; 一、Dawn 补丁的作用及背景&lt;/h2&gt;
+&lt;p&gt;由于原神基于 Windows 平台开发，Linux 用户需要特殊的技术手段来解决系统兼容性问题。Dawn 补丁作为一个流行的解决方案，其核心目的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修改原神的启动和运行方式&lt;/li&gt;
+&lt;li&gt;使游戏可以通过 Wine 或 Proton 等兼容层运行&lt;/li&gt;
+&lt;li&gt;在不安装 Windows 的情况下实现游戏运行&lt;/li&gt;
+&lt;li&gt;通过技术手段优化游戏在 Linux 环境下的表现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二-dawn补丁的安装步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二-dawn补丁的安装步骤&#34;&gt;#&lt;/a&gt; 二、Dawn 补丁的安装步骤&lt;/h2&gt;
+&lt;h3 id=&#34;1-准备环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-准备环境&#34;&gt;#&lt;/a&gt; 1. 准备环境&lt;/h3&gt;
+&lt;p&gt;首先需要安装适当的兼容层：&lt;/p&gt;
+&lt;h4 id=&#34;wine安装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#wine安装&#34;&gt;#&lt;/a&gt; Wine 安装&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; wine&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;proton安装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#proton安装&#34;&gt;#&lt;/a&gt; Proton 安装&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 Steam 客户端安装&lt;/li&gt;
+&lt;li&gt;在 Steam 设置中启用 Proton&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-下载dawn补丁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-下载dawn补丁&#34;&gt;#&lt;/a&gt; 2. 下载 Dawn 补丁&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;从可靠源（如 GitHub 或玩家社区）下载&lt;/li&gt;
+&lt;li&gt;确保下载最新版本&lt;/li&gt;
+&lt;li&gt;验证补丁适用于当前 Linux 发行版和原神版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-安装补丁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安装补丁&#34;&gt;#&lt;/a&gt; 3. 安装补丁&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;解压补丁文件到原神安装目录&lt;/li&gt;
+&lt;li&gt;按照文档说明执行安装脚本&lt;/li&gt;
+&lt;li&gt;修改必要的配置文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;4-配置wine或proton&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-配置wine或proton&#34;&gt;#&lt;/a&gt; 4. 配置 Wine 或 Proton&lt;/h3&gt;
+&lt;h4 id=&#34;wine配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#wine配置&#34;&gt;#&lt;/a&gt; Wine 配置&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;winecfg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;设置 Windows 版本为 &amp;quot;Windows 7&amp;quot; 或 &amp;quot;Windows 10&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;proton配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#proton配置&#34;&gt;#&lt;/a&gt; Proton 配置&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Steam 中设置游戏属性&lt;/li&gt;
+&lt;li&gt;选择合适的 Proton 版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-运行原神&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5-运行原神&#34;&gt;#&lt;/a&gt; 5. 运行原神&lt;/h3&gt;
+&lt;h4 id=&#34;使用wine启动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用wine启动&#34;&gt;#&lt;/a&gt; 使用 Wine 启动&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wine GenshinImpact.exe&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;使用proton启动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用proton启动&#34;&gt;#&lt;/a&gt; 使用 Proton 启动&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;直接通过 Steam 启动游戏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三-原神38之后的变化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三-原神38之后的变化&#34;&gt;#&lt;/a&gt; 三、原神 3.8 之后的变化&lt;/h2&gt;
+&lt;p&gt;原神 3.8 版本后的重要变化：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提升了 Linux 兼容性&lt;/li&gt;
+&lt;li&gt;修复了多个系统相关问题&lt;/li&gt;
+&lt;li&gt;可直接通过 Proton/Wine 运行&lt;/li&gt;
+&lt;li&gt;Dawn 补丁不再是必需品&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;仍有玩家选择使用dawn补丁的原因&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仍有玩家选择使用dawn补丁的原因&#34;&gt;#&lt;/a&gt; 仍有玩家选择使用 Dawn 补丁的原因：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;稳定性考虑&lt;/strong&gt;：某些 Linux 发行版可能获得更好的游戏体验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;兼容性优化&lt;/strong&gt;：特定硬件配置下可能需要补丁支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;四-使用dawn补丁的潜在风险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#四-使用dawn补丁的潜在风险&#34;&gt;#&lt;/a&gt; 四、使用 Dawn 补丁的潜在风险&lt;/h2&gt;
+&lt;h3 id=&#34;1-反作弊问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-反作弊问题&#34;&gt;#&lt;/a&gt; 1. 反作弊问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;可能触发 mhyprot2 反作弊系统&lt;/li&gt;
+&lt;li&gt;存在账号被封禁的风险&lt;/li&gt;
+&lt;li&gt;米哈游可能会检测到补丁使用情况&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-稳定性和兼容性问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-稳定性和兼容性问题&#34;&gt;#&lt;/a&gt; 2. 稳定性和兼容性问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;第三方工具无法保证完全稳定&lt;/li&gt;
+&lt;li&gt;可能出现：
+&lt;ul&gt;
+&lt;li&gt;游戏崩溃&lt;/li&gt;
+&lt;li&gt;画面卡顿&lt;/li&gt;
+&lt;li&gt;其他技术问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-更新问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-更新问题&#34;&gt;#&lt;/a&gt; 3. 更新问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;补丁更新可能滞后于游戏版本&lt;/li&gt;
+&lt;li&gt;需要定期检查补丁更新&lt;/li&gt;
+&lt;li&gt;版本不匹配可能导致游戏无法启动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;五-结论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#五-结论&#34;&gt;#&lt;/a&gt; 五、结论&lt;/h2&gt;
+&lt;p&gt;Dawn 补丁作为 Linux 运行原神的解决方案之一，在 3.8 版本之前发挥了重要作用。目前虽然不再是必需品，但对于特定用户群体仍有其价值。在选择是否使用 Dawn 补丁时，建议：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;评估个人需求&lt;/li&gt;
+&lt;li&gt;权衡使用风险&lt;/li&gt;
+&lt;li&gt;考虑系统兼容性&lt;/li&gt;
+&lt;li&gt;关注官方更新动态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最后提醒：使用任何第三方工具都存在一定风险，请谨慎决定是否使用 Dawn 补丁。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2011.html</guid>
             <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
             <link>http://example.com/post/index%2011.html</link>
             <category>2dlive</category>
-            <pubDate>Wed, 06 Dec 2023 22:46:18 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;### 前言&lt;br&gt;
-之前折騰兩個星期才將戰機少女顯示在我的博客旁&lt;/p&gt;
-&lt;p&gt;, 我們先來看看資料裡頭的結構&lt;/p&gt;
+            <pubDate>Sat, 15 Mar 2025 22:34:03 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;之前折騰兩個星期才將戰機少女顯示在我的博客旁&lt;/p&gt;
+&lt;p&gt;我們先來看看資料裡頭的結構&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;live2d-widget (角色模型周遭環境設定)&lt;/p&gt;
@@ -40,178 +142,66 @@
 &lt;li&gt;註：然後板主並沒有鑽研 demo 與放在 html 語法的那一套 2dlive, 詳情請見這&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-        
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
-&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;hr&gt;
-&lt;h3 id=&#34;參考資料-與-引用文獻&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料-與-引用文獻&#34;&gt;#&lt;/a&gt; 參考資料 與 引用文獻&lt;/h3&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/stevenjoezhang/live2d-widget&#34;&gt;在网页中添加 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://akilar.top/posts/5b8f515f/&#34;&gt;akilar 的糖果屋 -Live2d Widget &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://amayaliu.cn/Diary/DiaryLive2D.html&#34;&gt;amaya 夜雨&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://c10udlnk.top/&#34;&gt;c10udlnk 的 blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fghrsh.net/post/123.html&#34;&gt;fghrsh 的博客 - 网页添加 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/&#34;&gt;Eikanya’s Blog（看板娘動畫大佬）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://eikanya.github.io/post/live2d%E9%85%8D%E7%BD%AE/&#34;&gt;Eikanya’s Blog - Live2d 配置 - Live2d 的 moc3 設定說明&lt;/a&gt;&lt;br&gt;
- 7.5. &lt;a href=&#34;https://eikanya.github.io/post/%E5%8F%8C%E7%94%9F%E8%A7%86%E7%95%8C/#%E5%87%86%E5%A4%87%E5%B7%A5%E5%85%B7&#34;&gt;Eikanya’s Blog - 雙生 live2d 提取&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1957513&#34;&gt;筱鋒 xiao_lfeng&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;保羅的小宇宙 - 給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blueheart0621.github.io/live2d_demo/demo3-waifu-tips.html&#34;&gt;お前はどこまで見えている &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[部落格通用版 Live2d 伊斯特瓦爾發布] (&lt;a href=&#34;https://www.wikimoe.com/?post=76&#34;&gt;https://www.wikimoe.com/?post=76&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/&#34;&gt;惡 e 魔 m 蘿 lo 莉 li 控 - 為部落格加入能動的看板娘 (Live2D)- 將其加入網頁上吧&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://paugram.com/coding/add-poster-girl-with-plugin.html&#34;&gt;給你的部落格增加動態看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[pio](&lt;a href=&#34;https://docs.paul.ren/pio/#/?id=%e5%bc%95%e7%94%a8-css-%e8%b5%84%e6%ba%90%EF%BC%89&#34;&gt;https://docs.paul.ren/pio/#/?id = 引用 - css - 资源）&lt;/a&gt;&lt;br&gt;
-(&lt;a href=&#34;https://github.com/Dreamer-Paul/Pio&#34;&gt;https://github.com/Dreamer-Paul/Pio&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://yzs020220.github.io/posts/41158/&#34;&gt;Hexo 部落格新增 live2d 看板娘 - 可換裝，增刪模型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.spriters-resource.com/mobile/mainichicompileheart/&#34;&gt;海量模型まいにちコンパイルハート neptune model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://awdr74100.github.io/2020-02-17-webpack-install/&#34;&gt;Roya’s Blog   Webpack 前端打包工具 - 環境安裝與基本配置&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mx.paul.ren/model/neptune.html&#34;&gt;夢像&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/s/live2dviewerex%E8%B5%84%E6%BA%90%E5%8C%85%E4%B8%8B%E8%BD%BD&#34;&gt;live2dviewerex 资源包下载&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/7287914031515582523&#34;&gt;前端制作 live2D 看板娘 (一&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV11z4y1F7XL/?spm_id_from=333.337.search-card.all.click&amp;amp;vd_source=6abadf229df823dd10d2fed723fc091f&#34;&gt;【Live2D 免费模型】点击领取超可爱大姐姐&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://juejin.cn/post/6844903689438625806&#34;&gt;純乾貨！live2d 動畫製作簡述以及踩坑&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Eikanya/Live2d-model&#34;&gt;海量模型&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://live2d.fghrsh.net/demo/1.4.2/&#34;&gt;demo fgrsh html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoski/live2d_models_collection&#34;&gt;2d model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.tangly1024.com/article/notion-next-plugin-live2d&#34;&gt;NotionNextNotionNext 文档&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhangshuqiao.org/2018-07/%E5%9C%A8%E7%BD%91%E9%A1%B5%E4%B8%AD%E6%B7%BB%E5%8A%A0Live2D%E7%9C%8B%E6%9D%BF%E5%A8%98/&#34;&gt;米米&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cangshui.net/3518.html&#34;&gt;蒼水&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.zhangxinxu.com/wordpress/2018/05/live2d-web-webgl-js/&#34;&gt;二次元 live2d 看板娘效果中的 web 前端技术&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E4%BB%8B%E7%BB%8D&#34;&gt;Easy Hexo 👨‍💻&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/eeg1412/Live2dHistoire&#34;&gt;Live2d 的看板娘 —— 伊斯特瓦尔 (Histoire)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.maxstars.xyz/2023/09/24/bi-lan-hang-xian-chai-bao-ji-lu/&#34;&gt;碧藍航線拆包記錄&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/ezshine/live2d-model-collections&#34;&gt;live2d-model-collections&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv20612476/&#34;&gt;自訂 Live2D 插件配置並載入 CDN 數據&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1it411H7d9/?spm_id_from=333.337.search-card.all.click&#34;&gt;hexo 博客添加 live2d 看板娘 nepgear!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/huangwb8/article/details/124994848?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169934771116800226581947%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&amp;amp;request_id=169934771116800226581947&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-15-124994848-null-null.nonecase&amp;amp;utm_term=%E8%87%AA%E5%AE%9A%E4%B9%89Live2D%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%8A%A0%E8%BD%BDCDN%E6%95%B0%E6%8D%AE&amp;amp;spm=1018.2226.3001.4450&#34;&gt;Docker 系列 WordPress 系列國服最強部落格看板娘沒有之一&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/as480133937/article/details/100138838?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169934771116800226581947%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&amp;amp;request_id=169934771116800226581947&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-19-100138838-null-null.nonecase&amp;amp;utm_term=%E8%87%AA%E5%AE%9A%E4%B9%89Live2D%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE%E5%B9%B6%E5%8A%A0%E8%BD%BDCDN%E6%95%B0%E6%8D%AE&amp;amp;spm=1018.2226.3001.4450&#34;&gt;Hexo-Next 主題部落格個人化配置超詳細，超全面 (兩萬字)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/u011027547/article/details/121551656?spm=1001.2101.3001.6650.4&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-121551656-blog-124994848.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-4-121551656-blog-124994848.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;utm_relevant_index=9&#34;&gt;為你的網頁加入看板娘（以給部落格園部落格加入看板娘為例）（保母級圖文）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_30543595/article/details/118016710?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-118016710-blog-98986741.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.1&amp;amp;utm_relevant_index=3&#34;&gt;emlog 微語支援 html,Emlog 插件能陪聊的 Live2d 版伊斯特瓦爾看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/1cedcf183633&#34;&gt;小白教程之给网页添加 Live2D&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/m0_69079573/article/details/132011737?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-132011737-blog-106315950.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.1&amp;amp;utm_relevant_index=3&#34;&gt;Hexo + Butterfly 建立個人網站（三）Live2d 配置&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_35977139/article/details/121390738?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-9-121390738-blog-106315950.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;spm=1001.2101.3001.4242.6&amp;amp;utm_relevant_index=12&#34;&gt;Hexo 部落格加入 3D 看板娘替換原廠的 Live2D&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://augu1sto.gitee.io/ee36c104ddd2/&#34;&gt;Hexo 美化 | 站寵？看板娘？live2d 配置（附魔改插件和新模型）&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/Kindnit/article/details/126634421?spm=1001.2101.3001.6650.8&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-126634421-blog-84318526.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-8-126634421-blog-84318526.235%5Ev38%5Epc_relevant_anti_vip_base&amp;amp;utm_relevant_index=9&#34;&gt;重要重要 live2d 3 行程式碼為網站新增萌萌噠看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/nova1751/live2d-api&#34;&gt;Live2D_AP 少女前线 (Girls Frontline) 等 live2d 模型的文件路径错误以及文件名称错误，对模型的展示视口进行了相关的适配并修复了切换模型报错的问题。这环节究极折磨，打死不做第二遍。&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://nocilol.me/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02/&#34;&gt;為部落格加入能動的看板娘 (Live2D)- 將其加入網頁上吧&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cangmang.xyz/articles/1653560976760&#34;&gt;解決 jsdelivr 免費 cdn 無法存取的問題	&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/xiaoski/live2d_models_collection&#34;&gt;live2d_models_collection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ruyut.com/2022/05/github-cdn-jsdelivr.html&#34;&gt;替 GitHub 專案 自動增加 CDN (jsDelivr)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/lanwilliam/article/details/84318526&#34;&gt;網頁新增 Live2D 看板娘&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/panedioic/live2d_demo_without_api&#34;&gt;live2d_demo_without_api&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_42038623/article/details/132409898&#34;&gt;兩款開箱即用的 Live2d&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://geekswg.js.cool/posts/2023/fixit-beautification/&#34;&gt;Fixit - 主題美化紀錄&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://226yzy.com/2022/032130325.html&#34;&gt;live2d-widget（看板娘）修改及部署至服务器&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://live2d.fghrsh.net/demo/1.4.2/&#34;&gt;重要 Live2D 看板娘 v1.4 / Demo 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pinlyu.com/posts/47/&#34;&gt; 重要 重要   頻率伺服器部署靜態部落格和看板娘 Live2D API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://226yzy.com/2022/032130325.html&#34;&gt;live2d-widget（看板娘）修改部署至伺服器&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;p&gt;在 Hexo + Aurora 主题（或其他支持的 Hexo 主题）下，想要添加 Live2D 看板娘（2D live 老婆），通常需要修改 config.yml（或者 config.aurora.yml）文件，并引入 Live2D 插件。以下是详细的步骤：&lt;/p&gt;
+&lt;h2 id=&#34;過程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#過程&#34;&gt;#&lt;/a&gt; 過程&lt;/h2&gt;
+&lt;p&gt;方法 1：使用 Hexo Live2D 插件&lt;br&gt;
+适用于大部分主题，推荐使用 hexo-helper-live2d。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 Live2D 插件&lt;br&gt;
+在 Hexo 目录（博客根目录）运行：&lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/post/index%2010.html</guid>
-            <title>使用linux玩原神Genshin impact 之dawn補丁用法 （原神3.8之後即可不用!但會被米哈遊回報給後台）</title>
-            <link>http://example.com/post/index%2010.html</link>
-            <category>補丁</category>
-            <pubDate>Sun, 05 Nov 2023 21:38:56 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/p&gt;
-&lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
-工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;謝祥辰 — 2022/07/28 我在網路上查到的資料是指個數&lt;br&gt;
-不是 bit 表示&lt;br&gt;
- willwho - 我記得當時做 ADL 的時候 bit 還可以 多個 bit 你還是要額外宣告它不然會出錯 但這邊都是 1bit 因此目前暫定不用&lt;/p&gt;
-&lt;p&gt;結論 - 但我們 enable 都是 1bit 而已因此我們目前暫定不用改&lt;br&gt;
-然後 == 代表說不關多少位元只要遇到 ==0 都會代表 0 的關係因此&lt;/p&gt;
-&lt;p&gt;當時 penquuin 提出來的問題，你先把 off  0 遞值 off0 指示全 0 , 因為沒試過說 == 能不能表 0&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
-`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
-`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
+&lt;pre&gt;&lt;code class=&#34;language-npm&#34;&gt;npm install hexo-helper-live2d --save
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;p&gt;clk  將 reset=1’b1 改成！reset 的式子&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-        
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;配置 config.yml&lt;br&gt;
+ 打开 Hexo 的 主配置文件（_config.yml），添加：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;live2d:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  enable: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  scriptFrom: local&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  pluginRootPath: live2d&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  model:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    use: haru_01  # 你可以换成其他模型&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  display:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    position: right  # 看板娘的位置&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    width: 150&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    height: 300&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  mobile:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    show: false  # 移动端是否显示&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;支持的模型：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hibiki（响）
+tororo（とろろ）
+shizuku（滴）
+koharu（小春）
+haru_01（春1）
+haru_02（春2）
+wanko（狗狗）
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
-&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最終呈現 register 電路圖&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/yYUHqF1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
+&lt;p&gt;可以换模型，参考 Live2D Models&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;生成 &amp;amp; 部署&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
 &lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/457620455&#34;&gt;自己動手寫 RISC-V CPU -（4）增加分支預測功能&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
+&lt;p&gt;然后访问 &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt; 看看 Live2D 看板娘是否显示！&lt;/p&gt;
+&lt;p&gt;方法 2：Aurora 主题内置支持&lt;br&gt;
+ Aurora 主题本身支持 Live2D，因此你可以直接在 config.aurora.yml 里配置。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 config.aurora.yml&lt;br&gt;
+ 找到 live2d 配置，修改如下：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;live2d:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  enable: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  scriptFrom: local&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  model: haru_01  # 你可以选择不同模型&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  display:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    position: right&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    width: 200&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    height: 400&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  mobile:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    show: true  # 设定是否在移动端显示&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果你的 config.aurora.yml 里没有 live2d 选项，你可以手动添加！&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;生成 &amp;amp; 预览&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后访问 &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt; 查看效果！&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;q 常见问题
+  Live2D 没有显示？
 
+a 确保 live2d.enable: true
+  清除缓存并重新生成 Hexo：
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;q 模型加载失败？
+
+a 确保 model.use 指定的模型正确
+  试试 haru_01 或 hibiki
+  如何更换 Live2D 角色？
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;直接修改 model.use，然后 hexo g 重新生成。&lt;br&gt;
+这样，你的 Hexo 主题就能拥有 Live2D 看板娘 了 🎉！如果你用的是 Aurora 主题，建议 方法 2，如果是其他主题，可以试试 方法 1。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -219,562 +209,94 @@
             <title>學習網頁後端ssm框架筆記（黑馬</title>
             <link>http://example.com/post/index%206.html</link>
             <category>後端</category>
-            <pubDate>Sat, 04 Nov 2023 21:52:14 +0800</pubDate>
+            <pubDate>Tue, 09 Jan 2024 15:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;自從看了用springboot建立一個小而美的blogb站視頻後就發現如今若是要建立一個博客可能相對於jpa來說mybatics更適合用來當作是入門程式小白的優先選擇可能不是執行效率最快但是至少開發來講沒這麼折騰燒腦&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自從看了用springboot建立一個小而美的blogb站視頻後就發現如今若是要建立一個博客可能相對於jpa來說mybatics更適合用來當作是入門程式小白的優先選擇可能不是執行效率最快但是至少開發來講沒這麼折騰燒腦&#34;&gt;#&lt;/a&gt; 自從看了 &amp;quot;用 springboot 建立一個小而美的 blog&amp;quot;B 站視頻後，就發現如今若是要建立一個博客，可能相對於 jpa 來說 mybatics 更適合用來當作是入門程式小白的優先選擇，可能不是執行效率最快，但是至少開發來講沒這麼折騰燒腦&lt;/h2&gt;
-&lt;h2 id=&#34;tags-黑馬ssm&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#tags-黑馬ssm&#34;&gt;#&lt;/a&gt; tags: 黑馬 ssm&lt;/h2&gt;
-&lt;h1 id=&#34;依賴注入方式-20230929&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴注入方式-20230929&#34;&gt;#&lt;/a&gt; 依賴注入方式 20230929&lt;/h1&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2 id=&#34;思考向一個類中傳遞數據的方法有幾種&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#思考向一個類中傳遞數據的方法有幾種&#34;&gt;#&lt;/a&gt; 思考：向一個類中傳遞數據的方法有幾種？&lt;/h2&gt;
-&lt;h4 id=&#34;普通方法set方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#普通方法set方法&#34;&gt;#&lt;/a&gt; 普通方法 (set 方法)&lt;/h4&gt;
-&lt;h4 id=&#34;構造方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#構造方法&#34;&gt;#&lt;/a&gt; 構造方法&lt;/h4&gt;
-&lt;h2 id=&#34;思考依賴注入描述了在容器中建立bean與bean之間依賴關係的過程如果bean運行需要的是數字或字符串呢&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#思考依賴注入描述了在容器中建立bean與bean之間依賴關係的過程如果bean運行需要的是數字或字符串呢&#34;&gt;#&lt;/a&gt; 思考：依賴注入描述了在容器中建立 bean 與 bean 之間依賴關係的過程，如果 bean 運行需要的是數字或字符串呢？&lt;/h2&gt;
+&lt;h1 id=&#34;學習網頁後端ssm框架筆記&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學習網頁後端ssm框架筆記&#34;&gt;#&lt;/a&gt; 學習網頁後端 SSM 框架筆記&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;自從看了 &amp;quot;用 springboot 建立一個小而美的 blog&amp;quot;B 站視頻後，發現如今若是要建立一個博客，相對於 JPA 來說，MyBatis 可能更適合作為程式小白的入門選擇。雖然執行效率可能不是最快，但開發過程較為直觀，不會那麼燒腦。&lt;/p&gt;
+&lt;h2 id=&#34;ssm框架簡介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ssm框架簡介&#34;&gt;#&lt;/a&gt; SSM 框架簡介&lt;/h2&gt;
+&lt;p&gt;SSM 框架是由 Spring、SpringMVC 和 MyBatis 三個框架整合而成的，是目前主流的 Java EE 企業級框架。&lt;/p&gt;
+&lt;h3 id=&#34;1-spring框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-spring框架&#34;&gt;#&lt;/a&gt; 1. Spring 框架&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;引用類型&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;簡單類型（基本數據類型 string）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;依賴注入方式&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;IoC 容器&lt;/strong&gt;：管理對象的創建和依賴關係&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AOP 編程&lt;/strong&gt;：實現面向切面編程，處理橫切關注點&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;事務管理&lt;/strong&gt;：提供統一的事務管理接口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-springmvc框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-springmvc框架&#34;&gt;#&lt;/a&gt; 2. SpringMVC 框架&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;setter 注入&lt;br&gt;
- - 簡單類型&lt;br&gt;
- - 引用類型&lt;/li&gt;
-&lt;li&gt;構造器 注入&lt;br&gt;
- - 簡單類型&lt;br&gt;
- - 引用類型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MVC 設計模式&lt;/strong&gt;：實現 Web 層的解耦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;請求響應&lt;/strong&gt;：處理 HTTP 請求和響應&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視圖解析&lt;/strong&gt;：支持多種視圖技術&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
+&lt;h3 id=&#34;3-mybatis框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mybatis框架&#34;&gt;#&lt;/a&gt; 3. MyBatis 框架&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;在 bean 中定義引用類型屬性並提供可訪問的 set 方法&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ORM 映射&lt;/strong&gt;：實現對象關係映射&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQL 管理&lt;/strong&gt;：將 SQL 語句從代碼中分離&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;動態 SQL&lt;/strong&gt;：支持複雜的 SQL 拼接&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;public class BookDaoImpl implements BookDao&amp;#123;
-    private int connectionNumber;
-    public void setConnectionNumber(int connectionNumber)&amp;#123;
-        this.connecitonNumber = connectionNumber;
-    &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h1&gt;
+&lt;h2 id=&#34;環境搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#環境搭建&#34;&gt;#&lt;/a&gt; 環境搭建&lt;/h2&gt;
+&lt;h3 id=&#34;1-開發環境準備&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-開發環境準備&#34;&gt;#&lt;/a&gt; 1. 開發環境準備&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- pom.xml 依賴配置 --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependencies&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- Spring --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.springframework&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;spring-context&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5.3.20&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- SpringMVC --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.springframework&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;spring-webmvc&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5.3.20&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- MyBatis --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.mybatis&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;mybatis&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;3.5.9&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependencies&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2-配置文件設置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-配置文件設置&#34;&gt;#&lt;/a&gt; 2. 配置文件設置&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- applicationContext.xml --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token prolog&#34;&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;beans&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;xmlns&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.springframework.org/schema/beans&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token attr-name&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;xmlns:&lt;/span&gt;xsi&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.w3.org/2001/XMLSchema-instance&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token attr-name&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;xsi:&lt;/span&gt;schemaLocation&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.springframework.org/schema/beans&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       http://www.springframework.org/schema/beans/spring-beans.xsd&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- 配置數據源 --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;bean&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;dataSource&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.alibaba.druid.pool.DruidDataSource&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;driverClassName&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.mysql.jdbc.Driver&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;url&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;jdbc:mysql://localhost:3306/db_name&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;username&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;password&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;password&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;bean&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;beans&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;mybatis基礎使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mybatis基礎使用&#34;&gt;#&lt;/a&gt; MyBatis 基礎使用&lt;/h2&gt;
+&lt;h3 id=&#34;1-實體類定義&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-實體類定義&#34;&gt;#&lt;/a&gt; 1. 實體類定義&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; username&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; password&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;//getter 和 setter 方法&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2-mapper接口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-mapper接口&#34;&gt;#&lt;/a&gt; 2. Mapper 接口&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;UserMapper&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findAll&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findById&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; user&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; user&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;3-mapperxml配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mapperxml配置&#34;&gt;#&lt;/a&gt; 3. Mapper.xml 配置&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token prolog&#34;&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;mapper&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token name&#34;&gt;PUBLIC&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;-//mybatis.org//DTD Mapper 3.0//EN&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#34;http://mybatis.org/dtd/mybatis-3-mapper.dtd&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;mapper&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;namespace&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.mapper.UserMapper&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;select&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;findAll&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;resultType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.entity.User&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        SELECT * FROM user&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;select&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;select&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;findById&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;parameterType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;java.lang.Integer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;resultType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.entity.User&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        SELECT * FROM user WHERE id = #&amp;#123;id&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;select&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;mapper&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;常見問題與解決方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常見問題與解決方案&#34;&gt;#&lt;/a&gt; 常見問題與解決方案&lt;/h2&gt;
+&lt;h3 id=&#34;1-配置問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-配置問題&#34;&gt;#&lt;/a&gt; 1. 配置問題&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;配置中使用 property 標籤 value 屬性注入簡單類型數據&lt;/li&gt;
+&lt;li&gt;確保所有配置文件的位置正確&lt;/li&gt;
+&lt;li&gt;檢查依賴版本的兼容性&lt;/li&gt;
+&lt;li&gt;注意 XML 文件的命名空間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id =&amp;quot;bookDao&amp;quot; class=&amp;quot;com.itheima.dao.impl.BookDaoIml&amp;quot;&amp;gt;
-    &amp;lt;property name=&amp;quot;connectionNumber&amp;quot; value=&amp;quot;10&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;構造器注入&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#構造器注入&#34;&gt;#&lt;/a&gt; 構造器注入&lt;/h1&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;?xml vversion=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8?&amp;quot;
-&amp;lt;bean xmlns=&amp;quot;htp://www.springframework.org/schema/beans&amp;quot;
-    xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;
-    xsi:schemaLocation=&amp;quot;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans....&amp;quot;
-        
-        &amp;lt;bean id=&amp;quot;bookDao&amp;quot; class=&amp;quot;com.itheima.dao.iml.BookDaoIml&amp;quot;/&amp;gt;
-        &amp;lt;bean id=&amp;quot;bookService&amp;quot; class=&amp;quot;com.itheima.service.impl.BookServiceImpl&amp;quot;
-            &amp;lt;constructor-arg
-        &amp;lt;/bean&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2-數據庫連接問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-數據庫連接問題&#34;&gt;#&lt;/a&gt; 2. 數據庫連接問題&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;構造器注入 — 引用類型（了解）&lt;/p&gt;
+&lt;li&gt;檢查數據庫連接信息&lt;/li&gt;
+&lt;li&gt;確保數據庫驅動正確&lt;/li&gt;
+&lt;li&gt;測試數據庫連接是否可用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-mapper映射問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mapper映射問題&#34;&gt;#&lt;/a&gt; 3. Mapper 映射問題&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;在 bean 中定義引用類型屬性並提供可訪問的&lt;strong&gt;構造&lt;/strong&gt;方法&lt;/li&gt;
+&lt;li&gt;確保 Mapper 接口和 XML 文件對應&lt;/li&gt;
+&lt;li&gt;檢查 SQL 語句的正確性&lt;/li&gt;
+&lt;li&gt;注意參數類型的匹配&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;public class BookServiceImpl implements BookService&amp;#123;
-    private BookDao bookDao;
-    public BookServiceImpl(BookDao bookDao)&amp;#123;
-        this.bookDao=bookDao;
-    &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;- 配置中使用&lt;strong&gt; constructor-arg&lt;/strong&gt; 標籤 ref 屬性注入引用類型對象&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;bookService&amp;quot; class=&amp;quot;com.itheima.service.impl.BookServiceImpl&amp;quot;&amp;gt;
- &amp;lt;constructor-arg name=&amp;quot;bookDao&amp;quot; ref=&amp;quot;bookDao&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt;
-&amp;lt;bean id=&amp;quot;bookDao&amp;quot; class=&amp;quot;com.itheima.dao.impl.BookDaoImpl&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;構造器注入-簡單類型&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#構造器注入-簡單類型&#34;&gt;#&lt;/a&gt; 構造器注入 -- 簡單類型&lt;/h2&gt;
+&lt;h2 id=&#34;項目實戰經驗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#項目實戰經驗&#34;&gt;#&lt;/a&gt; 項目實戰經驗&lt;/h2&gt;
+&lt;h3 id=&#34;1-代碼組織&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-代碼組織&#34;&gt;#&lt;/a&gt; 1. 代碼組織&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;在 bean 中定義引用類型屬性並提供可訪問的 set 方法&lt;/li&gt;
+&lt;li&gt;遵循三層架構：控制層、服務層、數據訪問層&lt;/li&gt;
+&lt;li&gt;合理規劃包結構&lt;/li&gt;
+&lt;li&gt;統一命名規範&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;public class BookDaoImpl implements BookDao&amp;#123;
-    private int connectionNumber;
-    public void setConnectionNumber(int connectionNumber)&amp;#123;
-        this.connectionNumber =connectionNumber;
-    &amp;#125;
-&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2-性能優化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-性能優化&#34;&gt;#&lt;/a&gt; 2. 性能優化&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;配置中使用 constructor-arg 標籤 value 屬性注入簡單類型數據&lt;/li&gt;
+&lt;li&gt;使用緩存機制&lt;/li&gt;
+&lt;li&gt;優化 SQL 語句&lt;/li&gt;
+&lt;li&gt;合理使用連接池&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;bookDao&amp;quot; class=&amp;quot;com.itheima.dao.impl.BookDaoImpl&amp;quot;&amp;gt;
-    &amp;lt;constructor-arg name=&amp;quot;connectionNumber&amp;quot; value=&amp;quot;10&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;構造器注入-參數適配&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#構造器注入-參數適配&#34;&gt;#&lt;/a&gt; 構造器注入 — 參數適配&lt;/h2&gt;
+&lt;h3 id=&#34;3-安全考慮&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安全考慮&#34;&gt;#&lt;/a&gt; 3. 安全考慮&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;配置中使用 constructor-arg 標籤 type 屬性設置按形參類型注入&lt;/li&gt;
+&lt;li&gt;參數校驗&lt;/li&gt;
+&lt;li&gt;SQL 注入防護&lt;/li&gt;
+&lt;li&gt;權限控制&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;bookDao&amp;quot; class=&amp;quot;com.itheima.dao.iml.BookDaoImpl&amp;quot;&amp;gt;
-    &amp;lt;constructor-arg type=&amp;quot;int&amp;quot;value=&amp;quot;10&amp;quot;/&amp;gt;
-    &amp;lt;consturctor-arg type=&amp;quot;java.lang.String&amp;quot;value=&amp;quot;mysql&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt; 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;配置中使用 constructor-arg 標籤 index 屬性設置按形參位置注入&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;bookDao&amp;quot; class=&amp;quot;com.tieima.dao.impl.BookDaoImpl&amp;quot;&amp;gt;
-   &amp;lt;constructor-arg index=&amp;quot;0&amp;quot; value=&amp;quot;10&amp;quot;/&amp;gt;
-   &amp;lt;constructor-arg index=&amp;quot;1&amp;quot; value=&amp;quot;mysql&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;依賴注入方式選擇&lt;/p&gt;
+&lt;h2 id=&#34;總結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h2&gt;
+&lt;p&gt;SSM 框架的學習需要循序漸進，從基礎配置開始，逐步深入到各個框架的特性和使用技巧。MyBatis 作為持久層框架，其直觀的 SQL 管理方式確實更適合初學者。在實際開發中，需要注意以下幾點：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;強制依賴使用構造器進行，使用 setter 注入有概率不進行注入導致 null 對象出現&lt;/li&gt;
-&lt;li&gt;可選依賴使用 setter 注入進行，靈活性強&lt;/li&gt;
-&lt;li&gt;spring 框架倡導使用構造器，第三方框架內部大多數採用構造器注入的形式形數據初始化，相對嚴謹&lt;/li&gt;
-&lt;li&gt;如果有必要可以兩者同時使用，使用構造器注入完成強制依賴的注入，使用 setter 注入完成可選依賴的注入&lt;/li&gt;
-&lt;li&gt;實際開發過程中還要根據實際情況分析，如果受到控制對象沒有提供 setter 方法就必須使用構造器注入&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自己開發的模塊推薦使用 setter 注入&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;理解框架的核心概念&lt;/li&gt;
+&lt;li&gt;熟練掌握配置方法&lt;/li&gt;
+&lt;li&gt;多練習，多實踐&lt;/li&gt;
+&lt;li&gt;注意代碼規範&lt;/li&gt;
+&lt;li&gt;持續學習新特性&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;小結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小結&#34;&gt;#&lt;/a&gt; 小結&lt;/h3&gt;
+&lt;h2 id=&#34;參考資源&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資源&#34;&gt;#&lt;/a&gt; 參考資源&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;依賴注入方式
-&lt;ul&gt;
-&lt;li&gt;setter 注入
-&lt;ul&gt;
-&lt;li&gt;簡單類型&lt;/li&gt;
-&lt;li&gt;引用類型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;構造器注入
-&lt;ul&gt;
-&lt;li&gt;簡單類型&lt;/li&gt;
-&lt;li&gt;引用類型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;依賴注入方式選擇
-&lt;ul&gt;
-&lt;li&gt;建議使用 setter 注入&lt;/li&gt;
-&lt;li&gt;第三方技術根據情況選擇&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;Spring 官方文檔&lt;/li&gt;
+&lt;li&gt;MyBatis 官方文檔&lt;/li&gt;
+&lt;li&gt;黑馬程序員教程&lt;/li&gt;
+&lt;li&gt;GitHub 優秀開源項目&lt;/li&gt;
+&lt;li&gt;技術社區分享&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;依賴自動裝配&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴自動裝配&#34;&gt;#&lt;/a&gt; 依賴自動裝配&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;配置中使用 bean 標籤 autowire 屬性設置自動裝配的類型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;bookDao &amp;quot; class=&amp;quot;com.itheima.dao.impl.BookDaoImpl&amp;quot;/&amp;gt;
-&amp;lt;bean id=&amp;quot;bookService&amp;quot; class=&amp;quot;com.itheima.service.impl.BookServiceImpl&amp;quot; autowire=&amp;quot;byType&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;依賴自動裝配特征&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#依賴自動裝配特征&#34;&gt;#&lt;/a&gt; 依賴自動裝配特征&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;自動裝配用於引用類型依賴注入，不能對簡單類型進行操作&lt;/li&gt;
-&lt;li&gt;使用按類型裝配時（byType) 必須保障容器中相同類型的 bean 唯一，推薦使用&lt;/li&gt;
-&lt;li&gt;使用按名稱裝配時（byName) 必須保障容器中具有指定名稱的 bean, 因變名與配置耦合&lt;/li&gt;
-&lt;li&gt;自動裝配優先圾低於 setter 注入與構造器注入，同時出現自動裝配配置失效&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;小結-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小結-2&#34;&gt;#&lt;/a&gt; 小結&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;自動裝配概念&lt;/li&gt;
-&lt;li&gt;自動裝配類型&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;注入集合對象&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注入集合對象&#34;&gt;#&lt;/a&gt; 注入集合對象&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;注入數組對象&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;數組&lt;/li&gt;
-&lt;li&gt;list&lt;/li&gt;
-&lt;li&gt;set&lt;/li&gt;
-&lt;li&gt;map&lt;/li&gt;
-&lt;li&gt;properties&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;property name=&amp;quot;array&amp;quot;&amp;gt;
-    &amp;lt;array&amp;gt;
-        &amp;lt;value&amp;gt;100&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;200&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;300&amp;lt;/value&amp;gt;
-    &amp;lt;/array&amp;gt;
-&amp;lt;/property&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;property name=&amp;quot;list&amp;quot;&amp;gt;
-    &amp;lt;list&amp;gt;
-        &amp;lt;value&amp;gt;itcast&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;itheima&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;boxuegu&amp;lt;/value&amp;gt;
-    &amp;lt;/list&amp;gt;
-&amp;lt;/property&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;property name=&amp;quot;set&amp;quot;&amp;gt;
-    &amp;lt;set&amp;gt;
-        &amp;lt;value&amp;gt;itcast&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;itheima&amp;lt;/value&amp;gt;
-        &amp;lt;value&amp;gt;boxuegu&amp;lt;/value&amp;gt;
-    &amp;lt;/set&amp;gt;
-&amp;lt;/property&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;property name=&amp;quot;map&amp;quot;&amp;gt;
-    &amp;lt;map&amp;gt;
-        &amp;lt;entry key=&amp;quot;country&amp;quot; value=&amp;quot;china&amp;quot;/&amp;gt;
-        &amp;lt;entry key=&amp;quot;province&amp;quot; value=&amp;quot;henan&amp;quot;/&amp;gt;
-        &amp;lt;entry key=&amp;quot;city&amp;quot; value=&amp;quot;kaifeng&amp;quot;/&amp;gt;
-    &amp;lt;/map&amp;gt;
-&amp;lt;/property&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;property name=&amp;quot;properties&amp;quot;&amp;gt;
-    &amp;lt;props&amp;gt;
-        &amp;lt;prop key=&amp;quot;country&amp;quot;&amp;gt;china&amp;lt;/prop&amp;gt;
-        &amp;lt;prop key=&amp;quot;province&amp;quot;&amp;gt;henan&amp;lt;/prop&amp;gt;
-        &amp;lt;prop key=&amp;quot;city&amp;quot;&amp;gt;kaifeng&amp;lt;/prop&amp;gt;
-    &amp;lt;/props&amp;gt;
-&amp;lt;/property&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;小結-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小結-3&#34;&gt;#&lt;/a&gt; 小結&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;注入集合&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;案例數據源對象管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#案例數據源對象管理&#34;&gt;#&lt;/a&gt; 案例：數據源對象管理&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;第三方資源配置管理&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;導入 druid 座標&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;dependency&amp;gt;
-    &amp;lt;groupId&amp;gt;com.alibaba&amp;lt;/groupId&amp;gt;
-    &amp;lt;artifacId&amp;gt;druid&amp;lt;/artifacId&amp;gt;
-    &amp;lt;version&amp;gt;1.1.16&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;配置數據源對象作為 spring 管理的 bean&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean id=&amp;quot;dataSource&amp;quot; class=&amp;quot;com.alibaba.druid.poo1.DruidDataSource&amp;quot;&amp;gt;
-    &amp;lt;property name=&amp;quot;driverClassName&amp;quot; value=&amp;quot;com.mysql.jdbc.Driver&amp;quot;/&amp;gt;
-    &amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;jdbc:mysql://127.0.0.1:3306/spring_db&amp;quot;/&amp;gt;
-    &amp;lt;property name=&amp;quot;username&amp;quot; value=&amp;quot;root&amp;quot;/&amp;gt;
-    &amp;lt;property name=&amp;quot;password&amp;quot; value=&amp;quot;root&amp;quot;/&amp;gt;
-&amp;lt;/bean&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;小結-4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小結-4&#34;&gt;#&lt;/a&gt; 小結&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;spring 管理第三方資源&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DruidDataSource&lt;/li&gt;
-&lt;li&gt;ComboPooledDataSource&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;加載properties文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#加載properties文件&#34;&gt;#&lt;/a&gt; 加載 properties 文件&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;不加載系統屬性&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;context:property-placeholder location=&amp;quot;jdbc.properties&amp;quot; system-properties-mode=&amp;quot;NEVER&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;加載多個 properties 文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;context:property-placeholder location=&amp;quot;jdbc.properties,msg.properties&amp;quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;加載所以 properties 文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;context:property-placeholder locaiton=&amp;quot;*.properties&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;加載 properties 文件標準格式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;context:property-placeholder location=&amp;quot;classpath:*.properties&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;從類路徑或 jar 包中搜索並加載 properties 文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;context:property-placeholder location=&amp;quot;classpath*:*.properties&amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;小結-5&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#小結-5&#34;&gt;#&lt;/a&gt; 小結&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;加載 properties 配置文件信息&lt;/li&gt;
-&lt;li&gt;開啟命名空間方式&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h1 id=&#34;容器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#容器&#34;&gt;#&lt;/a&gt; 容器&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;創建容器&lt;/li&gt;
-&lt;li&gt;獲取 bean&lt;/li&gt;
-&lt;li&gt;容器類層次結構&lt;/li&gt;
-&lt;li&gt;beanFactory&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;創建容器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#創建容器&#34;&gt;#&lt;/a&gt; 創建容器&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;方式一：類路徑加載配置文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;ApplicationContext ctx= new ClassPathXmlApplicationContext(&amp;quot;applicationContext.xml&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;方式二：使用 bean 名稱獲取並指定類型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;ApplicationContext ctx= new FileSystemXmlApplicationContext(&amp;quot;D://applicationContext.xml&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;加載多個配置文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;ApplicationContext ctx= new ClassPathXmlApplicationContext(&amp;quot;bean1.xml&amp;quot;,&amp;quot;bean2.xml&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;獲取bean&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#獲取bean&#34;&gt;#&lt;/a&gt; 獲取 bean&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;方式一：使用 bean 名稱獲取&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;BookDao bookDao=(BookDao)ctx.getBean(&amp;quot;bookDao&amp;quot;);
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;方式二：使用 bean 名稱獲取並指定類型&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;BookDao bookDao = ctx.getBean(&amp;quot;bookDao&amp;quot;, BookDao.class);
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;方法三：使用 bean 類型獲取&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;BookDao bookDao= ctx.getBean(BookDao.class);
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h1 id=&#34;核心容器總結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#核心容器總結&#34;&gt;#&lt;/a&gt; 核心容器總結&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;容器相關&lt;/li&gt;
-&lt;li&gt;bean 相關&lt;/li&gt;
-&lt;li&gt;依賴注入相關&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;BeanFactory 是 ioc 容器的頂層接口，初始化 beanfactory 對象時，加載的 bean 延遲加載&lt;/li&gt;
-&lt;li&gt;applicationContext 接口是 spring 容器的核心接口，初始化時 bean 立即加載&lt;/li&gt;
-&lt;li&gt;applicationContext 接口提供基礎的 bean 操作相關方法，通過其他接口擴展其功能&lt;/li&gt;
-&lt;li&gt;applicationContext 接口常用初始化類
-&lt;ul&gt;
-&lt;li&gt;ClassPathXmlApplicationContext&lt;/li&gt;
-&lt;li&gt;FileSystemXmlApplicationContext&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-java=&#34;&gt;&amp;lt;bean
-    id=&amp;quot;bookDao&amp;quot;
-    name=&amp;quot;dao bookDaoImpl daoImpl&amp;quot;
-    class=&amp;quot;com.itheima.dao.impl.BookDaoImpl&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;code&gt;中央處理器(cpu)&lt;/code&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;英文&lt;/th&gt;
-&lt;th&gt;功能&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;數據記憶體；資料記憶體&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;data memory&lt;/td&gt;
-&lt;td&gt;CPU 做完算術或邏輯運算後的結果必要時要回存到記憶體或 I/O 裝置&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td colspan=&#34;2&#34;&gt;&lt;/td&gt;
-&lt;td&gt;----&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;----&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;!-- ![](https://i.imgur.com/SL7B0Pp.png)
-
-# register
-
-
-
-![](https://i.imgur.com/4w1KkJW.gif)
-
- --&gt;
-&lt;h1 id=&#34;jump-指令-細分種類&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#jump-指令-細分種類&#34;&gt;#&lt;/a&gt; jump 指令 細分種類&lt;/h1&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;code&gt;暫存器種類&lt;/code&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;code&gt;Function&lt;/code&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;資料暫存器&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;用來儲存整數數字（參考以下的浮點暫存器）。在某些簡單（或舊）的 CPU，特別的資料暫存器是用於數學計算的累加器。&lt;/td&gt;
-&lt;td&gt;功能&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td colspan=&#34;2&#34;&gt;&lt;/td&gt;
-&lt;td&gt;----&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:---------:&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:-------:&lt;/td&gt;
-&lt;td&gt;--------&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/2yW1q3o.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h1 id=&#34;講解-register-與-verilog-程式結構&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#講解-register-與-verilog-程式結構&#34;&gt;#&lt;/a&gt; 講解 REGISTER 與 verilog 程式結構&lt;/h1&gt;
-&lt;blockquote&gt;&lt;span class=&#34;custom-blockquote-svg&#34;&gt;&lt;svg width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; data-reactroot=&#34;&#34;&gt;
-&lt;path fill=&#34;&#34; d=&#34;M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path fill=&#34;&#34; d=&#34;M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path fill=&#34;&#34; d=&#34;M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z&#34; undefined=&#34;1&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z&#34;&gt;&lt;/path&gt;
-&lt;path stroke-linejoin=&#34;round&#34; stroke-linecap=&#34;round&#34; stroke-miterlimit=&#34;10&#34; stroke-width=&#34;2&#34; stroke=&#34;&#34; d=&#34;M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z&#34;&gt;&lt;/path&gt;
-&lt;/svg&gt;
-&lt;/span&gt;&lt;p&gt;[name=bill503084699]&lt;/p&gt;&lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/oTlKj0Y.png&#34; alt=&#34;&#34;&gt;&lt;br&gt;
-2. 介紹以 Register 的架構所呈現出來的圖&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  用第三組的圖去做詮釋
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/5RzVbCZ.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;定義接腳&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#定義接腳&#34;&gt;#&lt;/a&gt; 定義接腳&lt;/h2&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;依照慣例我們先把模組名稱定義出來，接下來就是小括號 &amp;quot;埠列信號&amp;quot; 的部分，將輸入跟指定輸出到哪一個 以 rs1addr rs2addr 另外我們需要額外拉出兩條線控制輸入可以寫入還是說可以被讀，以 write anable 跟 read able 給列出來，將位址與 腳位是先定義出來&lt;/p&gt;
-&lt;p&gt;然後 define 可以寫在其他地方？但寫出來會 vivado 比較好認，之後才會用到，這邊就先暫時這樣寫，不過在教學上我們先&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;前面這些定義宣告都只是資料跟位置而已  接腳的話我們就先定義到這邊，但在 reg 5? 裏頭還有很多定義資料的空間&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;相關圖片比較 (比較知道腳位寫在哪)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://i.imgur.com/1td3mjj.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;img src=&#34;https://i.imgur.com/Mb9roNA.jpg&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td colspan=&#34;2&#34;&gt;&lt;/td&gt;
-&lt;td&gt;----&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:---------:&lt;/td&gt;
-&lt;td&gt;:----:&lt;/td&gt;
-&lt;td&gt;:-------:&lt;/td&gt;
-&lt;td&gt;--------&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;設定register-內定的假設式子&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#設定register-內定的假設式子&#34;&gt;#&lt;/a&gt; 設定 register 內定的假設式子&lt;/h2&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;reg[31:0]regfile[31:0];
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;||||&lt;br&gt;
-5. kim 總結 32 個抽屜 裏頭有 32 個格&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充下面&#34;&gt;#&lt;/a&gt; 補充下面&lt;/h4&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;p&gt;clock always 的式子&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;always@(posedge clk)begin  
-    if(reset==1&#39;b1)begin  
-        if((we==1&#39;b1)&amp;amp;&amp;amp;(wb_addr1 =0));//被告知要送到$0就拒絕不送
-        regfile[wb_addr]&amp;lt;wb_data;    //[wb_addr]塞裡面你要對它做動作的位置,因此我們要寫入data寫到[wb_addr]的這個位置裡面,我們要寫入的動作還要連一條線去指定register要寫入到哪麼地方
-    end
-end
-        
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;謝祥辰 — 2022/07/28 我在網路上查到的資料是指個數&lt;br&gt;
-不是 bit 表示&lt;br&gt;
- willwho - 我記得當時做 ADL 的時候 bit 還可以 多個 bit 你還是要額外宣告它不然會出錯 但這邊都是 1bit 因此目前暫定不用&lt;/p&gt;
-&lt;p&gt;結論 - 但我們 enable 都是 1bit 而已因此我們目前暫定不用改&lt;br&gt;
-然後 == 代表說不關多少位元只要遇到 ==0 都會代表 0 的關係因此&lt;/p&gt;
-&lt;p&gt;當時 penquuin 提出來的問題，你先把 off  0 遞值 off0 指示全 0 , 因為沒試過說 == 能不能表 0&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
-`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
-`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;p&gt;clk  將 reset=1’b1 改成！reset 的式子&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-        
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;if (reset=1’b1) reset 拉起來的時候去做重製&lt;/li&gt;
-&lt;li&gt;if (!reset)     reset 放下來的時候去做重製&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;最終呈現 register 電路圖&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/yYUHqF1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面-2&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/HRXvRxw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/457620455&#34;&gt;自己動手寫 RISC-V CPU -（4）增加分支預測功能&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;希望這份學習筆記能夠幫助到同樣在學習 SSM 框架的朋友們。如有問題，歡迎交流討論。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

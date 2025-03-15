@@ -3,98 +3,26 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;employment history&#34; category</title>
     <link href="http://example.com" />
-    <updated>2024-02-08T15:01:21.388Z</updated>
+    <updated>2025-03-15T15:23:52.448Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
     <category term="coding" />
-    <category term="hexo 框架簡單介紹" />
-    <category term="工作" />
     <category term="藝術品製作" />
+    <category term="Hexo框架简单介绍" />
+    <category term="工作" />
     <category term="後端" />
     <category term="AI生成繪圖" />
     <entry>
-        <id>http://example.com/post/index%208.html</id>
-        <title>皮革工廠化驗室助理之工作心得</title>
-        <link rel="alternate" href="http://example.com/post/index%208.html"/>
-        <content type="html">&lt;h2 id=&#34;高中畢業的第一份工作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#高中畢業的第一份工作&#34;&gt;#&lt;/a&gt; 高中畢業的第一份工作&lt;/h2&gt;
-&lt;p&gt;工時素質：★ ★ ★ ☆ ☆&lt;br&gt;
-工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ☆ ☆ ☆&lt;br&gt;
-工作量：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工時長：★ ☆ ☆ ☆ ☆&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rVLuR4C.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;以上是染織皮革的工作環境&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;化驗室實驗助理&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;要去先看配方要用的材料依序調配，如果不夠要去現場做補料為主&lt;/li&gt;
-&lt;li&gt;等待時間時間到依序加材料到鼓染機裡頭或是要水洗再依序加，最後拿出來要鋪一個塑膠帶第一個皮革正面朝下底部朝上之後皮革依序都是正面朝上為主&lt;/li&gt;
-&lt;li&gt;筆記&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;有時候需要去幫藥廠客戶染皮革&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;p&gt;這是份要非常不介意工作環境跟氣味的人才適合做的工作，不過這是工廠內部最好的職缺可以直升廠長的工作，而且可以邊工作邊讀書，&lt;/p&gt;
-</content>
-        <category term="工作" />
-        <updated>2024-02-08T15:01:21.388Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index%205.html</id>
-        <title>印刷學徒の打工心得</title>
-        <link rel="alternate" href="http://example.com/post/index%205.html"/>
+        <id>http://example.com/post/index.html</id>
+        <title>房務員の打工心得</title>
+        <link rel="alternate" href="http://example.com/post/index.html"/>
         <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;目前工作做過最辛苦的工作&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;(惡夢級工作，跟工地粗工有得比)&lt;/p&gt;
-&lt;p&gt;工作素質：★ ★ ☆ ☆ ☆&lt;br&gt;
-工作環境：★ ★ ★ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ★ ★ ★&lt;br&gt;
-工作速度：★ ★ ★ ★ ★ ★&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★ ★&lt;br&gt;
-工時長  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;打完卡 - 開始理上千張的紙&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷&lt;/li&gt;
-&lt;li&gt;換印刷呂板&lt;/li&gt;
-&lt;li&gt;將清潔劑塗在呂板上&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;除了差點累死外（要叫救護車的情況）否則沒有其他狀況&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;完全是外勞主場的工作，非常不行的工作，又都沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去&lt;/p&gt;
-</content>
-        <category term="工作" />
-        <updated>2024-02-08T14:48:17.200Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index%209.html</id>
-        <title>光學強化員之工作心得</title>
-        <link rel="alternate" href="http://example.com/post/index%209.html"/>
-        <content type="html">&lt;p&gt;從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
-工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ★ ★ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
+&lt;p&gt;這份工作算適合一般畢業學生臨時找不到工作而選擇的工作，或是適合給熱愛家事打理的族群，其實工作不一定會有冷氣，只是工作環境乾淨是真的，蠻忙碌的一份工作&lt;/p&gt;
 &lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
 &lt;p&gt;浴室部份 - 基於試做 2 天而已而做的紀錄&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;先穿防塵衣&lt;/li&gt;
+&lt;li&gt;打完卡先去檢查負責樓層的房間有沒有房客是有在門口放須清潔的卡牌與前日未清洗衣物，拿到辦公室去做填表檢查與登記，再把衣物清潔卡牌放在客人門旁&lt;/li&gt;
 &lt;li&gt;先檢查負責的房間號數看燈是否裡面有客人，房務車必須從清潔室開出來並來到客人門前先敲 3 下說 house keepping 3 次，如沒人回應先開門放萬能房卡開燈&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
@@ -105,8 +33,6 @@
 &lt;li&gt;用清潔劑在浴室各處噴一些（依照順序 - 鏡子 洗手台 浴缸 浴室 馬桶 地板噴一些) 快速噴一遍 沖一遍 再拿大毛巾 擦一遍 最後再用吸塵器把地板與抽屜吸頭髮吸乾淨（也可以用毛巾輕輕貼著地板慢慢拖地板拖到門外）&lt;/li&gt;
 &lt;li&gt;補補品&lt;/li&gt;
 &lt;li&gt;15 間房間清潔完去 3 樓補補品，最後回到辦公室等時間下班&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
 &lt;ul&gt;
@@ -114,28 +40,28 @@
 &lt;li&gt;8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;### 心得&lt;/p&gt;
-&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;br&gt;
- More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;/p&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;工作素質：★ ★ ★ ★ ★&lt;br&gt;
+工作環境：★ ★ ★ ★ ★&lt;br&gt;
+工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ★ ★ ★&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★&lt;br&gt;
+工時長  ：★ ★ ★ ☆ ☆&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2024-02-08T14:41:39.588Z</updated>
+        <updated>2025-03-15T15:23:52.448Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/post/index%204.html</id>
-        <title>景觀修復師の工作心得</title>
-        <link rel="alternate" href="http://example.com/post/index%204.html"/>
-        <content type="html">&lt;h3 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h3&gt;
-&lt;p&gt;算稱得上是一份好的工作&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作素質：★ ★ ★ ☆ ☆&lt;br&gt;
-工作環境：★ ★ ★ ★ ☆&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
-工作速度：★ ★ ★ ★ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ☆ ☆&lt;br&gt;
-工時長  ：★ ★ ☆ ☆ ☆&lt;/p&gt;
+        <id>http://example.com/post/index%205.html</id>
+        <title>印刷學徒の打工心得</title>
+        <link rel="alternate" href="http://example.com/post/index%205.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;目前工作做過最辛苦的工作&lt;/p&gt;
 &lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;p&gt;打完卡 - 開始理上萬張的紙&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;開完會後先去用具區將太空包拿四個放在板車底下&lt;/li&gt;
+&lt;li&gt;不斷的將詹板上的紙推到專門放紙的地方像撲克牌一樣往上推直到邊邊都整整齊齊，印完才能推到機器下讓他吸上去進機器印刷&lt;/li&gt;
 &lt;li&gt;換印刷呂板&lt;/li&gt;
 &lt;li&gt;將清潔劑塗在呂板上&lt;/li&gt;
 &lt;/ol&gt;
@@ -144,26 +70,115 @@
 &lt;li&gt;除了差點累死外（要叫救護車的情況）否則沒有其他狀況&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;### 心得&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt; 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵安平工業區的工作
+&lt;pre&gt;&lt;code&gt; 粗工不說,偏偏說很乾淨,還說裡面都大學畢業,結果通通是外勞,雖然試做只有3天但只給800沒勞健保,以後看到這篇文章的人都不要去應徵*安*平工業區的工作
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;完全是外勞主場的工作，非常不行的工作，明明要淘汰的工廠狗眼纏喘，爛得要死的工作，又都完全沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪安平工業區沒人想去&lt;/p&gt;
+&lt;p&gt;完全是外勞主場的工作，又都沒有福利可言，讓我萌出想去勞工局投訴的工作，難怪&lt;em&gt;安&lt;/em&gt;平工業區沒人想去&lt;/p&gt;
+&lt;p&gt;### 評價&lt;/p&gt;
+&lt;p&gt;(惡夢級工作，跟工地粗工有得比)&lt;/p&gt;
+&lt;p&gt;工作素質：★ ★ ☆ ☆ ☆&lt;br&gt;
+工作環境：★ ★ ★ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ★ ★ ★&lt;br&gt;
+工作速度：★ ★ ★ ★ ★ ★&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★ ★ ★&lt;br&gt;
+工時長  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2023-11-19T03:05:57.052Z</updated>
+        <updated>2025-03-15T14:26:18.960Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%202.html</id>
         <title>工程測量人員の工作內容與心得</title>
         <link rel="alternate" href="http://example.com/post/index%202.html"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ZKHlKFO.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;### 評價&lt;/p&gt;
-&lt;p&gt;工作素質：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
-工作難度：★ ★ ★ ★ ★&lt;br&gt;
-工作速度：★ ☆ ☆ ☆ ☆&lt;br&gt;
-工作量  ：★ ★ ★ ★ ☆&lt;br&gt;
-工時長  ：★ ★ ★ ★ ★&lt;/p&gt;
-&lt;h3 id=&#34;吳大哥今日教我的東西&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#吳大哥今日教我的東西&#34;&gt;#&lt;/a&gt; 吳大哥今日教我的東西&lt;/h3&gt;
+        <content type="html">&lt;h2 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;img src=&#34;https://i.imgur.com/ZKHlKFO.jpg&#34; alt=&#34;&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;date: 2024-01-09 11:00:00&lt;/p&gt;
+&lt;h1 id=&#34;工程測量人員の工作內容與心得&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工程測量人員の工作內容與心得&#34;&gt;#&lt;/a&gt; 工程測量人員の工作內容與心得&lt;/h1&gt;
+&lt;p&gt;工程測量人員的主要工作是負責對各類建設工程項目進行測量與放樣，確保工程設計圖紙能夠準確無誤地落實到現場。&lt;/p&gt;
+&lt;h2 id=&#34;1-工作內容概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-工作內容概述&#34;&gt;#&lt;/a&gt; 1. 工作內容概述&lt;/h2&gt;
+&lt;h3 id=&#34;11-現場測量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-現場測量&#34;&gt;#&lt;/a&gt; 1.1 現場測量&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;地形測量&lt;/strong&gt;：收集土地的形狀、尺寸、高低等信息&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;放樣測量&lt;/strong&gt;：根據設計圖紙，將設計的基準點、建築物位置、基礎線等準確標示在現場&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工程測量&lt;/strong&gt;：負責確定各建設項目的精確位置和結構，確保其符合設計要求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-數據處理與分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#12-數據處理與分析&#34;&gt;#&lt;/a&gt; 1.2 數據處理與分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;測量數據分析&lt;/strong&gt;：將測量得到的數據進行整理和處理，使用專業軟件進行分析，確保測量結果的準確性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;編寫報告&lt;/strong&gt;：根據測量結果撰寫詳細報告，提供設計、施工方參考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-協調與溝通&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#13-協調與溝通&#34;&gt;#&lt;/a&gt; 1.3 協調與溝通&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;與工程師協作&lt;/strong&gt;：確保測量工作與施工進度相符，及時調整測量方案&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;現場監督&lt;/strong&gt;：檢查施工現場是否遵循測量數據進行作業，並提供及時反饋&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-工作所需技能與知識&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-工作所需技能與知識&#34;&gt;#&lt;/a&gt; 2. 工作所需技能與知識&lt;/h2&gt;
+&lt;p&gt;工程測量人員需要具備一定的技術與知識儲備，主要包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;測量儀器的操作&lt;/strong&gt;：熟悉使用全站儀、經緯儀、水準儀等常見測量工具&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;數據分析技能&lt;/strong&gt;：能夠使用 AutoCAD、GIS、或其他測量軟件進行數據處理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;地理與工程知識&lt;/strong&gt;：對土地測量原理、建設規範和相關法規有深刻理解&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;現場判斷能力&lt;/strong&gt;：能夠根據現場情況作出合理判斷，解決測量過程中可能出現的各種問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-工作挑戰與心得&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-工作挑戰與心得&#34;&gt;#&lt;/a&gt; 3. 工作挑戰與心得&lt;/h2&gt;
+&lt;h3 id=&#34;31-挑戰&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#31-挑戰&#34;&gt;#&lt;/a&gt; 3.1 挑戰&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;天氣條件&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在戶外進行測量時，經常需要面對各種天氣情況&lt;/li&gt;
+&lt;li&gt;極端天氣下，工作環境的變化對測量的精確度影響較大&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;地形復雜性&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;某些建設地點的地形非常複雜&lt;/li&gt;
+&lt;li&gt;需要多次測量，確保每一個細節都能準確對應到設計圖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;人力資源的協調&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;測量工作需要與施工隊伍、設計師等多方協作&lt;/li&gt;
+&lt;li&gt;要求我們在溝通上做到精準且高效&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;32-心得&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#32-心得&#34;&gt;#&lt;/a&gt; 3.2 心得&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;耐心與細心&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;測量工作需要極大的耐心與細心&lt;/li&gt;
+&lt;li&gt;對每一個細節都不能掉以輕心&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;實踐的重要性&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;測量的技術和方法在實際操作中得到了強化&lt;/li&gt;
+&lt;li&gt;理論與實踐的結合讓我能夠更快速地解決工作中的問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;持續學習&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;隨著技術的發展，測量工具和方法也在不斷變化&lt;/li&gt;
+&lt;li&gt;學習新的技術，掌握最新的測量儀器，是非常重要的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;4-未來發展方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-未來發展方向&#34;&gt;#&lt;/a&gt; 4. 未來發展方向&lt;/h2&gt;
+&lt;p&gt;隨著科技的不斷進步，未來的工程測量人員可能會更多地使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;無人機&lt;/li&gt;
+&lt;li&gt;激光掃描等新型技術&lt;/li&gt;
+&lt;li&gt;提升測量效率和精確度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外，測量與建設過程中的數據集成也將成為未來的趨勢，這對測量人員的綜合能力提出了更高的要求。&lt;/p&gt;
+&lt;h2 id=&#34;總結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h2&gt;
+&lt;p&gt;作為一名工程測量人員，不僅需要具備扎實的專業技能，還要有較強的解決問題的能力。測量工作不僅是一項技術性工作，還是一項需要高度責任感的工作，因為它直接影響到工程的質量和安全。&lt;/p&gt;
+&lt;p&gt;在未來，我會繼續提升自己的專業知識，並在工作中不斷完善自己的技術與能力，為工程項目的順利完成貢獻力量。&lt;/p&gt;
+&lt;h3 id=&#34;接下來是筆記-吳大哥今日教我的東西&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#接下來是筆記-吳大哥今日教我的東西&#34;&gt;#&lt;/a&gt; 接下來是筆記 吳大哥今日教我的東西&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;儀器藍芽的角朝上，放進箱子才能放得剛好 鏡頭朝下&lt;/p&gt;
@@ -423,9 +438,491 @@
 &lt;p&gt;遇到水準儀最後的誤差差 5cm 但用城市最後的結果為準的是因為平差距離相同互相抵銷所導致的&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;### 評價&lt;/p&gt;
+&lt;p&gt;工作素質：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ★ ★&lt;br&gt;
+工作速度：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工作量  ：★ ★ ★ ★ ☆&lt;br&gt;
+工時長  ：★ ★ ★ ★ ★&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2023-11-18T10:14:55.572Z</updated>
+        <updated>2025-03-15T14:21:29.656Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/post/index%209.html</id>
+        <title>光學強化員之工作心得</title>
+        <link rel="alternate" href="http://example.com/post/index%209.html"/>
+        <content type="html">&lt;p&gt;從事生產線的第一份工作，深刻體會製造業的辛勞，哪怕是再小間不過的家族企業&lt;br&gt;
+ date: 2024-01-09 16:00:00&lt;/p&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;h1 id=&#34;光學強化員之工作心得&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#光學強化員之工作心得&#34;&gt;#&lt;/a&gt; 光學強化員之工作心得&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;作為一名光學強化員，我們的工作主要是通過專業的技術和設備，對各種光學產品進行處理和強化，以提升其性能和使用壽命。這份工作既需要專業知識，也需要豐富的實踐經驗。&lt;/p&gt;
+&lt;h2 id=&#34;工作內容概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作內容概述&#34;&gt;#&lt;/a&gt; 工作內容概述&lt;/h2&gt;
+&lt;h3 id=&#34;1-光學鍍膜處理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-光學鍍膜處理&#34;&gt;#&lt;/a&gt; 1. 光學鍍膜處理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;真空鍍膜工藝操作&lt;/li&gt;
+&lt;li&gt;鍍膜參數調整與控制&lt;/li&gt;
+&lt;li&gt;鍍膜質量檢測與評估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-表面處理技術&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-表面處理技術&#34;&gt;#&lt;/a&gt; 2. 表面處理技術&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;光學元件清洗&lt;/li&gt;
+&lt;li&gt;表面拋光處理&lt;/li&gt;
+&lt;li&gt;防反射處理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-品質控制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-品質控制&#34;&gt;#&lt;/a&gt; 3. 品質控制&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;光學性能測試&lt;/li&gt;
+&lt;li&gt;外觀檢查&lt;/li&gt;
+&lt;li&gt;數據記錄與分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;專業技能要求&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#專業技能要求&#34;&gt;#&lt;/a&gt; 專業技能要求&lt;/h2&gt;
+&lt;h3 id=&#34;1-基礎知識&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-基礎知識&#34;&gt;#&lt;/a&gt; 1. 基礎知識&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;光學原理&lt;/li&gt;
+&lt;li&gt;材料科學&lt;/li&gt;
+&lt;li&gt;真空技術&lt;/li&gt;
+&lt;li&gt;薄膜光學&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-操作技能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-操作技能&#34;&gt;#&lt;/a&gt; 2. 操作技能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;真空鍍膜設備操作&lt;/li&gt;
+&lt;li&gt;檢測儀器使用&lt;/li&gt;
+&lt;li&gt;工藝參數調整&lt;/li&gt;
+&lt;li&gt;故障診斷與處理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-質量管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-質量管理&#34;&gt;#&lt;/a&gt; 3. 質量管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;產品標準理解&lt;/li&gt;
+&lt;li&gt;質量控制流程&lt;/li&gt;
+&lt;li&gt;數據分析能力&lt;/li&gt;
+&lt;li&gt;問題追蹤與解決&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工作挑戰與解決方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作挑戰與解決方案&#34;&gt;#&lt;/a&gt; 工作挑戰與解決方案&lt;/h2&gt;
+&lt;h3 id=&#34;1-技術挑戰&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-技術挑戰&#34;&gt;#&lt;/a&gt; 1. 技術挑戰&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;問題&lt;/strong&gt;：鍍膜均勻性控制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解決方案&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;優化工藝參數&lt;/li&gt;
+&lt;li&gt;改進夾具設計&lt;/li&gt;
+&lt;li&gt;定期設備維護&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-品質管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-品質管理&#34;&gt;#&lt;/a&gt; 2. 品質管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;問題&lt;/strong&gt;：產品一致性保證&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解決方案&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;建立標準操作流程&lt;/li&gt;
+&lt;li&gt;加強過程控制&lt;/li&gt;
+&lt;li&gt;完善檢測方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-效率提升&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-效率提升&#34;&gt;#&lt;/a&gt; 3. 效率提升&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;問題&lt;/strong&gt;：生產效率優化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;解決方案&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;工序優化&lt;/li&gt;
+&lt;li&gt;自動化改進&lt;/li&gt;
+&lt;li&gt;人員培訓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;工作心得體會&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作心得體會&#34;&gt;#&lt;/a&gt; 工作心得體會&lt;/h2&gt;
+&lt;h3 id=&#34;1-專業素養的重要性&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-專業素養的重要性&#34;&gt;#&lt;/a&gt; 1. 專業素養的重要性&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;持續學習新技術&lt;/li&gt;
+&lt;li&gt;保持嚴謹工作態度&lt;/li&gt;
+&lt;li&gt;注重細節管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-團隊協作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-團隊協作&#34;&gt;#&lt;/a&gt; 2. 團隊協作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;加強部門間溝通&lt;/li&gt;
+&lt;li&gt;分享經驗與技巧&lt;/li&gt;
+&lt;li&gt;共同解決問題&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-創新思維&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-創新思維&#34;&gt;#&lt;/a&gt; 3. 創新思維&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;改進工作方法&lt;/li&gt;
+&lt;li&gt;優化生產流程&lt;/li&gt;
+&lt;li&gt;提出創新建議&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;職業發展方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#職業發展方向&#34;&gt;#&lt;/a&gt; 職業發展方向&lt;/h2&gt;
+&lt;h3 id=&#34;1-技術深化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-技術深化&#34;&gt;#&lt;/a&gt; 1. 技術深化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;專業技能提升&lt;/li&gt;
+&lt;li&gt;新工藝研究&lt;/li&gt;
+&lt;li&gt;技術創新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-管理發展&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-管理發展&#34;&gt;#&lt;/a&gt; 2. 管理發展&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;項目管理&lt;/li&gt;
+&lt;li&gt;團隊領導&lt;/li&gt;
+&lt;li&gt;質量管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-研發方向&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-研發方向&#34;&gt;#&lt;/a&gt; 3. 研發方向&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;新材料應用&lt;/li&gt;
+&lt;li&gt;工藝改進&lt;/li&gt;
+&lt;li&gt;設備開發&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;經驗總結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#經驗總結&#34;&gt;#&lt;/a&gt; 經驗總結&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;技術積累&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;系統學習理論知識&lt;/li&gt;
+&lt;li&gt;豐富實踐經驗&lt;/li&gt;
+&lt;li&gt;總結技術要點&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;質量意識&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;嚴格執行標準&lt;/li&gt;
+&lt;li&gt;注重過程控制&lt;/li&gt;
+&lt;li&gt;持續改進意識&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;創新精神&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;勇於嘗試新方法&lt;/li&gt;
+&lt;li&gt;積極提出建議&lt;/li&gt;
+&lt;li&gt;追求技術突破&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;未來展望&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#未來展望&#34;&gt;#&lt;/a&gt; 未來展望&lt;/h2&gt;
+&lt;h3 id=&#34;1-技術發展趨勢&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-技術發展趨勢&#34;&gt;#&lt;/a&gt; 1. 技術發展趨勢&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;自動化程度提升&lt;/li&gt;
+&lt;li&gt;新材料應用擴展&lt;/li&gt;
+&lt;li&gt;智能製造導入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-個人發展規劃&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-個人發展規劃&#34;&gt;#&lt;/a&gt; 2. 個人發展規劃&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;專業能力提升&lt;/li&gt;
+&lt;li&gt;管理經驗積累&lt;/li&gt;
+&lt;li&gt;創新能力培養&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-行業發展機遇&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-行業發展機遇&#34;&gt;#&lt;/a&gt; 3. 行業發展機遇&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;市場需求增長&lt;/li&gt;
+&lt;li&gt;技術創新機會&lt;/li&gt;
+&lt;li&gt;產業升級機遇&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;結語&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#結語&#34;&gt;#&lt;/a&gt; 結語&lt;/h2&gt;
+&lt;p&gt;作為光學強化員，我們需要不斷學習和進步，既要掌握專業技能，也要培養創新思維。通過持續的努力和積累，相信我們能在這個領域取得更好的發展，為光學產業的進步貢獻自己的力量。&lt;br&gt;
+## 評價&lt;/p&gt;
+&lt;p&gt;工作環境：★ ★ ★ ★ ☆&lt;br&gt;
+工作難度：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ★ ★ ☆&lt;br&gt;
+工作量  ：★ ★ ★ ★ ★ ★&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2025-03-15T14:16:32.968Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/post/index%208.html</id>
+        <title>皮革工廠化驗室助理之工作心得</title>
+        <link rel="alternate" href="http://example.com/post/index%208.html"/>
+        <content type="html">&lt;p&gt;高中畢業的第一份工作&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rVLuR4C.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;以上是染織皮革的工作環境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;p&gt;化驗室實驗助理&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;要去先看配方要用的材料依序調配，如果不夠要去現場做補料為主&lt;/li&gt;
+&lt;li&gt;等待時間時間到依序加材料到鼓染機裡頭或是要水洗再依序加，最後拿出來要鋪一個塑膠帶第一個皮革正面朝下底部朝上之後皮革依序都是正面朝上為主&lt;/li&gt;
+&lt;li&gt;筆記&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;有時候需要去幫藥廠客戶染皮革&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### 心得&lt;/p&gt;
+&lt;p&gt;這是份要非常不介意工作環境跟氣味的人才適合做的工作，不過這是工廠內部最好的職缺可以直升廠長的工作，而且可以邊工作邊讀書&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;## 評價&lt;br&gt;
+工時素質：★ ★ ★ ☆ ☆&lt;br&gt;
+工作環境：☆ ☆ ☆ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ☆ ☆ ☆&lt;br&gt;
+工作量：★ ☆ ☆ ☆ ☆&lt;br&gt;
+工時長：★ ☆ ☆ ☆ ☆&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2025-03-15T14:14:28.696Z</updated>
+    </entry>
+    <entry>
+        <id>http://example.com/post/index%204.html</id>
+        <title>景觀修復師の工作心得</title>
+        <link rel="alternate" href="http://example.com/post/index%204.html"/>
+        <content type="html">&lt;h3 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h3&gt;
+&lt;p&gt;還可以但是要忍受夏天酷熱與梅雨季下雨也要出工 ， 而且颱風天過後工作爆炸多&lt;/p&gt;
+&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
+&lt;h1 id=&#34;景观养护绿色空间的守护者&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#景观养护绿色空间的守护者&#34;&gt;#&lt;/a&gt; 景观养护：绿色空间的守护者&lt;/h1&gt;
+&lt;p&gt;景观养护是通过科学管理和专业技术，对景观植物、绿化设施和景观环境进行长期保养和维护的过程。它的目标是确保景观的美观、功能和生态平衡，为人们提供舒适、安全的环境。&lt;/p&gt;
+&lt;h2 id=&#34;1-景观养护概述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-景观养护概述&#34;&gt;#&lt;/a&gt; 1. 景观养护概述&lt;/h2&gt;
+&lt;p&gt;景观养护是一项系统性工作，需要专业的知识和技能，包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;植物生长管理&lt;/li&gt;
+&lt;li&gt;环境维护&lt;/li&gt;
+&lt;li&gt;设施保养&lt;/li&gt;
+&lt;li&gt;生态平衡维护&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2-景观养护的主要内容&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-景观养护的主要内容&#34;&gt;#&lt;/a&gt; 2. 景观养护的主要内容&lt;/h2&gt;
+&lt;h3 id=&#34;21-植物养护&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#21-植物养护&#34;&gt;#&lt;/a&gt; 2.1 植物养护&lt;/h3&gt;
+&lt;p&gt;植物是景观的核心要素，需要细致的养护工作：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;定期植物保护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修剪整形&lt;/li&gt;
+&lt;li&gt;生长状况监测&lt;/li&gt;
+&lt;li&gt;营养补充&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;科学浇水&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;根据植物需求调整浇水量&lt;/li&gt;
+&lt;li&gt;考虑季节气候变化&lt;/li&gt;
+&lt;li&gt;使用智能灌溉系统&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;合理施肥&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择适合的肥料类型&lt;/li&gt;
+&lt;li&gt;把握施肥时机&lt;/li&gt;
+&lt;li&gt;控制施肥量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;病虫害防治&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期检查植物健康状况&lt;/li&gt;
+&lt;li&gt;及时发现并处理病虫害&lt;/li&gt;
+&lt;li&gt;优先使用生物防治方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;除草管理&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期清除杂草&lt;/li&gt;
+&lt;li&gt;保护有益植物&lt;/li&gt;
+&lt;li&gt;维持生态平衡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;22-土壤管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#22-土壤管理&#34;&gt;#&lt;/a&gt; 2.2 土壤管理&lt;/h3&gt;
+&lt;p&gt;土壤是植物生长的基础，良好的土壤条件对植物健康至关重要：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;土壤松土&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期进行土壤疏松&lt;/li&gt;
+&lt;li&gt;改善土壤通气性&lt;/li&gt;
+&lt;li&gt;促进根系发展&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;土壤改良&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加有机质&lt;/li&gt;
+&lt;li&gt;调节土壤 pH 值&lt;/li&gt;
+&lt;li&gt;改善土壤结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;排水系统维护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期检查排水设施&lt;/li&gt;
+&lt;li&gt;及时疏通堵塞&lt;/li&gt;
+&lt;li&gt;确保系统正常运转&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;23-景观硬件设施维护&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#23-景观硬件设施维护&#34;&gt;#&lt;/a&gt; 2.3 景观硬件设施维护&lt;/h3&gt;
+&lt;p&gt;景观中的硬件设施也需要定期维护：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;步道与路面&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定期检查路面状况&lt;/li&gt;
+&lt;li&gt;修复破损部分&lt;/li&gt;
+&lt;li&gt;保持路面清洁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;水景设施&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;维护喷泉系统&lt;/li&gt;
+&lt;li&gt;清理池塘淤泥&lt;/li&gt;
+&lt;li&gt;保持水质清洁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;照明设施&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;检查灯具运行状况&lt;/li&gt;
+&lt;li&gt;更换损坏灯具&lt;/li&gt;
+&lt;li&gt;调整照明效果&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;休闲设施&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;维护座椅等设施&lt;/li&gt;
+&lt;li&gt;检查安全性能&lt;/li&gt;
+&lt;li&gt;及时修复损坏部件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;24-季节性养护工作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#24-季节性养护工作&#34;&gt;#&lt;/a&gt; 2.4 季节性养护工作&lt;/h3&gt;
+&lt;p&gt;不同季节需要不同的养护策略：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;春季养护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;促进新芽生长&lt;/li&gt;
+&lt;li&gt;补充营养&lt;/li&gt;
+&lt;li&gt;预防早春病虫害&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;夏季养护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注重防暑降温&lt;/li&gt;
+&lt;li&gt;加强浇水管理&lt;/li&gt;
+&lt;li&gt;控制杂草生长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;秋季养护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;准备越冬工作&lt;/li&gt;
+&lt;li&gt;修剪整形&lt;/li&gt;
+&lt;li&gt;补充有机质&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;冬季养护&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;防寒保护&lt;/li&gt;
+&lt;li&gt;控制浇水&lt;/li&gt;
+&lt;li&gt;维护设施&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;3-景观养护的挑战&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-景观养护的挑战&#34;&gt;#&lt;/a&gt; 3. 景观养护的挑战&lt;/h2&gt;
+&lt;h3 id=&#34;31-气候变化影响&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#31-气候变化影响&#34;&gt;#&lt;/a&gt; 3.1 气候变化影响&lt;/h3&gt;
+&lt;p&gt;全球气候变化带来的挑战：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极端天气增多&lt;/li&gt;
+&lt;li&gt;生长季节变化&lt;/li&gt;
+&lt;li&gt;病虫害发生规律改变&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;32-病虫害防治&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#32-病虫害防治&#34;&gt;#&lt;/a&gt; 3.2 病虫害防治&lt;/h3&gt;
+&lt;p&gt;病虫害防治面临的困难：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;抗药性增强&lt;/li&gt;
+&lt;li&gt;新型病虫害出现&lt;/li&gt;
+&lt;li&gt;防治成本上升&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;33-资源管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#33-资源管理&#34;&gt;#&lt;/a&gt; 3.3 资源管理&lt;/h3&gt;
+&lt;p&gt;资源使用的挑战：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;水资源紧缺&lt;/li&gt;
+&lt;li&gt;人力成本增加&lt;/li&gt;
+&lt;li&gt;材料价格上涨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;4-景观养护的未来发展&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-景观养护的未来发展&#34;&gt;#&lt;/a&gt; 4. 景观养护的未来发展&lt;/h2&gt;
+&lt;p&gt;随着环保意识提升和技术进步，景观养护将向以下方向发展：&lt;/p&gt;
+&lt;h3 id=&#34;41-智能化管理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#41-智能化管理&#34;&gt;#&lt;/a&gt; 4.1 智能化管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;引入物联网技术&lt;/li&gt;
+&lt;li&gt;使用智能监测设备&lt;/li&gt;
+&lt;li&gt;实现自动化养护&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;42-生态友好&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#42-生态友好&#34;&gt;#&lt;/a&gt; 4.2 生态友好&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;采用有机肥料&lt;/li&gt;
+&lt;li&gt;推广生物防治&lt;/li&gt;
+&lt;li&gt;减少化学品使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;43-资源节约&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#43-资源节约&#34;&gt;#&lt;/a&gt; 4.3 资源节约&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;推广节水技术&lt;/li&gt;
+&lt;li&gt;使用可再生能源&lt;/li&gt;
+&lt;li&gt;实现废物循环利用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;5-结语&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5-结语&#34;&gt;#&lt;/a&gt; 5. 结语&lt;/h2&gt;
+&lt;p&gt;景观养护是一项需要专业知识、丰富经验和持续投入的工作。通过科学的管理和养护，我们可以为城市创造更美好的绿色空间，为人们提供更优质的生活环境。随着技术的进步和环保理念的深入，景观养护将不断发展和完善，为建设可持续发展的生态城市做出贡献。&lt;/p&gt;
+&lt;h3 id=&#34;工作經歷&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作經歷&#34;&gt;#&lt;/a&gt; 工作經歷&lt;/h3&gt;
+&lt;p&gt;養護師&lt;br&gt;
+上森景觀設計工程股份有限公司（景觀設計業 100~500 人）&lt;/p&gt;
+&lt;p&gt;2023/10~2025/2&lt;br&gt;
+1 年 5 個月&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;修剪樹木、草坪、灌木，保持景觀整潔美觀。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;澆水、施肥，確保植物健康生長。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;病蟲害防治，使用適當的方法保護植物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;環境清理 (落葉、雜草、活動結束環境清理及其他影響景觀美觀的雜物）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;操作割草車、電鋸與保養園藝工具與機具。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;定期檢查灌溉系統，確保水源供應正常。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;依據季節變化，調整植物管理策略，提升美觀度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;協助小型景觀工程施工，如鋪設草皮與種植花卉。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;奇美博物館生物防治，捕捉綠鬣蜥與福壽螺清除。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;#景觀相關設施維護管理 #種植栽培能力 #認識農藝作物&lt;/p&gt;
+&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;如果老主管沒有額外派工作的話，其實都做得完&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### 心得&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/18oLgqVaFpIcPtAZQqdoeLMRdRQ3Vemcp&#34;&gt;筆記 pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;## 評價&lt;/p&gt;
+&lt;p&gt;工作素質：★ ★ ★ ☆ ☆&lt;br&gt;
+工作環境：★ ★ ★ ★ ☆&lt;br&gt;
+工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作速度：★ ★ ★ ★ ☆&lt;br&gt;
+工作量  ：★ ★ ★ ☆ ☆&lt;br&gt;
+工時長  ：★ ★ ☆ ☆ ☆&lt;/p&gt;
+</content>
+        <category term="工作" />
+        <updated>2025-03-15T14:10:12.820Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%203.html</id>
@@ -433,13 +930,6 @@
         <link rel="alternate" href="http://example.com/post/index%203.html"/>
         <content type="html">&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;做快一個月 (後來放棄，剩叫貨跟後台管理沒學，很吃速度跟細心（我的死穴）&lt;/p&gt;
-&lt;p&gt;## 評價&lt;/p&gt;
-&lt;p&gt;工作素質：★ ★ ★ ★ ★&lt;br&gt;
-工作環境：★ ★ ★ ★ ★&lt;br&gt;
-工作難度：★ ★ ★ ★ ☆&lt;br&gt;
-工作速度：★ ★ ★ ★ ★&lt;br&gt;
-工作量  ：★ ★ ★ ★ ★&lt;br&gt;
-工時長  ：★ ★ ★ ★ ☆&lt;/p&gt;
 &lt;h3 id=&#34;工作sop流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作sop流程&#34;&gt;#&lt;/a&gt; 工作 sop 流程&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;驗貨大概要 15 分鐘以內要驗完，早上第一件事情印價卡與折價卡貼折扣要 7:30 最慢要把蛋糕麵包貼完，補貨到驗單最慢要到 10:30（至少），每過一個星期要加速一次，上午下午都要各拍照 4 張整個都要拍照（蛋糕麵包調理魚肉加生鮮室清掃拍水溝 3 整體 1），一定要寫筆記（我的筆記本寫到爛掉），目前聽是干貨跟門市工作比較稍稍少一點點？（沒做過干貨不過要搬重物門市要推 pxpay…） （dcard 圖片為何這麼模糊啊……）4:30 有時候要叫賣試吃（這看每家店經理怎麼做，我家的全聯是放大聲公還是錄音擺在那客人要吃自己去拿，我待的店是要兩個人在那邊）&lt;/li&gt;
@@ -472,49 +962,15 @@
 &lt;li&gt;可以學到 xsl 跟 後台貨物管理學，會比一般的服務業還要難，不單純是快手的工作，記性還要非常好，學一次就要會了，因為毛利迫使這個行業對待新人不能慢慢學慢慢教，可能休息了，你還是很緊繃，除非自己需求是一定要有冷氣＆又乾淨的工作環境，或是有興趣跟想後台商店管理，否則不是很推薦的工作，但如果缺錢偶爾打打工的話可以去見&lt;br&gt;
 見世面&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-        <category term="工作" />
-        <updated>2023-11-18T09:16:48.976Z</updated>
-    </entry>
-    <entry>
-        <id>http://example.com/post/index.html</id>
-        <title>房務員の打工心得</title>
-        <link rel="alternate" href="http://example.com/post/index.html"/>
-        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;這份工作算適合一般畢業學生臨時找不到工作而選擇的工作，或是適合給熱愛家事打理的族群，其實工作不一定會有冷氣，只是工作環境乾淨是真的，蠻忙碌的一份工作&lt;/p&gt;
 &lt;p&gt;## 評價&lt;/p&gt;
 &lt;p&gt;工作素質：★ ★ ★ ★ ★&lt;br&gt;
 工作環境：★ ★ ★ ★ ★&lt;br&gt;
-工作難度：★ ★ ★ ☆ ☆&lt;br&gt;
+工作難度：★ ★ ★ ★ ☆&lt;br&gt;
 工作速度：★ ★ ★ ★ ★&lt;br&gt;
 工作量  ：★ ★ ★ ★ ★&lt;br&gt;
-工時長  ：★ ★ ★ ☆ ☆&lt;/p&gt;
-&lt;h3 id=&#34;工作流程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#工作流程&#34;&gt;#&lt;/a&gt; 工作流程&lt;/h3&gt;
-&lt;p&gt;浴室部份 - 基於試做 2 天而已而做的紀錄&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;打完卡先去檢查負責樓層的房間有沒有房客是有在門口放須清潔的卡牌與前日未清洗衣物，拿到辦公室去做填表檢查與登記，再把衣物清潔卡牌放在客人門旁&lt;/li&gt;
-&lt;li&gt;先檢查負責的房間號數看燈是否裡面有客人，房務車必須從清潔室開出來並來到客人門前先敲 3 下說 house keepping 3 次，如沒人回應先開門放萬能房卡開燈&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;第一步先去丟浴室與房間垃圾，並拿垃圾袋裝垃圾桶用垃圾袋轉一圈卡好垃圾桶的口徑，而後把卷型衛生紙第一張摺三角形&lt;/li&gt;
-&lt;li&gt;收毛巾 3 小毛巾 2 中毛巾 2 大毛巾 （ 如果是人數是 3 人或是 4 人會不一樣 ）&lt;/li&gt;
-&lt;li&gt;會用客人用過得毛巾看有沒有明顯的垃圾在浴室先收&lt;/li&gt;
-&lt;li&gt;洗杯子跟清熱水壺底垢（用檸檬酸）&lt;/li&gt;
-&lt;li&gt;用清潔劑在浴室各處噴一些（依照順序 - 鏡子 洗手台 浴缸 浴室 馬桶 地板噴一些) 快速噴一遍 沖一遍 再拿大毛巾 擦一遍 最後再用吸塵器把地板與抽屜吸頭髮吸乾淨（也可以用毛巾輕輕貼著地板慢慢拖地板拖到門外）&lt;/li&gt;
-&lt;li&gt;補補品&lt;/li&gt;
-&lt;li&gt;15 間房間清潔完去 3 樓補補品，最後回到辦公室等時間下班&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;其他狀況&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#其他狀況&#34;&gt;#&lt;/a&gt; 其他狀況&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;工作有時候非常快，但當客人沒有清潔時，有時候工作不會太多&lt;/li&gt;
-&lt;li&gt;8:30 上工客人有時候會賴床不早起出門這時候就要等待時間到 9:30 到 10:00 的時候才會開工清潔，但會非常趕因此我們的吃飯時間只有半小時&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;### 心得&lt;/p&gt;
-&lt;p&gt;這是份須要勤奮快速的工作 (服務業), 蠻容易受小擦傷的工作 (因為要跪在浴缸邊邊頭朝下腳朝上) 主要是膝蓋與手指（補品邊邊太尖銳）, 適合轉職前的跳板工作，偏向大學生打工或是快手歐巴桑在做的工作&lt;/p&gt;
+工時長  ：★ ★ ★ ★ ☆&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2023-11-18T09:13:44.372Z</updated>
+        <updated>2025-03-15T13:48:20.224Z</updated>
     </entry>
 </feed>

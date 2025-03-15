@@ -3,14 +3,14 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;read &amp; study&#34; category</title>
     <link href="http://example.com" />
-    <updated>2023-11-26T14:52:10.492Z</updated>
+    <updated>2025-03-15T15:23:30.736Z</updated>
     <category term="補丁" />
     <category term="2dlive" />
     <category term="讀書方法" />
     <category term="coding" />
-    <category term="hexo 框架簡單介紹" />
-    <category term="工作" />
     <category term="藝術品製作" />
+    <category term="Hexo框架简单介绍" />
+    <category term="工作" />
     <category term="後端" />
     <category term="AI生成繪圖" />
     <entry>
@@ -18,39 +18,110 @@
         <title>讀書方法</title>
         <link rel="alternate" href="http://example.com/post/index%2012.html"/>
         <content type="html">&lt;p&gt;紀錄著從國中同儕們所使用的讀書技巧與我的學習經驗&lt;/p&gt;
-&lt;h1 id=&#34;20231126&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#20231126&#34;&gt;#&lt;/a&gt; 20231126&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#&#34;&gt;#&lt;/a&gt; &lt;/h4&gt;
-&lt;p&gt;如果看影片看不下可以邊聽邊默念講師所講的內容&lt;/p&gt;
+&lt;p&gt;讀書方法&lt;/p&gt;
+&lt;p&gt;往往簡單的讀書方法就很有效、&lt;/p&gt;
+&lt;p&gt;看完影片再寫筆記   或是邊看邊做內容的問答題 考卷  不會的直接回去看影片&lt;/p&gt;
+&lt;p&gt;“”“”“”“”“”“”“”““邊學習邊畫畫 一心二用對實做型小孩比較學德下 不會直接分心 “”””“”“”‘’&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;以這次學習內容為主，思考內容該如何出題成考試卷&lt;br&gt;
-出書成參考書&lt;br&gt;
-講出幽默的方式為補習班學生講解這段無聊的程式內容&lt;br&gt;
-以聯想法的方式去做學習&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可能沒辦法靠死背的方式學習&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;必須用學習效率較為緩慢卻又能有趣味性的學習方式下去做學習&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將背的東西 一一寫出來 默寫 默背&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;雙手並用 或是 左右手輪流寫字 比較部會累&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;寫知識 文字 必須經過思考或是重組 用心思下去 寫出來 而不是邊走神分心 邊寫筆記  這叫罰寫&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不能先入為主 覺得 學習一直比不過人家（因為這句話常講會對自己跟小孩子說服力減弱&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;根據辦辦學的 cpu 學習 讓我知道 我要邊寫邊做共筆才能認真 學習&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;蕃茄工作法&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;半小時休息 5 分鐘 而且必須更換學習項目&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;燈使用貼標籤 study lamp 努力讀書就要換這個燈 一般學習就用一般的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;寫筆記只寫一半  另一半看到下去考自己 再寫一點或是 一半  以此類推&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;學習要靈活運用   造句  不看範例直接先實做&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;訂製目標要必須在未來 4 年內不能後悔否則自己做出來的選擇會跟未來的背道而馳&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;想太多一位著你可以三心二意  同時做很多事情  精力旺盛&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;溫度太高 或是  太口渴或是 空氣不流通 會造成讀書效率變底 或是 一直讀書眼睛酸痛 都是讀不下去的狀態之一  或是 沒有動手實做去順邊學習也是之一&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;一定要在讀書時 一直動一直多做  不可以靜態&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多互動&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;盡量已遇到問題再找答案這樣學習 不要囫圇吞棗的學習&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;筆記不可能 一次就很完美 一定有草稿    第一次可以潦草但不能看不懂&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;讀書方法一定要時常更新 把想到一寫下來再不斷省思與 改進&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;讀書分心是  嚴重分心  偷懶 的前兆   可以選擇 加快學習速度與 邊讀書邊畫畫  或是 三新二億來學習加強   注意力 或是有已運動 10 分鐘&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;看影片 自己精神上頻率太快不妨學者等待 把生活步調嘗試放慢又能專心 這樣才可以&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;邊看影片 邊聽音樂&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;台灣小孩沒有犯錯的餘地，如果犯錯的時間點為，出社會的階段，也就是 學習收成階段 要從錯務的階段回歸正軌要一段時間，會浪費收成的時間，但是如果在求學階段學習錯誤，出社會雖起布速度漫，無法快攻，法快速收成自幾的學習成果，無法在學習接斷獲得好的學習資源，但是已經有失敗的本錢，跟經驗，較不會山洞地搖較陳穩，不經一事 不長一智&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有氧運動有助於增加腦細胞的神經 幫助學習   讀書前可以已稍微整理做家事來&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;改變筆記上的專有名詞  一定讓他有趣起來 最好要有故事性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不要吃太飽 容易睡覺&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;過德不能泰舒服&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多看多聽多看就是讀書最佳力氣&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;寫字太累就用手指劃字來取代  比較輕鬆 也比較不無聊&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;傳統教育 為 ，不需要所有的人都變聰明 不讓所有人成為精英   讓少數成為菁英  讓多數成為工人    只能是少數，不需要所有的人都變聰明，大家都聰明，可能不會有服從命令的士兵或蓋出金字塔的工人&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;馬斯克的教育理念很棒 但只適用少數家庭背景不錯以及極度聰明的學生&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;`define regcomb 5 // comb為5
-`define regoff &amp;#123;`regcomb&amp;#123;`off&amp;#125;&amp;#125;
-`define offword &amp;#123;32&amp;#123;`off&amp;#125;&amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h4 id=&#34;補充-下面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#補充-下面&#34;&gt;#&lt;/a&gt; 補充 下面&lt;/h4&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://half-engr.com/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%BF%85%E5%AD%B8%E9%9B%BB%E5%AD%90%E7%AD%86%E8%A8%98-hackmd-notion/&#34;&gt;工程師必學電子筆記&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://koshizuow.gitbook.io/compilerbook/machine_code_assembler/cpu_memory&#34;&gt;CPU 與記憶體&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/457620455&#34;&gt;自己動手寫 RISC-V CPU -（4）增加分支預測功能&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code class=&#34;language-verilog=&#34;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="讀書方法" />
-        <updated>2023-11-26T14:52:10.492Z</updated>
+        <updated>2025-03-15T15:23:30.736Z</updated>
     </entry>
 </feed>
