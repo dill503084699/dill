@@ -1,0 +1,276 @@
+<p>/*</p>
+<ul>
+<li>Live2D Widget</li>
+<li><a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a><br>
+*/</li>
+</ul>
+<p>function loadWidget(config) {<br>
+let { waifuPath, apiPath, cdnPath } = config;<br>
+let useCDN = false, modelList;<br>
+if (typeof cdnPath === “string”) {<br>
+useCDN = true;<br>
+if (!cdnPath.endsWith(“/”)) cdnPath += “/”;<br>
+} else if (typeof apiPath === “string”) {<br>
+if (!apiPath.endsWith(“/”)) apiPath += “/”;<br>
+} else {<br>
+console.error(“Invalid initWidget argument!”);<br>
+return;<br>
+}<br>
+localStorage.removeItem(“waifu-display”);<br>
+sessionStorage.removeItem(“waifu-text”);<br>
+document.body.insertAdjacentHTML(“beforeend”,  <code>&lt;div id=&quot;waifu&quot;&gt; 			&lt;div id=&quot;waifu-tips&quot;&gt;&lt;/div&gt; 			&lt;canvas id=&quot;live2d&quot; width=&quot;800&quot; height=&quot;800&quot;&gt;&lt;/canvas&gt; 			&lt;div id=&quot;waifu-tool&quot;&gt; 				&lt;span class=&quot;fa fa-lg fa-comment&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-paper-plane&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-user-circle&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-street-view&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-camera-retro&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-info-circle&quot;&gt;&lt;/span&gt; 				&lt;span class=&quot;fa fa-lg fa-times&quot;&gt;&lt;/span&gt; 			&lt;/div&gt; 		&lt;/div&gt;</code> );<br>
+// <a href="https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element">https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element</a><br>
+setTimeout(() =&gt; {<br>
+document.getElementById(“waifu”).style.bottom = 0;<br>
+}, 0);</p>
+<pre><code>function randomSelection(obj) {
+	return Array.isArray(obj) ? obj[Math.floor(Math.random() * obj.length)] : obj;
+}
+// 检测用户活动状态，并在空闲时显示消息
+let userAction = false,
+	userActionTimer,
+	messageTimer,
+	messageArray = [&quot;你来啦……等你等得都快睡着了……&quot;, &quot;今天也要努力学习逆向哦！&quot;, &quot;Pwn学得如何啦……&quot;, &quot;刷题刷累了就去收水谱吧&quot;, &quot;送你一朵小蓝花 ^_^&quot;];
+window.addEventListener(&quot;mousemove&quot;, () =&gt; userAction = true);
+window.addEventListener(&quot;keydown&quot;, () =&gt; userAction = true);
+setInterval(() =&gt; {
+	if (userAction) {
+		userAction = false;
+		clearInterval(userActionTimer);
+		userActionTimer = null;
+	} else if (!userActionTimer) {
+		userActionTimer = setInterval(() =&gt; {
+			showMessage(randomSelection(messageArray), 6000, 9);
+		}, 20000);
+	}
+}, 1000);
+
+(function registerEventListener() {
+	document.querySelector(&quot;#waifu-tool .fa-comment&quot;).addEventListener(&quot;click&quot;, showHitokoto);
+	document.querySelector(&quot;#waifu-tool .fa-paper-plane&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+		if (window.Asteroids) {
+			if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
+			window.ASTEROIDSPLAYERS.push(new Asteroids());
+		} else {
+			const script = document.createElement(&quot;script&quot;);
+			script.src = &quot;https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js&quot;;
+			document.head.appendChild(script);
+		}
+	});
+	document.querySelector(&quot;#waifu-tool .fa-user-circle&quot;).addEventListener(&quot;click&quot;, loadOtherModel);
+	document.querySelector(&quot;#waifu-tool .fa-street-view&quot;).addEventListener(&quot;click&quot;, loadRandModel);
+	document.querySelector(&quot;#waifu-tool .fa-camera-retro&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+		showMessage(&quot;速战速决，然后该吃吃该睡睡……&quot;, 6000, 9);
+		Live2D.captureName = &quot;photo.png&quot;;
+		Live2D.captureFrame = true;
+	});
+	document.querySelector(&quot;#waifu-tool .fa-info-circle&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+		open(&quot;https://github.com/stevenjoezhang/live2d-widget&quot;);
+	});
+	document.querySelector(&quot;#waifu-tool .fa-times&quot;).addEventListener(&quot;click&quot;, () =&gt; {
+		localStorage.setItem(&quot;waifu-display&quot;, Date.now());
+		showMessage(&quot;愿你有一天能与重要的人重逢。&quot;, 2000, 11);
+		document.getElementById(&quot;waifu&quot;).style.bottom = &quot;-500px&quot;;
+		setTimeout(() =&gt; {
+			document.getElementById(&quot;waifu&quot;).style.display = &quot;none&quot;;
+			document.getElementById(&quot;waifu-toggle&quot;).classList.add(&quot;waifu-toggle-active&quot;);
+		}, 3000);
+	});
+	const devtools = () =&gt; {};
+	console.log(&quot;%c&quot;, devtools);
+	devtools.toString = () =&gt; {
+		showMessage(&quot;你打开了控制台呀……是想看我枕头底下的零花钱吗？&quot;, 6000, 9);
+	};
+	window.addEventListener(&quot;copy&quot;, () =&gt; {
+		showMessage(&quot;你都复制了些什么呀，转载要记得加上出处哦！不然……不然你明天开方便面必无调料包（划掉）！&quot;, 6000, 9);
+	});
+	window.addEventListener(&quot;visibilitychange&quot;, () =&gt; {
+		if (!document.hidden) showMessage(&quot;你终于回来啦……睡着了勿cue……zzz&quot;, 6000, 9);
+	});
+})();
+
+(function welcomeMessage() {
+	let text;
+	if (location.pathname === &quot;/&quot;) { // 如果是主页
+		const now = new Date().getHours();
+		if (now &gt; 5 &amp;&amp; now &lt;= 7) text = &quot;早啊，要不要出去饮早茶？&quot;;
+		else if (now &gt; 7 &amp;&amp; now &lt;= 11) text = &quot;早八人加油……我去睡回笼觉了……zzzzz&quot;;
+		else if (now &gt; 11 &amp;&amp; now &lt;= 13) text = &quot;吃饱咯吃饱咯！我大概是世界上最幸福的人啦！&quot;;
+		else if (now &gt; 13 &amp;&amp; now &lt;= 17) text = &quot;zzzzzz……真是个睡觉的好时间……&quot;;
+		else if (now &gt; 17 &amp;&amp; now &lt;= 19) text = &quot;晚餐时间到啦！要一起吃饭吗？&quot;;
+		else if (now &gt; 19 &amp;&amp; now &lt;= 21) text = &quot;要出去散步吗？其实我是想顺便吃点宵夜……&quot;;
+		else if (now &gt; 21 &amp;&amp; now &lt;= 23) text = [&quot;已经这么晚了呀，早点休息，晚安……&quot;, &quot;快去睡觉啦……秃头可别来找我借帽子哦……&quot;, &quot;刚刚好像做了个很棒的梦……&quot;, &quot;我能再睡会吗？你也过来跟我一起睡啦……&quot;];
+		else text = &quot;你真有干劲啊，这样不会累吗？&quot;;
+	} else if (document.referrer !== &quot;&quot;) {
+		const referrer = new URL(document.referrer),
+			domain = referrer.hostname.split(&quot;.&quot;)[1];
+		if (location.hostname === referrer.hostname) text = `欢迎阅读&lt;span&gt;「${document.title.split(&quot; | &quot;)[0]}」&lt;/span&gt;`;
+		else if (domain === &quot;baidu&quot;) text = `Hello！来自 百度搜索 的朋友&lt;br&gt;你是搜索 &lt;span&gt;${referrer.search.split(&quot;&amp;wd=&quot;)[1].split(&quot;&amp;&quot;)[0]}&lt;/span&gt; 找到的我吗？`;
+		else if (domain === &quot;so&quot;) text = `Hello！来自 360搜索 的朋友&lt;br&gt;你是搜索 &lt;span&gt;${referrer.search.split(&quot;&amp;q=&quot;)[1].split(&quot;&amp;&quot;)[0]}&lt;/span&gt; 找到的我吗？`;
+		else if (domain === &quot;google&quot;) text = `Hello！来自 谷歌搜索 的朋友&lt;br&gt;欢迎阅读&lt;span&gt;「${document.title.split(&quot; - &quot;)[0]}」&lt;/span&gt;`;
+		else text = `Hello！来自 &lt;span&gt;${referrer.hostname}&lt;/span&gt; 的朋友`;
+	} else {
+		text = `欢迎阅读&lt;span&gt;「${document.title.split(&quot; - &quot;)[0]}」&lt;/span&gt;`;
+	}
+	showMessage(text, 7000, 8);
+})();
+
+function showHitokoto() {
+	// 增加 hitokoto.cn 的 API
+	fetch(&quot;https://v1.hitokoto.cn&quot;)
+		.then(response =&gt; response.json())
+		.then(result =&gt; {
+			const text = `这句一言来自 &lt;span&gt;「${result.from}」&lt;/span&gt;，是 &lt;span&gt;${result.creator}&lt;/span&gt; 在 hitokoto.cn 投稿的。`;
+			showMessage(result.hitokoto, 6000, 9);
+			setTimeout(() =&gt; {
+				showMessage(text, 4000, 9);
+			}, 6000);
+		});
+}
+
+function showMessage(text, timeout, priority) {
+	if (!text || (sessionStorage.getItem(&quot;waifu-text&quot;) &amp;&amp; sessionStorage.getItem(&quot;waifu-text&quot;) &gt; priority)) return;
+	if (messageTimer) {
+		clearTimeout(messageTimer);
+		messageTimer = null;
+	}
+	text = randomSelection(text);
+	sessionStorage.setItem(&quot;waifu-text&quot;, priority);
+	const tips = document.getElementById(&quot;waifu-tips&quot;);
+	tips.innerHTML = text;
+	tips.classList.add(&quot;waifu-tips-active&quot;);
+	messageTimer = setTimeout(() =&gt; {
+		sessionStorage.removeItem(&quot;waifu-text&quot;);
+		tips.classList.remove(&quot;waifu-tips-active&quot;);
+	}, timeout);
+}
+
+(function initModel() {
+	let modelId = localStorage.getItem(&quot;modelId&quot;),
+		modelTexturesId = localStorage.getItem(&quot;modelTexturesId&quot;);
+	if (modelId === null) {
+		// 首次访问加载 指定模型 的 指定材质
+		modelId = 0; // 模型 ID
+		modelTexturesId = 0; // 材质 ID
+	}
+	loadModel(modelId, modelTexturesId);
+	fetch(waifuPath)
+		.then(response =&gt; response.json())
+		.then(result =&gt; {
+			window.addEventListener(&quot;mouseover&quot;, event =&gt; {
+				for (let { selector, text } of result.mouseover) {
+					if (!event.target.matches(selector)) continue;
+					text = randomSelection(text);
+					text = text.replace(&quot;{text}&quot;, event.target.innerText);
+					showMessage(text, 4000, 8);
+					return;
+				}
+			});
+			window.addEventListener(&quot;click&quot;, event =&gt; {
+				for (let { selector, text } of result.click) {
+					if (!event.target.matches(selector)) continue;
+					text = randomSelection(text);
+					text = text.replace(&quot;{text}&quot;, event.target.innerText);
+					showMessage(text, 4000, 8);
+					return;
+				}
+			});
+			result.seasons.forEach(({ date, text }) =&gt; {
+				const now = new Date(),
+					after = date.split(&quot;-&quot;)[0],
+					before = date.split(&quot;-&quot;)[1] || after;
+				if ((after.split(&quot;/&quot;)[0] &lt;= now.getMonth() + 1 &amp;&amp; now.getMonth() + 1 &lt;= before.split(&quot;/&quot;)[0]) &amp;&amp; (after.split(&quot;/&quot;)[1] &lt;= now.getDate() &amp;&amp; now.getDate() &lt;= before.split(&quot;/&quot;)[1])) {
+					text = randomSelection(text);
+					text = text.replace(&quot;{year}&quot;, now.getFullYear());
+					//showMessage(text, 7000, true);
+					messageArray.push(text);
+				}
+			});
+		});
+})();
+
+async function loadModelList() {
+	const response = await fetch(`${cdnPath}model_list.json`);
+	modelList = await response.json();
+}
+
+async function loadModel(modelId, modelTexturesId, message) {
+	localStorage.setItem(&quot;modelId&quot;, modelId);
+	localStorage.setItem(&quot;modelTexturesId&quot;, modelTexturesId);
+	showMessage(message, 4000, 10);
+	if (useCDN) {
+		if (!modelList) await loadModelList();
+		const target = randomSelection(modelList.models[modelId]);
+		loadlive2d(&quot;live2d&quot;, `${cdnPath}model/${target}/index.json`);
+	} else {
+		loadlive2d(&quot;live2d&quot;, `${apiPath}get/?id=${modelId}-${modelTexturesId}`);
+		console.log(`Live2D 模型 ${modelId}-${modelTexturesId} 加载完成`);
+	}
+}
+
+async function loadRandModel() {
+	const modelId = localStorage.getItem(&quot;modelId&quot;),
+		modelTexturesId = localStorage.getItem(&quot;modelTexturesId&quot;);
+	if (useCDN) {
+		if (!modelList) await loadModelList();
+		const target = randomSelection(modelList.models[modelId]);
+		loadlive2d(&quot;live2d&quot;, `${cdnPath}model/${target}/index.json`);
+		showMessage(&quot;懒得换装了嘛……&quot;, 4000, 10);
+	} else {
+		// 可选 &quot;rand&quot;(随机), &quot;switch&quot;(顺序)
+		fetch(`${apiPath}switch_textures/?id=${modelId}-${modelTexturesId}`)
+			.then(response =&gt; response.json())
+			.then(result =&gt; {
+				if (result.textures.id === 1 &amp;&amp; (modelTexturesId === 1 || modelTexturesId === 0)) showMessage(&quot;我还没有其他衣服呢！&quot;, 4000, 10);
+				else loadModel(modelId, result.textures.id, &quot;懒得换装了嘛……&quot;);
+			});
+	}
+}
+
+async function loadOtherModel() {
+	let modelId = localStorage.getItem(&quot;modelId&quot;);
+	if (useCDN) {
+		if (!modelList) await loadModelList();
+		const index = (++modelId &gt;= modelList.models.length) ? 0 : modelId;
+		loadModel(index, 0, modelList.messages[index]);
+	} else {
+		fetch(`${apiPath}switch/?id=${modelId}`)
+			.then(response =&gt; response.json())
+			.then(result =&gt; {
+				loadModel(result.model.id, 0, result.model.message);
+			});
+	}
+}
+</code></pre>
+<p>}</p>
+<p>function initWidget(config, apiPath) {<br>
+if (typeof config === “string”) {<br>
+config = {<br>
+waifuPath: config,<br>
+apiPath<br>
+};<br>
+}<br>
+document.body.insertAdjacentHTML(“beforeend”,  <code>&lt;div id=&quot;waifu-toggle&quot;&gt; 			&lt;span&gt;食魂煲仔饭&lt;/span&gt; 		&lt;/div&gt;</code> );<br>
+const toggle = document.getElementById(“waifu-toggle”);<br>
+toggle.addEventListener(“click”, () =&gt; {<br>
+toggle.classList.remove(“waifu-toggle-active”);<br>
+if (toggle.getAttribute(“first-time”)) {<br>
+loadWidget(config);<br>
+toggle.removeAttribute(“first-time”);<br>
+} else {<br>
+localStorage.removeItem(“waifu-display”);<br>
+document.getElementById(“waifu”).style.display = “”;<br>
+setTimeout(() =&gt; {<br>
+document.getElementById(“waifu”).style.bottom = 0;<br>
+}, 0);<br>
+}<br>
+});<br>
+if (localStorage.getItem(“waifu-display”) &amp;&amp; Date.now() - localStorage.getItem(“waifu-display”) &lt;= 86400000) {<br>
+toggle.setAttribute(“first-time”, true);<br>
+setTimeout(() =&gt; {<br>
+toggle.classList.add(“waifu-toggle-active”);<br>
+}, 0);<br>
+} else {<br>
+loadWidget(config);<br>
+}<br>
+}</p>
