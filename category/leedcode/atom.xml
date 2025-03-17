@@ -3,15 +3,11 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;leedcode&#34; category</title>
     <link href="http://example.com" />
-    <updated>2025-03-15T12:55:23.296Z</updated>
-    <category term="補丁" />
-    <category term="2dlive" />
-    <category term="讀書方法" />
-    <category term="coding" />
-    <category term="Hexo框架简单介绍" />
-    <category term="藝術品製作" />
+    <updated>2025-03-16T03:39:47.108Z</updated>
+    <category term="科技" />
+    <category term="一般" />
     <category term="工作" />
-    <category term="AI生成繪圖" />
+    <category term="科技s" />
     <entry>
         <id>http://example.com/post/index%2013.html</id>
         <title>leedcode 每日一題</title>
@@ -58,7 +54,7 @@
 &lt;li&gt;&lt;a href=&#34;https://leetcode.cn/&#34;&gt;相关算法讲解视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="coding" />
-        <updated>2025-03-15T12:55:23.296Z</updated>
+        <category term="科技" />
+        <updated>2025-03-16T03:39:47.108Z</updated>
     </entry>
 </feed>

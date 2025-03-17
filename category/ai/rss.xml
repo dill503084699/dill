@@ -5,22 +5,18 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sat, 15 Mar 2025 22:21:11 +0800</pubDate>
-        <lastBuildDate>Sat, 15 Mar 2025 22:21:11 +0800</lastBuildDate>
-        <category>補丁</category>
-        <category>2dlive</category>
-        <category>讀書方法</category>
-        <category>coding</category>
-        <category>Hexo框架简单介绍</category>
-        <category>藝術品製作</category>
+        <pubDate>Sun, 16 Mar 2025 11:39:02 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 11:39:02 +0800</lastBuildDate>
+        <category>科技</category>
+        <category>一般</category>
         <category>工作</category>
-        <category>AI生成繪圖</category>
+        <category>科技s</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%207%20.html</guid>
             <title>Stable-diffusion  AI 生成繪圖</title>
             <link>http://example.com/post/index%207%20.html</link>
-            <category>AI生成繪圖</category>
-            <pubDate>Sat, 15 Mar 2025 22:21:11 +0800</pubDate>
+            <category>科技s</category>
+            <pubDate>Sun, 16 Mar 2025 11:39:02 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;date: 2024-01-09 12:00:00&lt;/p&gt;
 &lt;h1 id=&#34;ai生成绘图潮流与未来的结合&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ai生成绘图潮流与未来的结合&#34;&gt;#&lt;/a&gt; AI 生成绘图：潮流与未来的结合&lt;/h1&gt;
 &lt;p&gt;AI 生成绘图是一种利用人工智能技术自动创作艺术作品的过程。通过深度学习和神经网络，AI 可以从海量的艺术作品和数据中学习，理解视觉元素如色彩、形状、光影等，并基于这些学习成果生成新的图像。AI 生成绘图不仅可以应用于传统的绘画风格，还能够创造出从未见过的、具有未来感或超现实主义的艺术作品。&lt;/p&gt;

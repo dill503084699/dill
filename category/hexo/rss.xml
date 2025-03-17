@@ -5,22 +5,18 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sat, 15 Mar 2025 23:24:31 +0800</pubDate>
-        <lastBuildDate>Sat, 15 Mar 2025 23:24:31 +0800</lastBuildDate>
-        <category>補丁</category>
-        <category>2dlive</category>
-        <category>讀書方法</category>
-        <category>coding</category>
-        <category>Hexo框架简单介绍</category>
-        <category>藝術品製作</category>
+        <pubDate>Sun, 16 Mar 2025 11:40:03 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 11:40:03 +0800</lastBuildDate>
+        <category>科技</category>
+        <category>一般</category>
         <category>工作</category>
-        <category>AI生成繪圖</category>
+        <category>科技s</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2015.html</guid>
             <title>hexo</title>
             <link>http://example.com/post/index%2015.html</link>
-            <category>Hexo框架简单介绍</category>
-            <pubDate>Sat, 15 Mar 2025 23:24:31 +0800</pubDate>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:40:03 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;hexo框架简单介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo框架简单介绍&#34;&gt;#&lt;/a&gt; Hexo 框架简单介绍&lt;/h1&gt;
 &lt;p&gt;Hexo 是一个快速、简洁的博客框架，基于 Node.js 开发，用于生成静态博客网站。它非常适合个人博客或者技术博客的创建，具有高效、易扩展的特点。&lt;/p&gt;
 &lt;h2 id=&#34;1-安装与配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装与配置&#34;&gt;#&lt;/a&gt; 1. 安装与配置&lt;/h2&gt;

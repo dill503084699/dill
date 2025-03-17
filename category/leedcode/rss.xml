@@ -5,22 +5,18 @@
         <link>http://example.com</link>
         <description>sdf</description>
         <language>cn</language>
-        <pubDate>Sat, 15 Mar 2025 20:55:23 +0800</pubDate>
-        <lastBuildDate>Sat, 15 Mar 2025 20:55:23 +0800</lastBuildDate>
-        <category>補丁</category>
-        <category>2dlive</category>
-        <category>讀書方法</category>
-        <category>coding</category>
-        <category>Hexo框架简单介绍</category>
-        <category>藝術品製作</category>
+        <pubDate>Sun, 16 Mar 2025 11:39:47 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 11:39:47 +0800</lastBuildDate>
+        <category>科技</category>
+        <category>一般</category>
         <category>工作</category>
-        <category>AI生成繪圖</category>
+        <category>科技s</category>
         <item>
             <guid isPermalink="true">http://example.com/post/index%2013.html</guid>
             <title>leedcode 每日一題</title>
             <link>http://example.com/post/index%2013.html</link>
-            <category>coding</category>
-            <pubDate>Sat, 15 Mar 2025 20:55:23 +0800</pubDate>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:39:47 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;###LeetCode 每日一题：问题标题&lt;br&gt;
 题目描述&lt;br&gt;
 在此部分，详细描述题目要求，包括输入、输出和约束条件。&lt;/p&gt;

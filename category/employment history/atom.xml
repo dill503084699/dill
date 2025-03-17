@@ -3,15 +3,11 @@
     <id>http://example.com</id>
     <title>Hexo • Posts by &#34;employment history&#34; category</title>
     <link href="http://example.com" />
-    <updated>2025-03-15T15:23:52.448Z</updated>
-    <category term="補丁" />
-    <category term="2dlive" />
-    <category term="讀書方法" />
-    <category term="coding" />
-    <category term="Hexo框架简单介绍" />
-    <category term="藝術品製作" />
+    <updated>2025-03-16T03:40:07.348Z</updated>
+    <category term="科技" />
+    <category term="一般" />
     <category term="工作" />
-    <category term="AI生成繪圖" />
+    <category term="科技s" />
     <entry>
         <id>http://example.com/post/index.html</id>
         <title>房務員の打工心得</title>
@@ -49,7 +45,7 @@
 工時長  ：★ ★ ★ ☆ ☆&lt;/p&gt;
 </content>
         <category term="工作" />
-        <updated>2025-03-15T15:23:52.448Z</updated>
+        <updated>2025-03-16T03:40:07.348Z</updated>
     </entry>
     <entry>
         <id>http://example.com/post/index%205.html</id>

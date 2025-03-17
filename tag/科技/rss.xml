@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;科技&#34; tag</title>
+        <link>http://example.com</link>
+        <description>sdf</description>
+        <language>cn</language>
+        <pubDate>Sun, 16 Mar 2025 11:40:03 +0800</pubDate>
+        <lastBuildDate>Sun, 16 Mar 2025 11:40:03 +0800</lastBuildDate>
+        <category>科技</category>
+        <category>一般</category>
+        <category>工作</category>
+        <category>科技s</category>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2015.html</guid>
+            <title>hexo</title>
+            <link>http://example.com/post/index%2015.html</link>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:40:03 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;hexo框架简单介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#hexo框架简单介绍&#34;&gt;#&lt;/a&gt; Hexo 框架简单介绍&lt;/h1&gt;
+&lt;p&gt;Hexo 是一个快速、简洁的博客框架，基于 Node.js 开发，用于生成静态博客网站。它非常适合个人博客或者技术博客的创建，具有高效、易扩展的特点。&lt;/p&gt;
+&lt;h2 id=&#34;1-安装与配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-安装与配置&#34;&gt;#&lt;/a&gt; 1. 安装与配置&lt;/h2&gt;
+&lt;p&gt;Hexo 的安装和配置非常简单，可以通过 Node.js 的包管理工具 npm 进行安装。&lt;/p&gt;
+&lt;h3 id=&#34;安装-hexo&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装-hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt; hexo-cli&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;初始化-hexo-博客项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#初始化-hexo-博客项目&#34;&gt;#&lt;/a&gt; 初始化 Hexo 博客项目&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; blog&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;上述命令会在  &lt;code&gt;blog&lt;/code&gt;  目录下创建一个 Hexo 博客项目，接着通过  &lt;code&gt;npm install&lt;/code&gt;  安装相关依赖。&lt;/p&gt;
+&lt;h2 id=&#34;2-项目结构&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-项目结构&#34;&gt;#&lt;/a&gt; 2. 项目结构&lt;/h2&gt;
+&lt;p&gt;Hexo 的项目结构简洁明了，主要包括以下几个目录和文件：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;_config.yml&lt;/code&gt; ：主配置文件，设置博客的基本信息和参数&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;scaffolds/&lt;/code&gt; ：存放 Hexo 文章模板的文件夹&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;source/&lt;/code&gt; ：存放源文件的文件夹，包含文章、图片、文件等&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;themes/&lt;/code&gt; ：博客的主题文件夹，Hexo 支持多种主题，可进行自定义和扩展&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public/&lt;/code&gt; ：Hexo 渲染生成的静态文件，部署到服务器上时使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-文章与页面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-文章与页面&#34;&gt;#&lt;/a&gt; 3. 文章与页面&lt;/h2&gt;
+&lt;p&gt;Hexo 允许通过 Markdown 格式编写文章，在  &lt;code&gt;source/_posts&lt;/code&gt;  文件夹中存放文章文件。&lt;/p&gt;
+&lt;h3 id=&#34;创建文章&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建文章&#34;&gt;#&lt;/a&gt; 创建文章&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo new post &lt;span class=&#34;token string&#34;&gt;&#34;我的第一篇文章&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;生成静态页面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#生成静态页面&#34;&gt;#&lt;/a&gt; 生成静态页面&lt;/h3&gt;
+&lt;p&gt;Hexo 也支持创建页面，如关于、联系等页面：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo new page &lt;span class=&#34;token string&#34;&gt;&#34;about&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;4-主题与插件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-主题与插件&#34;&gt;#&lt;/a&gt; 4. 主题与插件&lt;/h2&gt;
+&lt;p&gt;Hexo 支持丰富的主题和插件，可以通过 hexo 官方或社区开发的主题进行美化和定制，插件可以扩展更多功能。&lt;/p&gt;
+&lt;h3 id=&#34;安装主题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装主题&#34;&gt;#&lt;/a&gt; 安装主题&lt;/h3&gt;
+&lt;p&gt;你可以通过 Git 克隆其他主题到  &lt;code&gt;themes/&lt;/code&gt;  目录，并在  &lt;code&gt;_config.yml&lt;/code&gt;  中修改 theme 配置项。&lt;/p&gt;
+&lt;h3 id=&#34;安装插件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装插件&#34;&gt;#&lt;/a&gt; 安装插件&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-generator-archive &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;5-部署与发布&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5-部署与发布&#34;&gt;#&lt;/a&gt; 5. 部署与发布&lt;/h2&gt;
+&lt;p&gt;Hexo 支持将博客发布到多个平台，如 GitHub Pages、Netlify、私人服务器等。&lt;/p&gt;
+&lt;h3 id=&#34;本地预览&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#本地预览&#34;&gt;#&lt;/a&gt; 本地预览&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这会启动一个本地服务器，你可以在浏览器中访问  &lt;code&gt;http://localhost:4000&lt;/code&gt;  预览博客。&lt;/p&gt;
+&lt;h3 id=&#34;部署到-github-pages&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#部署到-github-pages&#34;&gt;#&lt;/a&gt; 部署到 GitHub Pages&lt;/h3&gt;
+&lt;p&gt;如果你使用 GitHub Pages 部署博客，可以配置  &lt;code&gt;_config.yml&lt;/code&gt;  文件并运行：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;6-总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#6-总结&#34;&gt;#&lt;/a&gt; 6. 总结&lt;/h2&gt;
+&lt;p&gt;Hexo 是一个非常轻量级、易于使用且高效的博客框架，适合技术博客、个人博客等场景。它的主要特点是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;快速生成静态网站&lt;/strong&gt;：Hexo 使用 Markdown 编写文章，通过 Node.js 渲染静态页面，生成速度快&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活的主题与插件系统&lt;/strong&gt;：你可以根据需求安装不同的主题和插件&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;简单的部署&lt;/strong&gt;：可以方便地将博客部署到 GitHub Pages、Netlify 等平台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hexo 非常适合开发者和技术博客爱好者，因为它与 Git、Markdown 的结合使得写作、更新和部署变得简单高效。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2013.html</guid>
+            <title>leedcode 每日一題</title>
+            <link>http://example.com/post/index%2013.html</link>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:39:47 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;###LeetCode 每日一题：问题标题&lt;br&gt;
+题目描述&lt;br&gt;
+在此部分，详细描述题目要求，包括输入、输出和约束条件。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：示例输入
+输出：示例输出
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;解题思路&lt;br&gt;
+在这一部分，详细阐述解决问题的思路和步骤。&lt;/p&gt;
+&lt;p&gt;1 分析问题： 理解题目要求，明确解题目标。&lt;br&gt;
+2 选择算法： 根据问题特性，选择合适的算法或数据结构。&lt;br&gt;
+3 设计步骤： 将算法步骤具体化，确保每一步都清晰明了。&lt;/p&gt;
+&lt;h1 id=&#34;代码实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码实现&#34;&gt;#&lt;/a&gt; 代码实现&lt;/h1&gt;
+&lt;p&gt;提供完整的 C++ 代码，并添加必要的注释以解释关键部分。&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;複製&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;編輯&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 其他必要的头文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 函数定义&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;exampleFunction&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 代码实现&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 测试用例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;复杂度分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#复杂度分析&#34;&gt;#&lt;/a&gt; 复杂度分析&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;时间复杂度： 分析算法的时间消耗，例如 O (n)、O (log n) 等。&lt;/li&gt;
+&lt;li&gt;空间复杂度： 分析算法的空间消耗，例如 O (1)、O (n) 等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;测试用例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#测试用例&#34;&gt;#&lt;/a&gt; 测试用例&lt;/h1&gt;
+&lt;p&gt;列举多个测试用例，确保代码覆盖各种可能的情况。&lt;/p&gt;
+&lt;p&gt;1 示例 1：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;输入：示例输入&lt;/li&gt;
+&lt;li&gt;输出：示例输出&lt;br&gt;
+ 2 示例 2：&lt;/li&gt;
+&lt;li&gt;输入：示例输入&lt;/li&gt;
+&lt;li&gt;输出：示例输出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;注意事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注意事项&#34;&gt;#&lt;/a&gt; 注意事项&lt;/h1&gt;
+&lt;p&gt;列出在解决此问题时需要注意的特殊情况或常见错误。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;边界条件： 处理输入数据的极端情况。&lt;/li&gt;
+&lt;li&gt;特殊输入： 考虑可能导致错误的特殊输入。&lt;br&gt;
+参考资料&lt;br&gt;
+引用相关的学习资料或他人的解题思路，以供读者进一步学习。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/results?search_query=leedcode&#34;&gt;LeetCode 官方题解&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leetcode.cn/&#34;&gt;相关算法讲解视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2011.html</guid>
+            <title>使用2dlive在blog與老婆們相遇 （折騰中</title>
+            <link>http://example.com/post/index%2011.html</link>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:39:20 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;之前折騰兩個星期才將戰機少女顯示在我的博客旁&lt;/p&gt;
+&lt;p&gt;我們先來看看資料裡頭的結構&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;live2d-widget (角色模型周遭環境設定)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;與 live2d-api (角色模型內容物與設定&lt;em&gt;須上傳至 npm 或… 或不用？[之前有看到有人分享自己的 live2d 不用 api]&lt;/em&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;註：若是要在 hexo 框架又是主題內做看板娘的話，記得把 live2d-widget 放在自己的主題 theme 資料夾裡面，並在主題 config.xml 裡面寫入&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;injects:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    css:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        - &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;link &lt;span class=&#34;token assign-left variable&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;stylesheet&#34;&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;/live2d-widget/waifu.css&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    scripts: &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        - &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;script defer &lt;span class=&#34;token assign-left variable&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;/live2d-widget/autoload.js&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/script&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;註：然後板主並沒有鑽研 demo 與放在 html 語法的那一套 2dlive, 詳情請見這&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;在 Hexo + Aurora 主题（或其他支持的 Hexo 主题）下，想要添加 Live2D 看板娘（2D live 老婆），通常需要修改 config.yml（或者 config.aurora.yml）文件，并引入 Live2D 插件。以下是详细的步骤：&lt;/p&gt;
+&lt;h2 id=&#34;過程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#過程&#34;&gt;#&lt;/a&gt; 過程&lt;/h2&gt;
+&lt;p&gt;方法 1：使用 Hexo Live2D 插件&lt;br&gt;
+适用于大部分主题，推荐使用 hexo-helper-live2d。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;安装 Live2D 插件&lt;br&gt;
+在 Hexo 目录（博客根目录）运行：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-npm&#34;&gt;npm install hexo-helper-live2d --save
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;配置 config.yml&lt;br&gt;
+ 打开 Hexo 的 主配置文件（_config.yml），添加：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;live2d:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  enable: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  scriptFrom: local&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  pluginRootPath: live2d&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  model:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    use: haru_01  # 你可以换成其他模型&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  display:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    position: right  # 看板娘的位置&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    width: 150&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    height: 300&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  mobile:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    show: false  # 移动端是否显示&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;支持的模型：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hibiki（响）
+tororo（とろろ）
+shizuku（滴）
+koharu（小春）
+haru_01（春1）
+haru_02（春2）
+wanko（狗狗）
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以换模型，参考 Live2D Models&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;生成 &amp;amp; 部署&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后访问 &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt; 看看 Live2D 看板娘是否显示！&lt;/p&gt;
+&lt;p&gt;方法 2：Aurora 主题内置支持&lt;br&gt;
+ Aurora 主题本身支持 Live2D，因此你可以直接在 config.aurora.yml 里配置。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 config.aurora.yml&lt;br&gt;
+ 找到 live2d 配置，修改如下：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;span&gt;l&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;live2d:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  enable: true&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  scriptFrom: local&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  model: haru_01  # 你可以选择不同模型&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  display:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    position: right&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    width: 200&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    height: 400&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  mobile:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    show: true  # 设定是否在移动端显示&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果你的 config.aurora.yml 里没有 live2d 选项，你可以手动添加！&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;生成 &amp;amp; 预览&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后访问 &lt;a href=&#34;http://localhost:4000&#34;&gt;http://localhost:4000&lt;/a&gt; 查看效果！&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;q 常见问题
+  Live2D 没有显示？
+
+a 确保 live2d.enable: true
+  清除缓存并重新生成 Hexo：
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-terminal&#34;&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;q 模型加载失败？
+
+a 确保 model.use 指定的模型正确
+  试试 haru_01 或 hibiki
+  如何更换 Live2D 角色？
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;直接修改 model.use，然后 hexo g 重新生成。&lt;br&gt;
+这样，你的 Hexo 主题就能拥有 Live2D 看板娘 了 🎉！如果你用的是 Aurora 主题，建议 方法 2，如果是其他主题，可以试试 方法 1。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%2010.html</guid>
+            <title>使用linux玩原神Genshin impact 之dawn補丁用法 （原神3.8之後即可不用!但會被米哈遊回報給後台）</title>
+            <link>http://example.com/post/index%2010.html</link>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:39:08 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;之前折騰很久的linux玩原神的方法每次更新就要用一次&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#之前折騰很久的linux玩原神的方法每次更新就要用一次&#34;&gt;#&lt;/a&gt; 之前折騰很久的 linux 玩原神的方法，每次更新就要用一次&lt;/h2&gt;
+&lt;h1 id=&#34;linux玩原神之dawn补丁使用指南&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#linux玩原神之dawn补丁使用指南&#34;&gt;#&lt;/a&gt; Linux 玩原神之 Dawn 补丁使用指南&lt;/h1&gt;
+&lt;p&gt;原神（Genshin Impact）是一款由 miHoYo（米哈游）开发的开放世界冒险游戏。虽然游戏本身并不原生支持 Linux 系统，但通过一些技术手段，Linux 用户仍然可以体验这款精彩的游戏。本文将详细介绍如何使用 Dawn 补丁在 Linux 系统上运行原神。&lt;/p&gt;
+&lt;h2 id=&#34;一-dawn补丁的作用及背景&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-dawn补丁的作用及背景&#34;&gt;#&lt;/a&gt; 一、Dawn 补丁的作用及背景&lt;/h2&gt;
+&lt;p&gt;由于原神基于 Windows 平台开发，Linux 用户需要特殊的技术手段来解决系统兼容性问题。Dawn 补丁作为一个流行的解决方案，其核心目的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修改原神的启动和运行方式&lt;/li&gt;
+&lt;li&gt;使游戏可以通过 Wine 或 Proton 等兼容层运行&lt;/li&gt;
+&lt;li&gt;在不安装 Windows 的情况下实现游戏运行&lt;/li&gt;
+&lt;li&gt;通过技术手段优化游戏在 Linux 环境下的表现&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二-dawn补丁的安装步骤&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二-dawn补丁的安装步骤&#34;&gt;#&lt;/a&gt; 二、Dawn 补丁的安装步骤&lt;/h2&gt;
+&lt;h3 id=&#34;1-准备环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-准备环境&#34;&gt;#&lt;/a&gt; 1. 准备环境&lt;/h3&gt;
+&lt;p&gt;首先需要安装适当的兼容层：&lt;/p&gt;
+&lt;h4 id=&#34;wine安装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#wine安装&#34;&gt;#&lt;/a&gt; Wine 安装&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; wine&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;proton安装&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#proton安装&#34;&gt;#&lt;/a&gt; Proton 安装&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;通过 Steam 客户端安装&lt;/li&gt;
+&lt;li&gt;在 Steam 设置中启用 Proton&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-下载dawn补丁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-下载dawn补丁&#34;&gt;#&lt;/a&gt; 2. 下载 Dawn 补丁&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;从可靠源（如 GitHub 或玩家社区）下载&lt;/li&gt;
+&lt;li&gt;确保下载最新版本&lt;/li&gt;
+&lt;li&gt;验证补丁适用于当前 Linux 发行版和原神版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-安装补丁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安装补丁&#34;&gt;#&lt;/a&gt; 3. 安装补丁&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;解压补丁文件到原神安装目录&lt;/li&gt;
+&lt;li&gt;按照文档说明执行安装脚本&lt;/li&gt;
+&lt;li&gt;修改必要的配置文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;4-配置wine或proton&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-配置wine或proton&#34;&gt;#&lt;/a&gt; 4. 配置 Wine 或 Proton&lt;/h3&gt;
+&lt;h4 id=&#34;wine配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#wine配置&#34;&gt;#&lt;/a&gt; Wine 配置&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;winecfg&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;设置 Windows 版本为 &amp;quot;Windows 7&amp;quot; 或 &amp;quot;Windows 10&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;proton配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#proton配置&#34;&gt;#&lt;/a&gt; Proton 配置&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Steam 中设置游戏属性&lt;/li&gt;
+&lt;li&gt;选择合适的 Proton 版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-运行原神&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5-运行原神&#34;&gt;#&lt;/a&gt; 5. 运行原神&lt;/h3&gt;
+&lt;h4 id=&#34;使用wine启动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用wine启动&#34;&gt;#&lt;/a&gt; 使用 Wine 启动&lt;/h4&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;wine GenshinImpact.exe&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;使用proton启动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用proton启动&#34;&gt;#&lt;/a&gt; 使用 Proton 启动&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;直接通过 Steam 启动游戏&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三-原神38之后的变化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三-原神38之后的变化&#34;&gt;#&lt;/a&gt; 三、原神 3.8 之后的变化&lt;/h2&gt;
+&lt;p&gt;原神 3.8 版本后的重要变化：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提升了 Linux 兼容性&lt;/li&gt;
+&lt;li&gt;修复了多个系统相关问题&lt;/li&gt;
+&lt;li&gt;可直接通过 Proton/Wine 运行&lt;/li&gt;
+&lt;li&gt;Dawn 补丁不再是必需品&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;仍有玩家选择使用dawn补丁的原因&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#仍有玩家选择使用dawn补丁的原因&#34;&gt;#&lt;/a&gt; 仍有玩家选择使用 Dawn 补丁的原因：&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;稳定性考虑&lt;/strong&gt;：某些 Linux 发行版可能获得更好的游戏体验&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;兼容性优化&lt;/strong&gt;：特定硬件配置下可能需要补丁支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;四-使用dawn补丁的潜在风险&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#四-使用dawn补丁的潜在风险&#34;&gt;#&lt;/a&gt; 四、使用 Dawn 补丁的潜在风险&lt;/h2&gt;
+&lt;h3 id=&#34;1-反作弊问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-反作弊问题&#34;&gt;#&lt;/a&gt; 1. 反作弊问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;可能触发 mhyprot2 反作弊系统&lt;/li&gt;
+&lt;li&gt;存在账号被封禁的风险&lt;/li&gt;
+&lt;li&gt;米哈游可能会检测到补丁使用情况&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-稳定性和兼容性问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-稳定性和兼容性问题&#34;&gt;#&lt;/a&gt; 2. 稳定性和兼容性问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;第三方工具无法保证完全稳定&lt;/li&gt;
+&lt;li&gt;可能出现：
+&lt;ul&gt;
+&lt;li&gt;游戏崩溃&lt;/li&gt;
+&lt;li&gt;画面卡顿&lt;/li&gt;
+&lt;li&gt;其他技术问题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-更新问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-更新问题&#34;&gt;#&lt;/a&gt; 3. 更新问题&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;补丁更新可能滞后于游戏版本&lt;/li&gt;
+&lt;li&gt;需要定期检查补丁更新&lt;/li&gt;
+&lt;li&gt;版本不匹配可能导致游戏无法启动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;五-结论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#五-结论&#34;&gt;#&lt;/a&gt; 五、结论&lt;/h2&gt;
+&lt;p&gt;Dawn 补丁作为 Linux 运行原神的解决方案之一，在 3.8 版本之前发挥了重要作用。目前虽然不再是必需品，但对于特定用户群体仍有其价值。在选择是否使用 Dawn 补丁时，建议：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;评估个人需求&lt;/li&gt;
+&lt;li&gt;权衡使用风险&lt;/li&gt;
+&lt;li&gt;考虑系统兼容性&lt;/li&gt;
+&lt;li&gt;关注官方更新动态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最后提醒：使用任何第三方工具都存在一定风险，请谨慎决定是否使用 Dawn 补丁。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://example.com/post/index%206.html</guid>
+            <title>學習網頁後端ssm框架筆記（黑馬</title>
+            <link>http://example.com/post/index%206.html</link>
+            <category>科技</category>
+            <pubDate>Sun, 16 Mar 2025 11:38:39 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;自從看了用springboot建立一個小而美的blogb站視頻後就發現如今若是要建立一個博客可能相對於jpa來說mybatics更適合用來當作是入門程式小白的優先選擇可能不是執行效率最快但是至少開發來講沒這麼折騰燒腦&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#自從看了用springboot建立一個小而美的blogb站視頻後就發現如今若是要建立一個博客可能相對於jpa來說mybatics更適合用來當作是入門程式小白的優先選擇可能不是執行效率最快但是至少開發來講沒這麼折騰燒腦&#34;&gt;#&lt;/a&gt; 自從看了 &amp;quot;用 springboot 建立一個小而美的 blog&amp;quot;B 站視頻後，就發現如今若是要建立一個博客，可能相對於 jpa 來說 mybatics 更適合用來當作是入門程式小白的優先選擇，可能不是執行效率最快，但是至少開發來講沒這麼折騰燒腦&lt;/h2&gt;
+&lt;h1 id=&#34;學習網頁後端ssm框架筆記&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#學習網頁後端ssm框架筆記&#34;&gt;#&lt;/a&gt; 學習網頁後端 SSM 框架筆記&lt;/h1&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;自從看了 &amp;quot;用 springboot 建立一個小而美的 blog&amp;quot;B 站視頻後，發現如今若是要建立一個博客，相對於 JPA 來說，MyBatis 可能更適合作為程式小白的入門選擇。雖然執行效率可能不是最快，但開發過程較為直觀，不會那麼燒腦。&lt;/p&gt;
+&lt;h2 id=&#34;ssm框架簡介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ssm框架簡介&#34;&gt;#&lt;/a&gt; SSM 框架簡介&lt;/h2&gt;
+&lt;p&gt;SSM 框架是由 Spring、SpringMVC 和 MyBatis 三個框架整合而成的，是目前主流的 Java EE 企業級框架。&lt;/p&gt;
+&lt;h3 id=&#34;1-spring框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-spring框架&#34;&gt;#&lt;/a&gt; 1. Spring 框架&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IoC 容器&lt;/strong&gt;：管理對象的創建和依賴關係&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AOP 編程&lt;/strong&gt;：實現面向切面編程，處理橫切關注點&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;事務管理&lt;/strong&gt;：提供統一的事務管理接口&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-springmvc框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-springmvc框架&#34;&gt;#&lt;/a&gt; 2. SpringMVC 框架&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MVC 設計模式&lt;/strong&gt;：實現 Web 層的解耦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;請求響應&lt;/strong&gt;：處理 HTTP 請求和響應&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;視圖解析&lt;/strong&gt;：支持多種視圖技術&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-mybatis框架&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mybatis框架&#34;&gt;#&lt;/a&gt; 3. MyBatis 框架&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ORM 映射&lt;/strong&gt;：實現對象關係映射&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SQL 管理&lt;/strong&gt;：將 SQL 語句從代碼中分離&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;動態 SQL&lt;/strong&gt;：支持複雜的 SQL 拼接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;環境搭建&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#環境搭建&#34;&gt;#&lt;/a&gt; 環境搭建&lt;/h2&gt;
+&lt;h3 id=&#34;1-開發環境準備&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-開發環境準備&#34;&gt;#&lt;/a&gt; 1. 開發環境準備&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- pom.xml 依賴配置 --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependencies&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- Spring --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.springframework&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;spring-context&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5.3.20&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- SpringMVC --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.springframework&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;spring-webmvc&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;5.3.20&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- MyBatis --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.mybatis&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;mybatis&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;3.5.9&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependencies&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2-配置文件設置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-配置文件設置&#34;&gt;#&lt;/a&gt; 2. 配置文件設置&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- applicationContext.xml --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token prolog&#34;&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;beans&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;xmlns&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.springframework.org/schema/beans&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token attr-name&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;xmlns:&lt;/span&gt;xsi&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.w3.org/2001/XMLSchema-instance&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       &lt;span class=&#34;token attr-name&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;xsi:&lt;/span&gt;schemaLocation&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;http://www.springframework.org/schema/beans&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;       http://www.springframework.org/schema/beans/spring-beans.xsd&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- 配置數據源 --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;bean&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;dataSource&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.alibaba.druid.pool.DruidDataSource&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;driverClassName&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.mysql.jdbc.Driver&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;url&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;jdbc:mysql://localhost:3306/db_name&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;username&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;password&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;value&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;password&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;bean&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;beans&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;mybatis基礎使用&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#mybatis基礎使用&#34;&gt;#&lt;/a&gt; MyBatis 基礎使用&lt;/h2&gt;
+&lt;h3 id=&#34;1-實體類定義&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-實體類定義&#34;&gt;#&lt;/a&gt; 1. 實體類定義&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; username&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; password&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;//getter 和 setter 方法&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2-mapper接口&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-mapper接口&#34;&gt;#&lt;/a&gt; 2. Mapper 接口&lt;/h3&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;UserMapper&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findAll&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findById&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;save&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; user&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;update&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;User&lt;/span&gt; user&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;delete&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Integer&lt;/span&gt; id&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;3-mapperxml配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mapperxml配置&#34;&gt;#&lt;/a&gt; 3. Mapper.xml 配置&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token prolog&#34;&gt;&amp;lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34; ?&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token doctype&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&#34;token doctype-tag&#34;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&#34;token name&#34;&gt;mapper&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token name&#34;&gt;PUBLIC&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;-//mybatis.org//DTD Mapper 3.0//EN&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token string&#34;&gt;&#34;http://mybatis.org/dtd/mybatis-3-mapper.dtd&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;mapper&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;namespace&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.mapper.UserMapper&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;select&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;findAll&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;resultType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.entity.User&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        SELECT * FROM user&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;select&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;select&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;findById&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;parameterType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;java.lang.Integer&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token attr-name&#34;&gt;resultType&lt;/span&gt;&lt;span class=&#34;token attr-value&#34;&gt;&lt;span class=&#34;token punctuation attr-equals&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;com.example.entity.User&lt;span class=&#34;token punctuation&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        SELECT * FROM user WHERE id = #&amp;#123;id&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;select&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;mapper&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;常見問題與解決方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常見問題與解決方案&#34;&gt;#&lt;/a&gt; 常見問題與解決方案&lt;/h2&gt;
+&lt;h3 id=&#34;1-配置問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-配置問題&#34;&gt;#&lt;/a&gt; 1. 配置問題&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;確保所有配置文件的位置正確&lt;/li&gt;
+&lt;li&gt;檢查依賴版本的兼容性&lt;/li&gt;
+&lt;li&gt;注意 XML 文件的命名空間&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-數據庫連接問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-數據庫連接問題&#34;&gt;#&lt;/a&gt; 2. 數據庫連接問題&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;檢查數據庫連接信息&lt;/li&gt;
+&lt;li&gt;確保數據庫驅動正確&lt;/li&gt;
+&lt;li&gt;測試數據庫連接是否可用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-mapper映射問題&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-mapper映射問題&#34;&gt;#&lt;/a&gt; 3. Mapper 映射問題&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;確保 Mapper 接口和 XML 文件對應&lt;/li&gt;
+&lt;li&gt;檢查 SQL 語句的正確性&lt;/li&gt;
+&lt;li&gt;注意參數類型的匹配&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;項目實戰經驗&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#項目實戰經驗&#34;&gt;#&lt;/a&gt; 項目實戰經驗&lt;/h2&gt;
+&lt;h3 id=&#34;1-代碼組織&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-代碼組織&#34;&gt;#&lt;/a&gt; 1. 代碼組織&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;遵循三層架構：控制層、服務層、數據訪問層&lt;/li&gt;
+&lt;li&gt;合理規劃包結構&lt;/li&gt;
+&lt;li&gt;統一命名規範&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-性能優化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-性能優化&#34;&gt;#&lt;/a&gt; 2. 性能優化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;使用緩存機制&lt;/li&gt;
+&lt;li&gt;優化 SQL 語句&lt;/li&gt;
+&lt;li&gt;合理使用連接池&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-安全考慮&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-安全考慮&#34;&gt;#&lt;/a&gt; 3. 安全考慮&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;參數校驗&lt;/li&gt;
+&lt;li&gt;SQL 注入防護&lt;/li&gt;
+&lt;li&gt;權限控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;總結&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#總結&#34;&gt;#&lt;/a&gt; 總結&lt;/h2&gt;
+&lt;p&gt;SSM 框架的學習需要循序漸進，從基礎配置開始，逐步深入到各個框架的特性和使用技巧。MyBatis 作為持久層框架，其直觀的 SQL 管理方式確實更適合初學者。在實際開發中，需要注意以下幾點：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;理解框架的核心概念&lt;/li&gt;
+&lt;li&gt;熟練掌握配置方法&lt;/li&gt;
+&lt;li&gt;多練習，多實踐&lt;/li&gt;
+&lt;li&gt;注意代碼規範&lt;/li&gt;
+&lt;li&gt;持續學習新特性&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;參考資源&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#參考資源&#34;&gt;#&lt;/a&gt; 參考資源&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Spring 官方文檔&lt;/li&gt;
+&lt;li&gt;MyBatis 官方文檔&lt;/li&gt;
+&lt;li&gt;黑馬程序員教程&lt;/li&gt;
+&lt;li&gt;GitHub 優秀開源項目&lt;/li&gt;
+&lt;li&gt;技術社區分享&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;希望這份學習筆記能夠幫助到同樣在學習 SSM 框架的朋友們。如有問題，歡迎交流討論。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
